@@ -1,4 +1,4 @@
-# cell_wall
+# Phylogenetic profiling of cellwall degrading enzymes
 
 Tracking the evolution of cellwall degrading enzymes (cellulases, hemi-cellulases and chitinases) across the tree of life.
 
