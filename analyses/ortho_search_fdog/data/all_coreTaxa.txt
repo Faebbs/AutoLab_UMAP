@@ -1,0 +1,1 @@
+/share/gluster/Projects/vinh/fdog_ms/usecase_cellulase/data/all_coreTaxa.txt

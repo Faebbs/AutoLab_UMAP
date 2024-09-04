@@ -1,0 +1,9 @@
+#linearized
+Pfam
+SMART
+#normal
+COILS2
+SEG
+SignalP
+TMHMM
+#checked
