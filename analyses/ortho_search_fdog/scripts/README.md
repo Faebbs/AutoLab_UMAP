@@ -13,4 +13,5 @@ The mapping file `id_mapping.txt` can be found in the *data* folder.
 Check `run_fdog.sh` for an example of a slurm script to run fDOG.
 
 **NOTE 1:** please modify the slurm settings according to your needs!
+
 **NOTE 2:** please check the manual of fDOG (using the command `fdog.run -h`) to understand the used parameters
