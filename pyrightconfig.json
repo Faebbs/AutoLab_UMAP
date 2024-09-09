@@ -1,0 +1,5 @@
+{
+    "exclude": [
+      "analyses/ortho_search_fdog",
+    ],
+}  
