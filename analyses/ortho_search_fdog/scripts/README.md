@@ -16,4 +16,4 @@ Check `run_fdog.sh` for an example of a slurm script to run fDOG.
 
 **NOTE 2:** please check the manual of fDOG (using the command `fdog.run -h`) to understand the used parameters
 
-**NOTE 3:** after the run, you can merge the outputs for individual seed proteins into one single output using `fdog.mergeOutput` function
+**NOTE 3:** after the run, you can merge the outputs for individual seed proteins into one single output using `fdog.mergeOutput` function or using `merge_all_outputs.sh` script
