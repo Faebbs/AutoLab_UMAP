@@ -14,34 +14,47 @@ start = time.time()
 
 # Test data
 # data_read = pd.read_csv("/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile", sep="\t")
-data_read = pd.read_csv("/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile", sep="\t", nrows=20000)
+# data_read = pd.read_csv("/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile", sep="\t", nrows=20000)
+data_read = pd.read_csv("/Users/fabia/OneDrive/Dokumente/Uni/Spez 1/Project/analyses/umap_gen/data/eukaryots.phyloprofile", sep="\t")
+
 # data_read = pd.read_csv("/share/gluster/Projects/vinh/fdog_ms/pp_cbm_chitin_cellulase/cell_wall.phyloprofile", sep="\t")
+# data_read = pd.read_csv("https://raw.githubusercontent.com/allisonhorst/palmerpenguins/c19a904462482430170bfe2c718775ddb7dbb885/inst/extdata/penguins.csv")
+
+
+# drops NAs
 print(len(data_read))
 data_read.dropna(how='any', inplace=True)
 print(len(data_read))
 
-# gene classes
-list_cl = set()
-for line in data_read.index:
-    ID = data_read["geneID"][line]
-    spliced = ID.split("_")
-    list_cl.add(spliced[0])
-print(list_cl)
+# group by ncbiID
+grouped_ncbi = data_read.groupby(data_read.ncbiID)
+IDs = set(data_read["ncbiID"].tolist()) # set of every ncbiID
+# creates first dataframe
+for ID in IDs:
+    data_read_grouped = grouped_ncbi.get_group(ID)
+    IDs.remove(ID)
+    break
+# iterate though all ncbiIDs and creates a dataframe for every one
+for ID in IDs:
+    data_read_group = grouped_ncbi.get_group(ID)
+    data_read_grouped = pd.merge(data_read_grouped, data_read_group, how="outer", on="ncbiID")
+    print(data_read_grouped.head())
+print(data_read_grouped.head())
+
 
 # UMAP
 reducer = umap.UMAP()
 features = data_read[['FAS_F']].values
+# scaled_penguin_data = StandardScaler().fit_transform(features)
 projec = reducer.fit_transform(features)
-#projec = reducer.fit_transform(features)
 
 # Visualize using Plotly
 fig = px.scatter(projec, x=projec[:,0], y=projec[:,1], color=data_read.ncbiID, labels={'color':'ncbiID'})
-fig.show()
 
 end = time.time()
 print(f"Time: {round(end-start)}s")
 
-app = Dash()
+fig.write_html( 'output_file_name.html', auto_open=True )
+'''app = Dash()
 app.layout = html.Div([dcc.Graph(figure=fig)])
-
-app.run_server(debug=True, use_reloader=False)
+app.run_server(debug=True, use_reloader=False)'''
