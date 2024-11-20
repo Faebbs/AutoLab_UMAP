@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 import pandas as pd
 import seaborn as sns
-import umap.umap_ as umap
+import umap
 import plotly.express as px
 import matplotlib.pyplot as plt
 from dash import Dash, dcc, html
@@ -30,19 +30,11 @@ print(len(data_read))
 ncbiIDs = list(set(data_read["ncbiID"].tolist())) # unsorted list of every ncbiID (once)
 geneIDs = list(set(data_read["geneID"].tolist())) # unsorted list of every geneID (once)
 
-'''
-# creates matrix though python list
-matrix_out = [["/"]]
-for i in range(len(geneIDs)): # creates columns
-    matrix_out[0].append(geneIDs[i])
-for i in range(len(ncbiIDs)): # creates rows
-    matrix_out.append([ncbiIDs[i]])'''
-
 # goes through entire dataset and fills in a value if gene is in organism, otherwise np.NaN
 grouped_ncbi = data_read.groupby("ncbiID")
 matrix_out = pd.DataFrame()
 
-# goes through every ncbiID and creates new df with geneID as index and FAS_f as only value
+# goes through every ncbiID and creates new df as matrix
 for nID in ncbiIDs:
     x = grouped_ncbi.get_group(nID)
     new_df = x[["geneID", "FAS_F"]].copy()
@@ -52,19 +44,23 @@ for nID in ncbiIDs:
     # joins dfs together
     matrix_out = matrix_out.join(new_df, how='outer')
 
-print(len(ncbiIDs), len(geneIDs))
-print("--------")
-print(matrix_out.info())
+# puts mask over data, changes NaN to 0
+mask_value = 0.5
+matrix_out = matrix_out.map(lambda x: 1 if x >= mask_value else 0, na_action='ignore')
+matrix_out.fillna(0, inplace=True)
 
+# matrix_out.to_csv("matrix_debug.txt", index=True) #TODO debug also weg
 
 # UMAP
 reducer = umap.UMAP()
-features = data_read[['FAS_F']].values
+columns = matrix_out.columns
+columns = list(columns.values)
+features = matrix_out.loc[:,:columns[-1]]
 # scaled_penguin_data = StandardScaler().fit_transform(features)
 projec = reducer.fit_transform(features)
 
 # Visualize using Plotly
-fig = px.scatter(projec, x=projec[:,0], y=projec[:,1], color=data_read.ncbiID, labels={'color':'ncbiID'})
+fig = px.scatter(projec, x=projec[:,0], y=projec[:,1], color=matrix_out.index, labels=None) # TODO labels rausfinden
 
 end = time.time()
 print(f"Time: {round(end-start)}s")
