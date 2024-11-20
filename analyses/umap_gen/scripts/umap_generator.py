@@ -27,19 +27,34 @@ data_read.dropna(how='any', inplace=True)
 print(len(data_read))
 
 # group by ncbiID
-grouped_ncbi = data_read.groupby(data_read.ncbiID)
-IDs = set(data_read["ncbiID"].tolist()) # set of every ncbiID
-# creates first dataframe
-for ID in IDs:
-    data_read_grouped = grouped_ncbi.get_group(ID)
-    IDs.remove(ID)
-    break
-# iterate though all ncbiIDs and creates a dataframe for every one
-for ID in IDs:
-    data_read_group = grouped_ncbi.get_group(ID)
-    data_read_grouped = pd.merge(data_read_grouped, data_read_group, how="outer", on="ncbiID")
-    print(data_read_grouped.head())
-print(data_read_grouped.head())
+ncbiIDs = list(set(data_read["ncbiID"].tolist())) # unsorted list of every ncbiID (once)
+geneIDs = list(set(data_read["geneID"].tolist())) # unsorted list of every geneID (once)
+
+'''
+# creates matrix though python list
+matrix_out = [["/"]]
+for i in range(len(geneIDs)): # creates columns
+    matrix_out[0].append(geneIDs[i])
+for i in range(len(ncbiIDs)): # creates rows
+    matrix_out.append([ncbiIDs[i]])'''
+
+# goes through entire dataset and fills in a value if gene is in organism, otherwise np.NaN
+grouped_ncbi = data_read.groupby("ncbiID")
+matrix_out = pd.DataFrame()
+
+# goes through every ncbiID and creates new df with geneID as index and FAS_f as only value
+for nID in ncbiIDs:
+    x = grouped_ncbi.get_group(nID)
+    new_df = x[["geneID", "FAS_F"]].copy()
+    new_df.drop_duplicates(subset="geneID", keep='first', inplace=True, ignore_index=True) # TODO was soll mit doppelten Daten passieren?
+    new_df.set_index('geneID', inplace=True)
+    new_df.rename(columns={"FAS_F":nID}, inplace='True')
+    # joins dfs together
+    matrix_out = matrix_out.join(new_df, how='outer')
+
+print(len(ncbiIDs), len(geneIDs))
+print("--------")
+print(matrix_out.info())
 
 
 # UMAP
