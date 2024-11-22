@@ -13,9 +13,9 @@ import time
 start = time.time()
 
 # Test data
-# data_read = pd.read_csv("/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile", sep="\t")
+data_read = pd.read_csv("/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile", sep="\t")
 # data_read = pd.read_csv("/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile", sep="\t", nrows=20000)
-data_read = pd.read_csv("/Users/fabia/OneDrive/Dokumente/Uni/Spez 1/Project/analyses/umap_gen/data/eukaryots.phyloprofile", sep="\t")
+# data_read = pd.read_csv("/Users/fabia/OneDrive/Dokumente/Uni/Spez 1/Project/analyses/umap_gen/data/eukaryots.phyloprofile", sep="\t")
 
 # data_read = pd.read_csv("/share/gluster/Projects/vinh/fdog_ms/pp_cbm_chitin_cellulase/cell_wall.phyloprofile", sep="\t")
 # data_read = pd.read_csv("https://raw.githubusercontent.com/allisonhorst/palmerpenguins/c19a904462482430170bfe2c718775ddb7dbb885/inst/extdata/penguins.csv")
@@ -30,7 +30,7 @@ print(len(data_read))
 ncbiIDs = list(set(data_read["ncbiID"].tolist())) # unsorted list of every ncbiID (once)
 geneIDs = list(set(data_read["geneID"].tolist())) # unsorted list of every geneID (once)
 
-# goes through entire dataset and fills in a value if gene is in organism, otherwise np.NaN
+# goes through entire dataset and fills in a value if gene is in organism, otherwise NaN
 grouped_ncbi = data_read.groupby("ncbiID")
 matrix_out = pd.DataFrame()
 
@@ -38,7 +38,29 @@ matrix_out = pd.DataFrame()
 for nID in ncbiIDs:
     x = grouped_ncbi.get_group(nID)
     new_df = x[["geneID", "FAS_F"]].copy()
-    new_df.drop_duplicates(subset="geneID", keep='first', inplace=True, ignore_index=True) # TODO was soll mit doppelten Daten passieren?
+    #identifying duplicates in data
+    to_remove = []
+    while True: #TODO die doppelten rausholen
+        duplicates = new_df.duplicated(keep=False)
+        if True not in duplicates.values:
+            break
+        subset = new_df.loc[duplicates]
+        # subset.reset_index(inplace=True)
+        # subset.set_index('geneID', inplace=True)
+        # keeps the largest FAS Score, discards rest
+        y = [subset.iat[0,0]]
+        subset_duplicates = subset.isin(y) #makes a boolean mask over df
+        subset_duplicates = subset.loc[subset_duplicates['FAS_F']] #TODO klappt nicht
+        max_score = max(subset_duplicates.loc[:,'FAS_F'])
+
+    new_df.drop() #TODO duplikate aus new_df rausholen
+
+
+
+
+
+    # new_df.drop_duplicates(subset="geneID", keep='first', inplace=True, ignore_index=True) # TODO was soll mit doppelten Daten passieren?
+
     new_df.set_index('geneID', inplace=True)
     new_df.rename(columns={"FAS_F":nID}, inplace='True')
     # joins dfs together
@@ -65,7 +87,8 @@ fig = px.scatter(projec, x=projec[:,0], y=projec[:,1], color=matrix_out.index, l
 end = time.time()
 print(f"Time: {round(end-start)}s")
 
-fig.write_html( 'output_file_name.html', auto_open=True )
-'''app = Dash()
+#fig.write_html( 'output_file_name.html', auto_open=True )
+fig.show()
+app = Dash()
 app.layout = html.Div([dcc.Graph(figure=fig)])
-app.run_server(debug=True, use_reloader=False)'''
+app.run_server(debug=True, use_reloader=False)
