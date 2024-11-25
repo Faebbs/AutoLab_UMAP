@@ -4,7 +4,7 @@ import umap_generator
 
 
 def main(file = "", separator = "\t"):
-    if file == "":
+    if file == "": #TODO Fehlerbehandlung
         print("Please input file path:")
         file = input()
     try:
