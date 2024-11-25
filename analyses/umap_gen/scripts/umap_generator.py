@@ -10,6 +10,7 @@ import matplotlib.pyplot as plt
 from dash import Dash, dcc, html
 import time
 
+# Start Timer
 start = time.time()
 
 # Test data
@@ -30,48 +31,45 @@ print(len(data_read))
 ncbiIDs = list(set(data_read["ncbiID"].tolist())) # unsorted list of every ncbiID (once)
 geneIDs = list(set(data_read["geneID"].tolist())) # unsorted list of every geneID (once)
 
-# goes through entire dataset and fills in a value if gene is in organism, otherwise NaN
+# generates Matrix by going through entire dataset and filling in a value if gene is in organism, otherwise NaN
 grouped_ncbi = data_read.groupby("ncbiID")
 matrix_out = pd.DataFrame()
-
 # goes through every ncbiID and creates new df as matrix
+count_droped = 0
 for nID in ncbiIDs:
     x = grouped_ncbi.get_group(nID)
     new_df = x[["geneID", "FAS_F"]].copy()
-    #identifying duplicates in data
-    to_remove = []
+    #identifying duplicates in data, keeps the largest FAS Score, discards rest
     while True: #TODO die doppelten rausholen
-        duplicates = new_df.duplicated(keep=False)
+        duplicates = new_df.duplicated(subset="geneID",keep=False)
         if True not in duplicates.values:
             break
         subset = new_df.loc[duplicates]
-        # subset.reset_index(inplace=True)
-        # subset.set_index('geneID', inplace=True)
-        # keeps the largest FAS Score, discards rest
-        y = [subset.iat[0,0]]
-        subset_duplicates = subset.isin(y) #makes a boolean mask over df
-        subset_duplicates = subset.loc[subset_duplicates['FAS_F']] #TODO klappt nicht
-        max_score = max(subset_duplicates.loc[:,'FAS_F'])
-
-    new_df.drop() #TODO duplikate aus new_df rausholen
-
-
-
-
-
-    # new_df.drop_duplicates(subset="geneID", keep='first', inplace=True, ignore_index=True) # TODO was soll mit doppelten Daten passieren?
-
+        # creates subset that only contains the double element, one at every loop
+        compare_element = subset.iat[0,0]
+        subset_duplicates = subset[subset['geneID'] == compare_element]
+        # figures out the max element and it's index
+        max_score = subset_duplicates['FAS_F'].max()
+        max_score_id = subset_duplicates['FAS_F'].idxmax()
+        # creates list with index of the double value and removes the largest one of it
+        IDs_list = subset_duplicates.index
+        IDs_list = list(IDs_list.values)
+        IDs_list.remove(max_score_id)
+        # removes doubles from list
+        new_df.drop(IDs_list, inplace=True)
+        count_droped = count_droped + len(IDs_list)
+    # (outer)joins dataFrames together to Matrix
     new_df.set_index('geneID', inplace=True)
     new_df.rename(columns={"FAS_F":nID}, inplace='True')
-    # joins dfs together
     matrix_out = matrix_out.join(new_df, how='outer')
-
+print(f"{count_droped} were droped because of double values")
+# TODO Debug also wegg
+print(len(ncbiIDs), len(geneIDs))
+print(len(matrix_out.axes[1]), len(matrix_out.axes[0]))
 # puts mask over data, changes NaN to 0
 mask_value = 0.5
 matrix_out = matrix_out.map(lambda x: 1 if x >= mask_value else 0, na_action='ignore')
 matrix_out.fillna(0, inplace=True)
-
-# matrix_out.to_csv("matrix_debug.txt", index=True) #TODO debug also weg
 
 # UMAP
 reducer = umap.UMAP()
@@ -84,6 +82,7 @@ projec = reducer.fit_transform(features)
 # Visualize using Plotly
 fig = px.scatter(projec, x=projec[:,0], y=projec[:,1], color=matrix_out.index, labels=None) # TODO labels rausfinden
 
+# End timer
 end = time.time()
 print(f"Time: {round(end-start)}s")
 
