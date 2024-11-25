@@ -13,11 +13,9 @@ class Matrix_ncbiID:
             # Start Timer
             start = time.time()
 
-        # drops NAs
-        before = len(self.data)
+        # drops NAs for faster matrix creation
         self.data.dropna(how='any', inplace=True)
-        after = len(self.data)
-        print(f"Dropped {after-before} rows because of NaNs")
+
 
         # group by ncbiID
         columnIDs = list(set(self.data[column_value].tolist())) # unsorted list of every ncbiID (once)

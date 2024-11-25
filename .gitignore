@@ -1,4 +1,4 @@
 *.egg-info
 *.
-/analyses/umap_gen/scripts/test.py
 /analyses/umap_gen/scripts/matrix_debug.txt
+/analyses/umap_gen/scripts/Test.py
