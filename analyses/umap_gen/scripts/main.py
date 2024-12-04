@@ -5,9 +5,10 @@ import ncbi_data_handler
 from analyses.umap_gen.scripts.ncbi_data_handler import ncbi_lineage
 
 
-def main(file = "", separator = "\t"):
+def main(file = "", separator = "\t", updateLocalDatabase = True):
     # updates local ncbi Database
-    ncbi_data_handler.update_local_ncbi()
+    if updateLocalDatabase is True:
+        ncbi_data_handler.update_local_ncbi()
 
     if file == "": #TODO Fehlerbehandlung
         print("Please input file path:")
@@ -57,5 +58,5 @@ data = "/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phylopro
 
 # main function
 if __name__=="__main__":
-    main(data)
+    main(data, updateLocalDatabase = False)
     print("")
