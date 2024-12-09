@@ -59,5 +59,5 @@ class Matrix_ncbiID:
 
         if timed is True:# End timer
             end = time.time()
-            print(f"Runtime: {end-start}s")
+            print(f"Runtime of matrix creation: {end-start}s")
             self.matrix_out = matrix_out
