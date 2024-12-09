@@ -9,7 +9,7 @@ import ncbi_data_handler
 from analyses.umap_gen.scripts.ncbi_data_handler import ncbi_lineage
 
 
-def main(file = "", separator = "\t", updateLocalDatabase = True, categorizeRank= ""):
+def main(file = "", separator = "\t", updateLocalDatabase=True, categorizeRank=""):
     start_all = time.time()
     # updates local ncbi Database
     if updateLocalDatabase is True:
@@ -75,7 +75,7 @@ def main(file = "", separator = "\t", updateLocalDatabase = True, categorizeRank
     #ncbiID_matrix.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/lineageData.txt', index=False)
     #matrix.matrix_out.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/OccuranceData.txt')
 
-    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix)
+    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, categorizeRank=categorizeRank)
 
 
 
@@ -88,5 +88,5 @@ data = "/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phylopro
 
 # main function
 if __name__=="__main__":
-    main(data, updateLocalDatabase = False, categorizeRank = "")
+    main(data, updateLocalDatabase = False, categorizeRank = "Class")
     print("")
