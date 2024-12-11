@@ -72,7 +72,7 @@ def main(file = "", separator = "\t", updateLocalDatabase=True, categorizeRank="
     print(f"Total runtime: {end_all-start_all}s")
 
     # TODO weg, hier werden zwischen ergebnisse gespeichert
-    #ncbiID_matrix.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/lineageData.txt', index=False)
+    #ncbiID_matrix.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/lineageData.txt')
     #matrix.matrix_out.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/OccuranceData.txt')
 
     umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, categorizeRank=categorizeRank)
