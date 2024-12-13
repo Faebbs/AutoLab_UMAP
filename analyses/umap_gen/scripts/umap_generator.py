@@ -44,7 +44,6 @@ def generate_umap(matrix_values, matrix_lineage, categorizeRank="species", debug
     file.close()"""
 
     # setting labels
-    # TODO labels sollen gruppiert werden nach der lineage, dafür muss color/label? gesetzt werden, aber wie?
     indexes = list(matrix_values.index.values) # List with indices corresponding to the rows of transformed_data
     matrix_of_wisdom = pd.DataFrame(indexes)
     # assigns the entrys the rank by which they should be classified
@@ -58,8 +57,15 @@ def generate_umap(matrix_values, matrix_lineage, categorizeRank="species", debug
     matrix_of_wisdom["x"] = transformed_data[:, 0]
     matrix_of_wisdom["y"] = transformed_data[:, 1]
 
+    # adds the name of species
+    info_of_label = []
+    for el in matrix_of_wisdom.loc[:, 0]:
+        info_of_label.append(matrix_lineage.loc["species"][el])
+    info_of_label = pd.DataFrame(info_of_label)
+    matrix_of_wisdom["species_name"] = info_of_label
+
     create_diagramm(matrix_of_wisdom)
 
 # Debugging purposes
 if __name__ == "__main__":
-    generate_umap(pd.DataFrame(), pd.DataFrame(),categorizeRank="class", debug_mode=True)
+    generate_umap(pd.DataFrame(), pd.DataFrame(),categorizeRank="phylum", debug_mode=True)

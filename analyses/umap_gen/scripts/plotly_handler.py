@@ -4,6 +4,7 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.express.colors import sample_colorscale
 from dash import Dash, dcc, html, Output, Input
+import copy
 
 
 def create_diagramm(data_matrix):
@@ -36,27 +37,25 @@ def create_diagramm(data_matrix):
         if el not in color_dict:
             color_dict.update({el:color_list_hex[i]})
             i = i + 1
-    # updates label info with dict, so that every point has a color
-    color_mapping_list = []
-    for el in name_list:
-        color_mapping_list.append(color_dict[el])
-    color_mapping_list = pd.DataFrame(color_mapping_list)
-    #data_matrix["color"] = color_mapping_list
+    # creates copy of color map which
+    current_color_dict = copy.deepcopy(color_dict)
 
     app = Dash()
 
-    # graph object approach
+    # graph object approach, ignore
     fig = go.Figure()
     for point in data_matrix.loc[:,"lineage_label"].unique():
         uniques_matrix = data_matrix[data_matrix['lineage_label'] == point]
-        fig.add_trace(go.Scatter(x=data_matrix[:, "x"], y=data_matrix[:, "y"],
+        fig.add_trace(go.Scatter(x=uniques_matrix.loc[:, "x"], y=uniques_matrix.loc[:, "y"],
+                                 customdata=[uniques_matrix.loc[:, "species_name"]],
                                  mode='markers',
-                                 name=data_matrix.loc[:, "lineage_label"],
-                                 marker = dict(color=color_dict[point], size = 12)
+                                 name=point,
+                                 marker = dict(color=current_color_dict[point], size = 8),
+                                 hovertemplate=f'Name: %{fig.data[0].customdata[0]}'  # klappt nicht: info soll bei hovern erscheinen
         ))
 
-    """# plotly express approach
-    fig = px.scatter(Visual_data, x=Visual_data[:,0], y=Visual_data[:,1],
+    # plotly express approach
+    """fig = px.scatter(Visual_data, x=Visual_data[:,0], y=Visual_data[:,1],
                      color=label_info.loc[:,"lineage_label"], opacity=0.6) # TODO labels rausfinden"""
 
     app.layout = html.Div(children=[
@@ -64,12 +63,27 @@ def create_diagramm(data_matrix):
         dcc.Graph(id="graph", figure=fig, style={'width': '100vw', 'height': '90vh'})
     ])
 
-    @app.callback(Output('graph', 'figure'),
-                  [Input('graph', 'restyleData')]
-                  )
+    # Attempt to change click event, ignore
+    """@app.callback(Output('graph', 'figure'),
+                [Input('graph', 'restyleData')],
+                prevent_initial_call = True
+                )
     def update(x):
-        #modify/create new figure as you wish, x contains the legend entry you clicked
-        return fig
+        if x == None:
+            return fig
+        else:
+            name_item = fig.data[x[1][0]].name  # Name of legend item clicked
+            print(name_item)
+            if current_color_dict[name_item] == "grey": # if clicked item is of color grey, turn it back to original color
+                current_color_dict.update({name_item:color_dict[name_item]})
+                fig.update_traces(marker=dict(color=current_color_dict[name_item], size=8), selector=name_item)
+                return fig
+            else: # if clicked item is not grey, make it grey
+                current_color_dict.update({name_item: "grey"})
+                fig.update_traces(marker=dict(color=current_color_dict[name_item], size=8), selector = ({'name':name_item}))
+                return fig"""
+
+
 
     # app.run_server(debug=True, use_reloader=False)
     app.run(debug=True)
