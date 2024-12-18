@@ -1,4 +1,4 @@
-from ete3 import NCBITaxa
+#from ete3 import NCBITaxa
 import time
 import requests
 from fontTools.ttx import process

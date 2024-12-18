@@ -2,66 +2,95 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
+from numba.cpython.listobj import list_to_list
+from numpy.matrixlib.defmatrix import matrix
 from plotly.express.colors import sample_colorscale
-from dash import Dash, dcc, html, Output, Input
+from dash import Dash, dcc, html, Output, Input, callback
 import copy
+import webbrowser
+from threading import Timer
 
+def open_browser(port):
+	webbrowser.open_new("http://localhost:{}".format(port))
 
-def create_diagramm(data_matrix):
+def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
     """
-    Visualizaiton of graph via plotly and dash
-    :param data_matrix: contains name of organism, information of taxonomic rank, x pos and y pos
+    Creates a plotly plot in a Dash app.
+    :param data_matrix: Matrix with information for plotly graph object
+    :param port: Port, default=8050
+    :param colorscale: Choose one of Plotlys colorscales, default="Rainbow"; more colorscale options: https://plotly.com/python/builtin-colorscales/
+    :param debug: Activates/Deactivates debug Option for Dash App, default=False
     :return:
     """
-    # assigns color by dividing a colorspace from plotly into even pieces via np.linespace
-    set_taxanomy = set()
-    for el in data_matrix.loc[:, "lineage_label"]:  # counts every indiviual occurance of a rank
-        set_taxanomy.add(el)
-    n = len(set_taxanomy)
-    x = np.linspace(0, 1, n)
-    color_list = sample_colorscale('Rainbow', list(x)) # info over colorspaces: https://plotly.com/python/builtin-colorscales/
-    color_list_hex = []
-    for el in color_list: # turn RGB value into HEX value
-        el = el[4:-1]
-        el = el.split(sep=",")
-        el = tuple((el[0].strip(), el[1].strip(), el[2].strip()))
-        el = tuple((int(el[0]), int(el[1]), int(el[2])))
-        el = "#{:02X}{:02X}{:02X}".format(el[0], el[1], el[2])
-        color_list_hex.append(el)
-    # creates dict which maps colors to a taxonomic rank
-    color_dict = {}
-    name_list = []
-    i = 0
-    for el in data_matrix.loc[:, "lineage_label"]:
-        name_list.append(el)
-        if el not in color_dict:
-            color_dict.update({el:color_list_hex[i]})
-            i = i + 1
-    # creates copy of color map which
-    current_color_dict = copy.deepcopy(color_dict)
 
     app = Dash()
 
-    # graph object approach, ignore
-    fig = go.Figure()
-    for point in data_matrix.loc[:,"lineage_label"].unique():
-        uniques_matrix = data_matrix[data_matrix['lineage_label'] == point]
-        fig.add_trace(go.Scatter(x=uniques_matrix.loc[:, "x"], y=uniques_matrix.loc[:, "y"],
-                                 customdata=[uniques_matrix.loc[:, "species_name"]],
-                                 mode='markers',
-                                 name=point,
-                                 marker = dict(color=current_color_dict[point], size = 8),
-                                 hovertemplate=f'Name: %{fig.data[0].customdata[0]}'  # klappt nicht: info soll bei hovern erscheinen
-        ))
+    # creates dict of lineage for slider
+    list_lineage_order = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
+    marks_dict = {}
+    i = 0
+    while i < len(list_lineage_order):
+        marks_dict.update({i: list_lineage_order[i]})
+        i = i + 1
 
-    # plotly express approach
-    """fig = px.scatter(Visual_data, x=Visual_data[:,0], y=Visual_data[:,1],
-                     color=label_info.loc[:,"lineage_label"], opacity=0.6) # TODO labels rausfinden"""
-
+    # Layout for output
     app.layout = html.Div(children=[
-        html.H1(children='UMAP'),
-        dcc.Graph(id="graph", figure=fig, style={'width': '100vw', 'height': '90vh'})
+        dcc.Graph(id="graph", style={'width': '100vw', 'height': '90vh'}),
+        dcc.Slider(0, len(list_lineage_order)-1, step=1, marks=marks_dict, value=1, id="rank_slider")
     ])
+
+    # callback for slider: let's you decide which rank should be displayed in the legend and by color coding
+    @callback(
+        Output("graph", "figure"),
+        Input("rank_slider", "value")
+    )
+    def update_figure(selected_rank, colorscale=colorscale):
+        """
+        Callback for slider.
+        :param selected_rank:
+        :param colorscale:
+        :return:
+        """
+        selected_rank = marks_dict[selected_rank]
+        # assigns color by dividing a colorspace from plotly into even pieces via np.linespace
+        set_taxanomy = list()
+        for el in data_matrix.loc[:, selected_rank].unique():  # counts every indiviual occurance of a rank
+            set_taxanomy.append(el)
+        n = len(set_taxanomy)
+        x = np.linspace(0, 1, n)
+        color_list = sample_colorscale(colorscale=colorscale, samplepoints=list(x))  # info over colorspaces: https://plotly.com/python/builtin-colorscales/
+        color_list_rgba = []
+        for el in color_list:  # turn RGB value into RGBA Value (with opacity)
+            el = el[0:3] + "a" + el[3:-1] + ", 0.5)"
+            color_list_rgba.append(el)
+        # creates dict which maps colors to a taxonomic rank
+        color_dict = {}
+        name_list = []
+        i = 0
+        for el in set_taxanomy:
+            if el not in color_dict:
+                color_dict.update({el: color_list_rgba[i]})
+                i = i + 1
+
+        # graph object approach
+        fig = go.Figure()
+        for point in data_matrix.loc[:, selected_rank].unique():
+            uniques_matrix = data_matrix[data_matrix[selected_rank] == point]
+            customdf = np.stack((uniques_matrix.loc[:, "species_name"], uniques_matrix.loc[:, 0], uniques_matrix.loc[:, selected_rank]), axis=-1) # necessary for use in customdata
+            fig.add_trace(go.Scatter(x=uniques_matrix.loc[:, "x"], y=uniques_matrix.loc[:, "y"],
+                                     customdata=customdf,
+                                     mode='markers',
+                                     name=point,
+                                     marker=dict(color=color_dict[point], size=9, line=dict(width=0.2, color='black')),
+                                     hovertemplate="<b>%{customdata[0]}</b><br>" +
+                                                   "%{customdata[2]}<br>" +
+                                                   "NCBI Id: %{customdata[1]}<br><br>" +
+                                                   "x: %{x}<br>" +
+                                                   "y: %{y}" +
+                                                   "<extra></extra>",
+                                     ))
+        fig.update_layout(transition_duration=500)
+        return fig
 
     # Attempt to change click event, ignore
     """@app.callback(Output('graph', 'figure'),
@@ -84,6 +113,5 @@ def create_diagramm(data_matrix):
                 return fig"""
 
 
-
-    # app.run_server(debug=True, use_reloader=False)
-    app.run(debug=True)
+    Timer(2, open_browser(port)).start();
+    app.run_server(debug=debug, port=port, use_reloader=False)
