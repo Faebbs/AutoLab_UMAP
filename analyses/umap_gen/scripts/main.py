@@ -1,32 +1,29 @@
 import time
+from multiprocessing.managers import Value
 
 import pandas as pd
-#from parso.python.tree import String
-
+import argparse
 import Matrix_handler
 import umap_generator
 import ncbi_data_handler
-from analyses.umap_gen.scripts.ncbi_data_handler import ncbi_lineage
 
 
-def main(file = "", separator = "\t", updateLocalDatabase=True, categorizeRank=""):
-    start_all = time.time()
+def main(file, separator, rowvalue, columnvalue, on, maskvalue, updateLocalDatabase, track_time):
+    if track_time is True:
+        start_all = time.time()
     # updates local ncbi Database
     if updateLocalDatabase is True:
         ncbi_data_handler.update_local_ncbi()
     # file path input
-    if file == "": #TODO Fehlerbehandlung
-        print("Please input file path:")
-        file = input()
     try:
-        data_read = pd.read_csv(file, sep=separator) #TODO Fehlerbehandlung
+        data_read = pd.read_csv(file, sep=separator)
     except (FileNotFoundError):
         print("File could not be found")
         return
 
     # create Matrix of genes and if they appear in the organisms
     matrix = Matrix_handler.Matrix_ncbiID(data_read)
-    matrix.create_matrix("ncbiID", "geneID", timed=True) #TODO Fehlerbehandlung
+    matrix.create_matrix(rowvalue, columnvalue, on, maskvalue, track_time) #TODO Fehlerbehandlung
 
 
     # generates matrix with lineage of all ncbiIDs
@@ -36,7 +33,7 @@ def main(file = "", separator = "\t", updateLocalDatabase=True, categorizeRank="
     start = time.time()
     for ncbiID in matrix.matrix_out.axes[0].tolist():
         # get lineage of organism
-        func_call = ncbi_lineage(ncbiID)
+        func_call = ncbi_data_handler.ncbi_lineage(ncbiID)
         if func_call == "Parse Error": # If ID couldn't be parsed
             bad_IDs.append(ncbiID)
             continue
@@ -65,28 +62,58 @@ def main(file = "", separator = "\t", updateLocalDatabase=True, categorizeRank="
         out = out[:-2]
         print(f"{out}")
         print()
-    end = time.time()
-    print(f"lineage: {end - start}s")
+    # Tracks time if wanted
+    if track_time is True:
+        end = time.time()
+        print(f"lineage: {end - start}s")
+        end_all = time.time()
+        print(f"Total runtime: {end_all-start_all}s")
+
     # generate UMAP
-    end_all = time.time()
-    print(f"Total runtime: {end_all-start_all}s")
+    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix)
 
-    # TODO weg, hier werden zwischen ergebnisse gespeichert
-    #ncbiID_matrix.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/lineageData.txt')
-    #matrix.matrix_out.to_csv('/home/fabian/Documents/umap_project/analyses/umap_gen/results/OccuranceData.txt')
 
-    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, categorizeRank=categorizeRank)
 
 
 
 # Test data
-data = "/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile"
-# data = "/Users/fabia/OneDrive/Dokumente/Uni/Spez 1/Project/analyses/umap_gen/data/eukaryots.phyloprofile"
-
-# data = "/share/gluster/Projects/vinh/fdog_ms/pp_cbm_chitin_cellulase/cell_wall.phyloprofile"
-# data = "https://raw.githubusercontent.com/allisonhorst/palmerpenguins/c19a904462482430170bfe2c718775ddb7dbb885/inst/extdata/penguins.csv"
+# data = "/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile"
 
 # main function
 if __name__=="__main__":
-    main(data, updateLocalDatabase = False, categorizeRank = "Class")
+    # parsing args from command line
+    parser = argparse.ArgumentParser(prog="umapvis", description="Tool for UMAP Visualisation")
+    parser.add_argument("--file", "-f", help="Path to input file, should be CSV/TSV")
+    parser.add_argument("--sep", "-s", help="Seperator for CSV", nargs="?")
+    parser.set_defaults(sep="\t")
+    parser.add_argument("--rowvalue", "-r", help="Define which column should be used as new row values.")
+    parser.add_argument("--columnvalue", "-c", help="Define which column should be used as new column values.")
+    parser.add_argument("-on", help="Column of data which should be used for UMAP dimension reduction")
+    parser.add_argument("--maskvalue", "-mv", help="Filters out all nodes which have less than specified value. 0 to get all data.")
+    parser.set_defaults(maskvalue=0)
+    parser.add_argument("--updateLocalDatabase", "-ulD",
+                        help="Decide if you want to update your local Database, must be True first time running", nargs="?")
+    parser.set_defaults(updateLocalDatabase=False)
+    parser.add_argument("--runtime", "-rt", help="Show runtime for program")
+    parser.set_defaults(runtime=False)
+
+    args = parser.parse_args()
+    data = args.file
+    seperator = args.sep
+    rowvalue = args.rowvalue
+    columnvalue = args.columnvalue
+    on = args.on
+    maskvalue = args.maskvalue
+    try:
+        maskvalue = float(maskvalue)
+    except(ValueError, TypeError):
+        print("maskvalue has to be a number")
+    updateLocalDatabase = args.updateLocalDatabase
+    track_time = args.runtime
+    #TODO Fehlerbehandlung
+    print(args)
+
+    main(data, seperator, rowvalue, columnvalue, on, maskvalue, updateLocalDatabase, track_time)
     print("")
+
+    # python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -on FAS_F -mv 0.5

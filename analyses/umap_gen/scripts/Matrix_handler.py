@@ -8,8 +8,8 @@ class Matrix_ncbiID:
         self.data = data
         self.matrix_out = None
 
-    def create_matrix(self, row_value, column_value, mask_value=0.5, timed=False):
-        if timed is True:
+    def create_matrix(self, row_value, column_value, on, mask_value, track_time):
+        if track_time is True:
             # Start Timer
             start = time.time()
 
@@ -19,7 +19,6 @@ class Matrix_ncbiID:
 
         # group by ncbiID
         columnIDs = list(set(self.data[column_value].tolist())) # unsorted list of every ncbiID (once)
-        rowIDs = list(set(self.data[row_value].tolist())) # unsorted list of every geneID (once)
 
         # generates Matrix by going through entire dataset and filling in a value if gene is in organism, otherwise NaN
         grouped_ncbi = self.data.groupby(column_value)
@@ -28,7 +27,7 @@ class Matrix_ncbiID:
         count_droped = 0
         for nID in columnIDs:
             x = grouped_ncbi.get_group(nID)
-            new_df = x[[row_value, "FAS_F"]].copy()
+            new_df = x[[row_value, on]].copy()
             #identifying duplicates in data, keeps the largest FAS Score, discards rest
             while True:
                 duplicates = new_df.duplicated(subset=row_value,keep=False)
@@ -39,8 +38,8 @@ class Matrix_ncbiID:
                 compare_element = subset.iat[0,0]
                 subset_duplicates = subset[subset[row_value] == compare_element]
                 # figures out the max element and it's index
-                max_score = subset_duplicates['FAS_F'].max()
-                max_score_id = subset_duplicates['FAS_F'].idxmax()
+                max_score = subset_duplicates[on].max()
+                max_score_id = subset_duplicates[on].idxmax()
                 # creates list with index of the double value and removes the largest one of it
                 IDs_list = subset_duplicates.index
                 IDs_list = list(IDs_list.values)
@@ -50,14 +49,15 @@ class Matrix_ncbiID:
                 count_droped = count_droped + len(IDs_list)
             # (outer)joins dataFrames together to Matrix
             new_df.set_index(row_value, inplace=True)
-            new_df.rename(columns={"FAS_F":nID}, inplace='True')
+            new_df.rename(columns={on:nID}, inplace='True')
             matrix_out = matrix_out.join(new_df, how='outer')
-        print(f"{count_droped} were droped because of double values") #TODO drinlasssen?
+        # print(f"{count_droped} were droped because of double values")
         # puts mask over data, changes NaN to 0
         matrix_out = matrix_out.map(lambda x: 1 if x >= mask_value else 0, na_action='ignore')
         matrix_out.fillna(0, inplace=True)
 
-        if timed is True:# End timer
+        self.matrix_out = matrix_out
+
+        if track_time is True:# End timer
             end = time.time()
             print(f"Runtime of matrix creation: {end-start}s")
-            self.matrix_out = matrix_out

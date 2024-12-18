@@ -1,17 +1,17 @@
 import numpy as np
-import pandas as pd
-import plotly.express as px
 import plotly.graph_objects as go
-from numba.cpython.listobj import list_to_list
-from numpy.matrixlib.defmatrix import matrix
 from plotly.express.colors import sample_colorscale
 from dash import Dash, dcc, html, Output, Input, callback
-import copy
 import webbrowser
 from threading import Timer
+import threading
 
 def open_browser(port):
 	webbrowser.open_new("http://localhost:{}".format(port))
+
+def run_dash(app, port, debug):
+    Timer(1, open_browser(port)).start();
+    app.run_server(debug=debug, port=port, use_reloader=False)
 
 def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
     """
@@ -36,7 +36,7 @@ def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
     # Layout for output
     app.layout = html.Div(children=[
         dcc.Graph(id="graph", style={'width': '100vw', 'height': '90vh'}),
-        dcc.Slider(0, len(list_lineage_order)-1, step=1, marks=marks_dict, value=1, id="rank_slider")
+        dcc.Slider(0, len(list_lineage_order)-1, step=1, marks=marks_dict, value=0, id="rank_slider")
     ])
 
     # callback for slider: let's you decide which rank should be displayed in the legend and by color coding
@@ -89,7 +89,7 @@ def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
                                                    "y: %{y}" +
                                                    "<extra></extra>",
                                      ))
-        fig.update_layout(transition_duration=500)
+        fig.update_layout()
         return fig
 
     # Attempt to change click event, ignore
@@ -112,6 +112,7 @@ def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
                 fig.update_traces(marker=dict(color=current_color_dict[name_item], size=8), selector = ({'name':name_item}))
                 return fig"""
 
+    # Run Dash in a separate thread
+    dash_thread = threading.Thread(target=run_dash(app, port, debug))
+    dash_thread.start()
 
-    Timer(2, open_browser(port)).start();
-    app.run_server(debug=debug, port=port, use_reloader=False)

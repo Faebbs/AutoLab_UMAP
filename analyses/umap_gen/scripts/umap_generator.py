@@ -1,17 +1,11 @@
 import os
 import numpy as np
-import seaborn as sns
-#from ete3.utils import color
-from sklearn.datasets import load_digits
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
 import pandas as pd
 import umap
-import colorsys
-import plotly.express as px
 from pathlib import Path
 
-from analyses.umap_gen.scripts.plotly_handler import create_diagramm
+import plotly_handler
+
 
 def generate_umap(matrix_values, matrix_lineage, debug_mode=False, **kwargs):
     if debug_mode is False:
@@ -69,7 +63,7 @@ def generate_umap(matrix_values, matrix_lineage, debug_mode=False, **kwargs):
     info_of_label = pd.DataFrame(info_of_label)
     matrix_of_wisdom["species_name"] = info_of_label
 
-    create_diagramm(matrix_of_wisdom, port=8050, colorscale="Rainbow", debug=False) #TODO richtig Argumente übergeben
+    plotly_handler.create_diagramm(matrix_of_wisdom, port=8050, colorscale="Rainbow", debug=False) #TODO richtig Argumente übergeben
 
 
 # Debugging purposes

@@ -1,7 +1,5 @@
-#from ete3 import NCBITaxa
-import time
+from ete3 import NCBITaxa
 import requests
-from fontTools.ttx import process
 from requests import Timeout
 
 
@@ -12,6 +10,7 @@ def update_local_ncbi():
     """
     ncbi = NCBITaxa() # stored in /home/.etetoolkit
     ncbi.update_taxonomy_database()
+    print("Local Database has been created at ~/.etetoolkit")
 
 def ncbi_lineage(ncbiID):
     """
@@ -41,7 +40,7 @@ def ncbi_lineage(ncbiID):
     # translates IDs to ranks
     names = ncbi.get_taxid_translator(lineage)
     # list with wanted ranks
-    wanted_ranks = ["kingdom", "phylum", "class", "order", "family", "genus", "species"] # TODO eigene hier hinzufügen lassen?
+    wanted_ranks = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
     # creates dict with relevant ranks of organism
     lineage_dic = {} # Dict with rank and name
     for taxid in lineage:
@@ -57,7 +56,7 @@ def ncbi_lineage(ncbiID):
 
 
 
-def ncbi_lineage_deprecated(ncbiID): #TODO Scheiße weil online und langsam mit 0.3s pro Aufruf
+def ncbi_lineage_deprecated(ncbiID):
     """
     Fetches information of NCBI taxonomy via URL Request. Used only for testing.
     :param ncbiID: String like "ncbi9606"
