@@ -1,14 +1,17 @@
 import time
-from multiprocessing.managers import Value
 
 import pandas as pd
 import argparse
+
+from numpy.f2py.auxfuncs import throw_error
+
 import Matrix_handler
 import umap_generator
 import ncbi_data_handler
 
 
-def main(file, separator, rowvalue, columnvalue, on, maskvalue, updateLocalDatabase, track_time):
+def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
+         updateLocalDatabase, port, csvfile, colorscale, track_time):
     if track_time is True:
         start_all = time.time()
     # updates local ncbi Database
@@ -23,7 +26,7 @@ def main(file, separator, rowvalue, columnvalue, on, maskvalue, updateLocalDatab
 
     # create Matrix of genes and if they appear in the organisms
     matrix = Matrix_handler.Matrix_ncbiID(data_read)
-    matrix.create_matrix(rowvalue, columnvalue, on, maskvalue, track_time) #TODO Fehlerbehandlung
+    matrix.create_matrix(rowvalue, columnvalue, transformdata, maskvalue, track_time) #TODO Fehlerbehandlung
 
 
     # generates matrix with lineage of all ncbiIDs
@@ -70,7 +73,7 @@ def main(file, separator, rowvalue, columnvalue, on, maskvalue, updateLocalDatab
         print(f"Total runtime: {end_all-start_all}s")
 
     # generate UMAP
-    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix)
+    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, csvfile, port, colorscale)
 
 
 
@@ -86,14 +89,20 @@ if __name__=="__main__":
     parser.add_argument("--file", "-f", help="Path to input file, should be CSV/TSV")
     parser.add_argument("--sep", "-s", help="Seperator for CSV", nargs="?")
     parser.set_defaults(sep="\t")
-    parser.add_argument("--rowvalue", "-r", help="Define which column should be used as new row values.")
+    parser.add_argument("--rowvalue", "-r", help="Define which column should be used as new row values. Relevant for NCBI Taxonomy utilisation.")
     parser.add_argument("--columnvalue", "-c", help="Define which column should be used as new column values.")
-    parser.add_argument("-on", help="Column of data which should be used for UMAP dimension reduction")
+    parser.add_argument("--transformdata", "-td", help="Column of data which should be used for UMAP dimension reduction")
     parser.add_argument("--maskvalue", "-mv", help="Filters out all nodes which have less than specified value. 0 to get all data.")
     parser.set_defaults(maskvalue=0)
     parser.add_argument("--updateLocalDatabase", "-ulD",
                         help="Decide if you want to update your local Database, must be True first time running", nargs="?")
     parser.set_defaults(updateLocalDatabase=False)
+    parser.add_argument("-port", help="Specify Port in which the Dash app should be opend. Default is 8050")
+    parser.set_defaults(port=8050)
+    parser.add_argument("--csvfile", "-csv", help="If True, saves the data used to create the plot in a csv file in results directory")
+    parser.set_defaults(csvfile=False)
+    parser.add_argument("--colorscale", "-cscal", help="Choose a colorscale from plotlys samplecolors. Default = Rainbow. More Info about colorscales: https://plotly.com/python/builtin-colorscales/")
+    parser.set_defaults(colorscale="Rainbow")
     parser.add_argument("--runtime", "-rt", help="Show runtime for program")
     parser.set_defaults(runtime=False)
 
@@ -102,18 +111,33 @@ if __name__=="__main__":
     seperator = args.sep
     rowvalue = args.rowvalue
     columnvalue = args.columnvalue
-    on = args.on
+    transformdata = args.transformdata
     maskvalue = args.maskvalue
     try:
         maskvalue = float(maskvalue)
     except(ValueError, TypeError):
         print("maskvalue has to be a number")
     updateLocalDatabase = args.updateLocalDatabase
+    port = args.port
+    try:
+        port = int(port)
+    except(ValueError, TypeError):
+        print("port has to be a number")
+    csvfile = args.csvfile
+    if csvfile == "True":
+        csvfile = True
+    elif csvfile == "False":
+        csvfile = False
+    elif csvfile is True or csvfile is False:
+        pass
+    else:
+        raise Exception("Value has to be either true or False")
+    colorscale = args.colorscale
     track_time = args.runtime
     #TODO Fehlerbehandlung
     print(args)
 
-    main(data, seperator, rowvalue, columnvalue, on, maskvalue, updateLocalDatabase, track_time)
+    main(data, seperator, rowvalue, columnvalue, transformdata, maskvalue, updateLocalDatabase, port, csvfile, colorscale, track_time)
     print("")
 
-    # python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -on FAS_F -mv 0.5
+# python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F -port 8070 -mv 0.5

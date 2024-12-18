@@ -1,0 +1,1335 @@
+0	kingdom	phylum	class	order	family	genus	species	x	y	species_name
+ncbi10020	Metazoa	Chordata	Mammalia	Rodentia	Heteromyidae	Dipodomys	Dipodomys ordii	20.633879	32.94832	Dipodomys ordii
+ncbi10029	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Cricetulus	Cricetulus griseus	19.821468	30.882557	Cricetulus griseus
+ncbi1003335	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kluyveromyces	Kluyveromyces marxianus	14.682624	5.1583743	Kluyveromyces marxianus
+ncbi10036	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Mesocricetus	Mesocricetus auratus	19.784288	30.888224	Mesocricetus auratus
+ncbi10041	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Peromyscus	Peromyscus leucopus	19.6519	30.10747	Peromyscus leucopus
+ncbi10047	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Meriones	Meriones unguiculatus	19.63443	30.11363	Meriones unguiculatus
+ncbi100784	Metazoa	Chordata	Aves	Gruiformes	Gruidae	Balearica	Balearica regulorum	44.042908	22.64152	Balearica regulorum
+ncbi10089	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Mus	Mus caroli	19.63686	30.096931	Mus caroli
+ncbi10090	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Mus	Mus musculus	19.672794	30.07149	Mus musculus
+ncbi10093	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Mus	Mus pahari	19.65742	30.098751	Mus pahari
+ncbi101020	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Fragaria	Fragaria vesca	-6.222323	4.409066	Fragaria vesca
+ncbi10116	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Rattus	Rattus norvegicus	19.659243	30.087568	Rattus norvegicus
+ncbi10117	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Rattus	Rattus rattus	19.64046	30.107853	Rattus rattus
+ncbi10141	Metazoa	Chordata	Mammalia	Rodentia	Caviidae	Cavia	Cavia porcellus	19.733498	31.318172	Cavia porcellus
+ncbi10160	Metazoa	Chordata	Mammalia	Rodentia	Octodontidae	Octodon	Octodon degus	20.349247	30.479301	Octodon degus
+ncbi10181	Metazoa	Chordata	Mammalia	Rodentia	Bathyergidae	Heterocephalus	Heterocephalus glaber	21.473043	29.175596	Heterocephalus glaber
+ncbi102107	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Prunus	Prunus mume	-5.7658215	5.1403904	Prunus mume
+ncbi102211	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Benincasa	Benincasa hispida	-5.7724295	4.7233233	Benincasa hispida
+ncbi10224	Metazoa	Hemichordata	Enteropneusta		Harrimaniidae	Saccoglossus	Saccoglossus kowalevskii	-10.282327	20.927916	Saccoglossus kowalevskii
+ncbi10228	Metazoa	Placozoa	Uniplacotomia	Trichoplacea	Trichoplacidae	Trichoplax	Trichoplax adhaerens	20.550882	32.892918	Trichoplax adhaerens
+ncbi1026970	Metazoa	Chordata	Mammalia	Rodentia	Spalacidae	Nannospalax	Nannospalax galili	21.334854	29.191328	Nannospalax galili
+ncbi1028729	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium pseudograminearum	7.340643	-0.02995294	Fusarium pseudograminearum
+ncbi103372	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Acromyrmex	Acromyrmex echinatior	-10.801536	21.23104	Acromyrmex echinatior
+ncbi1036611	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus versicolor	6.2042947	2.8542585	Aspergillus versicolor
+ncbi1036612	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus sydowii	6.157648	2.89596	Aspergillus sydowii
+ncbi103695	Metazoa	Chordata	Lepidosauria	Squamata	Agamidae	Pogona	Pogona vitticeps	43.32909	23.990232	Pogona vitticeps
+ncbi1037660	Fungi	Basidiomycota	Exobasidiomycetes	Georgefischeriales	Tilletiariaceae	Tilletiaria	Tilletiaria anomala	12.244696	3.02803	Tilletiaria anomala
+ncbi103933	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus bifarius	-11.027192	20.99605	Bombus bifarius
+ncbi103944	Metazoa	Chordata	Lepidosauria	Squamata	Viperidae	Protobothrops	Protobothrops mucrosquamatus	43.238922	24.096436	Protobothrops mucrosquamatus
+ncbi1041015	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila rhopaloa	19.340738	30.7456	Drosophila rhopaloa
+ncbi1041607	Fungi	Ascomycota	Saccharomycetes	Phaffomycetales	Wickerhamomycetaceae	Wickerhamomyces	Wickerhamomyces ciferrii	13.369333	3.376807	Wickerhamomyces ciferrii
+ncbi1042133	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium musae	7.3471627	-0.115536414	Fusarium musae
+ncbi1042311	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma asperellum	9.11653	2.2995808	Trichoderma asperellum
+ncbi1043002	Fungi	Ascomycota	Dothideomycetes	Dothideales	Saccotheciaceae	Aureobasidium	Aureobasidium pullulans	6.881894	2.1186004	Aureobasidium pullulans
+ncbi1043003	Fungi	Ascomycota	Dothideomycetes	Dothideales	Saccotheciaceae	Aureobasidium	Aureobasidium melanogenum	7.0414214	2.0103796	Aureobasidium melanogenum
+ncbi1043004	Fungi	Ascomycota	Dothideomycetes	Dothideales	Saccotheciaceae	Aureobasidium	Aureobasidium namibiae	6.9804296	1.9471937	Aureobasidium namibiae
+ncbi1043005	Fungi	Ascomycota	Dothideomycetes	Dothideales	Saccotheciaceae	Aureobasidium	Aureobasidium subglaciale	6.9761453	2.2405612	Aureobasidium subglaciale
+ncbi104421	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Camponotus	Camponotus floridanus	-10.883427	20.205355	Camponotus floridanus
+ncbi104688	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Bactrocera	Bactrocera oleae	21.1621	29.371937	Bactrocera oleae
+ncbi1047088	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Arvicola	Arvicola amphibius	21.459888	29.164585	Arvicola amphibius
+ncbi105023	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Nothobranchiidae	Nothobranchius	Nothobranchius furzeri	44.14524	23.03908	Nothobranchius furzeri
+ncbi1051616	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Plectosphaerellaceae	Verticillium	Verticillium nonalfalfae	7.0149016	-0.12396702	Verticillium nonalfalfae
+ncbi105255	Metazoa	Chordata	Mammalia	Rodentia	Heteromyidae	Dipodomys	Dipodomys spectabilis	21.400328	29.232458	Dipodomys spectabilis
+ncbi105785	Metazoa	Arthropoda	Insecta	Blattodea	Kalotermitidae	Cryptotermes	Cryptotermes secundus	-10.844904	20.18653	Cryptotermes secundus
+ncbi105984	Fungi	Basidiomycota	Tremellomycetes	Trichosporonales	Trichosporonaceae	Apiotrichum	Apiotrichum porosum	12.342665	3.115676	Apiotrichum porosum
+ncbi106335	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Hibiscus	Hibiscus syriacus	-6.223031	4.3944855	Hibiscus syriacus
+ncbi1064592	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Naumovozyma	Naumovozyma castellii	15.497679	5.5574093	Naumovozyma castellii
+ncbi106582	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Maylandia	Maylandia zebra	43.853382	23.194626	Maylandia zebra
+ncbi106734	Metazoa	Chordata		Testudines	Testudinidae	Chelonoidis	Chelonoidis abingdonii	21.705133	30.330996	Chelonoidis abingdonii
+ncbi1069201	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus luchuensis	7.5313277	2.7477758	Aspergillus luchuensis
+ncbi1069680	Fungi	Ascomycota	Pneumocystomycetes	Pneumocystales	Pneumocystaceae	Pneumocystis	Pneumocystis murina	15.540252	5.210782	Pneumocystis murina
+ncbi1071378	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Naumovozyma	Naumovozyma dairenensis	15.532918	5.5657077	Naumovozyma dairenensis
+ncbi1071380	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Henningerozyma	Henningerozyma blattae	15.476313	5.507505	Henningerozyma blattae
+ncbi1071381	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Tetrapisispora	Tetrapisispora phaffii	15.405218	5.4969206	Tetrapisispora phaffii
+ncbi1071382	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kazachstania	Kazachstania africana	15.497957	5.5117245	Kazachstania africana
+ncbi1071383	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Huiozyma	Huiozyma naganishii	15.463612	5.590527	Huiozyma naganishii
+ncbi1072389	Fungi	Ascomycota	Leotiomycetes	Helotiales	Drepanopezizaceae	Drepanopeziza	Drepanopeziza brunnea	6.5987287	1.2870386	Drepanopeziza brunnea
+ncbi1073089	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus wentii	6.209293	2.9736774	Aspergillus wentii
+ncbi1073090	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicilliopsis	Penicilliopsis zonata	7.7230115	2.4640703	Penicilliopsis zonata
+ncbi1076696		Evosea		Mastigamoebida	Entamoebidae	Entamoeba	Entamoeba nuttalli	30.23294	-1.3743124	Entamoeba nuttalli
+ncbi1080233	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Zasmidium	Zasmidium cellare	6.716891	2.1133506	Zasmidium cellare
+ncbi1080349	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Saccharomyces	Saccharomyces eubayanus	14.748108	5.214228	Saccharomyces eubayanus
+ncbi1081103	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Clavicipitaceae	Metarhizium	Metarhizium album	10.739732	2.4959555	Metarhizium album
+ncbi1081104	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Cordycipitaceae	Cordyceps	Cordyceps fumosorosea	10.729248	2.4623606	Cordyceps fumosorosea
+ncbi108875	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Herrania	Herrania umbratica	-6.380141	4.3964925	Herrania umbratica
+ncbi108931	Metazoa	Arthropoda	Insecta	Hemiptera	Delphacidae	Nilaparvata	Nilaparvata lugens	-10.9768915	20.957567	Nilaparvata lugens
+ncbi1089451	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium odoratissimum	7.3409014	-0.106221676	Fusarium odoratissimum
+ncbi109264	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus bombycis	6.1208506	3.0876408	Aspergillus bombycis
+ncbi109280	Metazoa	Chordata	Actinopteri	Syngnathiformes	Syngnathidae	Hippocampus	Hippocampus comes	43.877876	23.162365	Hippocampus comes
+ncbi1093141			Eustigmatophyceae	Eustigmatales	Monodopsidaceae	Nannochloropsis	Nannochloropsis gaditana	42.82085	24.981392	Nannochloropsis gaditana
+ncbi109376	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Brassica	Brassica oleracea	-5.132308	4.658115	Brassica oleracea
+ncbi1093900	Fungi	Ascomycota	Sordariomycetes		Thyridiaceae	Thyridium	Thyridium curvatum	9.228525	2.0783553	Thyridium curvatum
+ncbi1094192	Metazoa	Chordata	Aves	Passeriformes	Motacillidae	Motacilla	Motacilla alba	21.86825	30.889154	Motacilla alba
+ncbi1094350	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Bionectriaceae	Geosmithia	Geosmithia morbida	6.8884697	2.4984286	Geosmithia morbida
+ncbi109461	Metazoa	Arthropoda	Arachnida	Mesostigmata	Varroidae	Varroa	Varroa destructor	12.172767	32.35753	Varroa destructor
+ncbi109478	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Myotis	Myotis brandtii	21.40274	29.560009	Myotis brandtii
+ncbi1095194	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum karsti	6.7513638	0.031647447	Colletotrichum karsti
+ncbi1095630	Fungi	Ascomycota	Leotiomycetes	Helotiales	Hyaloscyphaceae	Hyaloscypha	Hyaloscypha bicolor	6.867533	1.5186756	Hyaloscypha bicolor
+ncbi109905	Metazoa	Chordata	Actinopteri	Chaetodontiformes	Chaetodontidae	Chelmon	Chelmon rostratus	18.205288	30.492243	Chelmon rostratus
+ncbi110193	Metazoa	Arthropoda	Insecta	Coleoptera	Silphidae	Nicrophorus	Nicrophorus vespilloides	-10.71882	19.801716	Nicrophorus vespilloides
+ncbi110365		Apicomplexa	Conoidasida	Eugregarinorida	Gregarinidae	Gregarina	Gregarina niphandrodes	30.220943	-1.3559486	Gregarina niphandrodes
+ncbi110368	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Bicyclus	Bicyclus anynana	17.33963	30.427711	Bicyclus anynana
+ncbi111463	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Ophiocordycipitaceae	Hirsutella	Hirsutella rhossiliensis	10.692923	2.5644135	Hirsutella rhossiliensis
+ncbi1116229	Fungi	Ascomycota	Leotiomycetes	Helotiales	Helotiaceae	Glarea	Glarea lozoyensis	6.5462265	1.3349826	Glarea lozoyensis
+ncbi111838	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Microtus	Microtus oregoni	17.746174	30.316797	Microtus oregoni
+ncbi1120755		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium cynomolgi	30.208069	-3.6603813	Plasmodium cynomolgi
+ncbi112090		Oomycota		Saprolegniales	Saprolegniaceae	Aphanomyces	Aphanomyces astaci	11.732911	32.755535	Aphanomyces astaci
+ncbi112416	Fungi	Ascomycota	Lecanoromycetes	Lecanorales	Parmeliaceae	Letharia	Letharia columbiana	11.337543	3.0406647	Letharia columbiana
+ncbi112498	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Ramularia	Ramularia collo-cygni	10.043197	3.025717	Ramularia collo-cygni
+ncbi1130832	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula	Rhodotorula toruloides	12.17902	3.1128743	Rhodotorula toruloides
+ncbi1133968		Apicomplexa	Aconoidasida	Piroplasmida	Babesiidae	Babesia	Babesia microti	30.13782	-3.6615891	Babesia microti
+ncbi113540	Metazoa	Chordata	Actinopteri	Osteoglossiformes	Osteoglossidae	Scleropages	Scleropages formosus	43.979836	23.282581	Scleropages formosus
+ncbi1136231	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Candida	Candida orthopsilosis	13.2260065	3.245066	Candida orthopsilosis
+ncbi1141098	Fungi	Ascomycota	Sordariomycetes	Xylariales	Pseudomassariaceae	Pseudomassariella	Pseudomassariella vexata	6.7901106	0.12651786	Pseudomassariella vexata
+ncbi114329	Metazoa	Chordata	Aves	Passeriformes	Pipridae	Neopelma	Neopelma chrysocephalum	42.755844	24.747551	Neopelma chrysocephalum
+ncbi114398	Metazoa	Arthropoda	Arachnida	Araneae	Theridiidae	Parasteatoda	Parasteatoda tepidariorum	12.271736	32.298367	Parasteatoda tepidariorum
+ncbi115081	Metazoa	Arthropoda	Insecta	Hymenoptera	Halictidae	Megalopta	Megalopta genalis	-10.999156	20.050116	Megalopta genalis
+ncbi1150837	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Didymellaceae	Didymella	Didymella exigua	6.3200865	1.220105	Didymella exigua
+ncbi1156394		Oomycota		Saprolegniales	Saprolegniaceae	Saprolegnia	Saprolegnia diclina	13.350303	4.7660685	Saprolegnia diclina
+ncbi1159321	Metazoa	Arthropoda	Insecta	Hymenoptera	Cynipidae	Belonocnema	Belonocnema treatae	-10.126095	20.338032	Belonocnema treatae
+ncbi1159556	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Clavicipitaceae	Ustilaginoidea	Ustilaginoidea virens	9.274088	2.3776877	Ustilaginoidea virens
+ncbi1160497	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus glaucus	6.849542	2.5964136	Aspergillus glaucus
+ncbi116150	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Pararge	Pararge aegeria	17.356508	30.215405	Pararge aegeria
+ncbi116153	Metazoa	Arthropoda	Insecta	Coleoptera	Nitidulidae	Aethina	Aethina tumida	21.471268	29.15408	Aethina tumida
+ncbi116603	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus plorans	12.20415	1.5216194	Suillus plorans
+ncbi1168221	Fungi	Ascomycota	Dothideomycetes			Coniosporium	Coniosporium apollinis	10.515786	3.0435083	Coniosporium apollinis
+ncbi1168544	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Cucurbitariaceae	Cucurbitaria	Cucurbitaria berberidis	6.3735743	1.2504587	Cucurbitaria berberidis
+ncbi116960	Metazoa	Chordata	Mammalia	Carnivora	Ursidae	Ursus	Ursus arctos	17.638597	30.49754	Ursus arctos
+ncbi1170230	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium digitatum	6.903713	2.5754852	Penicillium digitatum
+ncbi1174677	Fungi	Ascomycota	Pezizomycetes	Pezizales	Morchellaceae	Morchella	Morchella sextelata	6.4890184	1.7195656	Morchella sextelata
+ncbi1176127	Fungi	Ascomycota	Dothideomycetes	Botryosphaeriales	Aplosporellaceae	Aplosporella	Aplosporella prunicola	6.403777	1.7964697	Aplosporella prunicola
+ncbi1178016	Fungi	Microsporidia			Unikaryonidae	Encephalitozoon	Encephalitozoon romaleae	30.077724	-3.795888	Encephalitozoon romaleae
+ncbi118141	Metazoa	Chordata	Actinopteri	Elopiformes	Megalopidae	Megalops	Megalops cyprinoides	19.517288	31.278402	Megalops cyprinoides
+ncbi118200	Metazoa	Chordata	Aves	Piciformes	Picidae	Dryobates	Dryobates pubescens	43.134113	24.228476	Dryobates pubescens
+ncbi1182541	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Capronia	Capronia coronata	10.575752	3.0532596	Capronia coronata
+ncbi1182542	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Capronia	Capronia epimyces	10.742177	3.1033635	Capronia epimyces
+ncbi1182543	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Cladophialophora	Cladophialophora psammophila	10.323141	3.080005	Cladophialophora psammophila
+ncbi1182544	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Cladophialophora	Cladophialophora yegresii	10.203035	3.0124671	Cladophialophora yegresii
+ncbi1182545	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala	Exophiala aquamarina	10.381021	3.081688	Exophiala aquamarina
+ncbi1186058	Fungi	Basidiomycota	Tremellomycetes	Trichosporonales	Trichosporonaceae	Trichosporon	Trichosporon asahii	12.300625	3.0549233	Trichosporon asahii
+ncbi1187904	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Alternaria	Alternaria burnsii	6.3456817	1.2460977	Alternaria burnsii
+ncbi118797	Metazoa	Chordata	Mammalia	Artiodactyla	Lipotidae	Lipotes	Lipotes vexillifer	21.58496	30.012554	Lipotes vexillifer
+ncbi119488	Metazoa	Chordata	Actinopteri	Centrarchiformes	Sinipercidae	Siniperca	Siniperca chuatsi	17.283043	30.595348	Siniperca chuatsi
+ncbi1196081	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Talaromyces	Talaromyces amestolkiae	7.2454953	2.2276278	Talaromyces amestolkiae
+ncbi1196302	Metazoa	Chordata	Aves	Passeriformes	Corvidae	Corvus	Corvus moneduloides	42.67926	24.813797	Corvus moneduloides
+ncbi119953	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Alternaria	Alternaria atra	6.337121	1.2216349	Alternaria atra
+ncbi120017	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Ustilago	Ustilago hordei	12.606034	4.503554	Ustilago hordei
+ncbi1203425	Metazoa	Chordata	Actinopteri	Labriformes	Labridae	Notolabrus	Notolabrus celidotus	19.783674	30.988228	Notolabrus celidotus
+ncbi120794	Metazoa	Chordata	Aves	Falconiformes	Falconidae	Falco	Falco rusticolus	21.667902	30.278524	Falco rusticolus
+ncbi1209926	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum orchidophilum	6.763187	-0.016899794	Colletotrichum orchidophilum
+ncbi1209932	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum scovillei	6.769898	0.022949202	Colletotrichum scovillei
+ncbi121224	Metazoa	Arthropoda	Insecta	Phthiraptera	Pediculidae	Pediculus	Pediculus humanus	-10.816103	20.174929	Pediculus humanus
+ncbi121530	Metazoa	Chordata	Aves	Musophagiformes	Musophagidae	Tauraco	Tauraco erythrolophus	44.05034	22.62987	Tauraco erythrolophus
+ncbi1215731	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum aenigma	6.7028413	-0.0043742233	Colletotrichum aenigma
+ncbi121627	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Talaromyces	Talaromyces rugulosus	7.188583	2.18716	Talaromyces rugulosus
+ncbi121845	Metazoa	Arthropoda	Insecta	Hemiptera	Psyllidae	Diaphorina	Diaphorina citri	10.949367	33.39258	Diaphorina citri
+ncbi1220188	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus tanneri	12.995921	4.5981526	Aspergillus tanneri
+ncbi1220207	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus puulaauensis	6.206067	2.8110745	Aspergillus puulaauensis
+ncbi1220924	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Cyphellophoraceae	Cyphellophora	Cyphellophora europaea	10.206765	2.9932668	Cyphellophora europaea
+ncbi122368	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Cercospora	Cercospora beticola	6.720468	2.020994	Cercospora beticola
+ncbi1227346	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium proliferatum	7.3535776	-0.11849998	Fusarium proliferatum
+ncbi1229662	Fungi	Ascomycota	Sordariomycetes	Xylariales	Sporocadaceae	Pestalotiopsis	Pestalotiopsis fici	6.768062	0.10209836	Pestalotiopsis fici
+ncbi1230383	Fungi	Basidiomycota	Malasseziomycetes	Malasseziales	Malasseziaceae	Malassezia	Malassezia sympodialis	15.6999235	5.692261	Malassezia sympodialis
+ncbi1230840	Metazoa	Chordata	Mammalia	Tubulidentata	Orycteropodidae	Orycteropus	Orycteropus afer	19.64412	30.110682	Orycteropus afer
+ncbi1231522	Fungi	Ascomycota	Pichiomycetes	Serinales	Metschnikowiaceae	Candidozyma	Candidozyma duobushaemuli	13.386754	3.412304	Candidozyma duobushaemuli
+ncbi1232801	Metazoa	Arthropoda	Thecostraca	Balanomorpha	Balanidae	Amphibalanus	Amphibalanus amphitrite	-10.618244	19.833574	Amphibalanus amphitrite
+ncbi1234273	Metazoa	Chordata	Actinopteri	Siluriformes	Bagridae	Tachysurus	Tachysurus fulvidraco	43.687546	23.389551	Tachysurus fulvidraco
+ncbi1237626		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium inui	30.262598	-3.4540308	Plasmodium inui
+ncbi1245769	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Lachancea	Lachancea lanzarotensis	15.5821	5.40638	Lachancea lanzarotensis
+ncbi1250792	Metazoa	Chordata	Actinopteri	Atheriniformes	Melanotaeniidae	Melanotaenia	Melanotaenia boesemani	19.753046	30.893808	Melanotaenia boesemani
+ncbi1257118		Discosea		Longamoebia	Acanthamoebidae	Acanthamoeba	Acanthamoeba castellanii	-0.11761058	18.006948	Acanthamoeba castellanii
+ncbi125878	Metazoa	Chordata	Amphibia	Anura	Dicroglossidae	Nanorana	Nanorana parkeri	43.04982	24.32606	Nanorana parkeri
+ncbi125945	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila biarmipes	19.411137	32.65894	Drosophila biarmipes
+ncbi1263415	Fungi	Ascomycota	Eurotiomycetes	Verrucariales	Verrucariaceae	Endocarpon	Endocarpon pusillum	11.425901	3.0968158	Endocarpon pusillum
+ncbi127582	Metazoa	Chordata	Mammalia	Sirenia	Trichechidae	Trichechus	Trichechus manatus	21.000639	29.387806	Trichechus manatus
+ncbi1276141	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Clavicipitaceae	Metarhizium	Metarhizium brunneum	10.705366	2.4857385	Metarhizium brunneum
+ncbi1277687	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Pseudozyma	Pseudozyma flocculosa	12.633653	4.4737487	Pseudozyma flocculosa
+ncbi1279043	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Cladophialophora	Cladophialophora carrionii	10.231215	3.002533	Cladophialophora carrionii
+ncbi1279085	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium fujikuroi	7.3588862	-0.10551522	Fusarium fujikuroi
+ncbi1280837	Fungi	Basidiomycota	Exobasidiomycetes	Exobasidiales	Brachybasidiaceae	Meira	Meira miltonrushii	12.707201	3.0353103	Meira miltonrushii
+ncbi128390	Metazoa	Chordata	Aves	Pelecaniformes	Threskiornithidae	Nipponia	Nipponia nippon	43.04291	24.329496	Nipponia nippon
+ncbi1286976	Fungi	Ascomycota	Sordariomycetes	Togniniales	Togniniaceae	Phaeoacremonium	Phaeoacremonium minimum	7.1859126	0.55796486	Phaeoacremonium minimum
+ncbi129105	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila santomea	19.387724	32.75458	Drosophila santomea
+ncbi1295528	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Cryptococcus	Cryptococcus wingfieldii	12.241902	3.1260395	Cryptococcus wingfieldii
+ncbi1295533	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Cryptococcus	Cryptococcus amylolentus	12.354021	3.1133246	Cryptococcus amylolentus
+ncbi12957	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Atta	Atta cephalotes	-10.845352	21.31649	Atta cephalotes
+ncbi1296096	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Kwoniella	Kwoniella pini	12.328895	2.9901822	Kwoniella pini
+ncbi1296100	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Kwoniella	Kwoniella bestiolae	12.268746	3.0090864	Kwoniella bestiolae
+ncbi1296121	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Kwoniella	Kwoniella dejecticola	12.263906	3.012034	Kwoniella dejecticola
+ncbi1296122	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Kwoniella	Kwoniella mangrovensis	12.264263	2.9801805	Kwoniella mangrovensis
+ncbi12968			Bigyra	Opalinata	Blastocystidae	Blastocystis	Blastocystis hominis	30.10359	-1.607384	Blastocystis hominis
+ncbi1299270	Fungi	Basidiomycota	Wallemiomycetes	Wallemiales	Wallemiaceae	Wallemia	Wallemia ichthyophaga	12.818539	3.1842775	Wallemia ichthyophaga
+ncbi130081		Rhodophyta	Bangiophyceae	Galdieriales	Galdieriaceae	Galdieria	Galdieria sulphuraria	11.94226	32.53782	Galdieria sulphuraria
+ncbi130453	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Arachis	Arachis duranensis	-5.603644	4.7885823	Arachis duranensis
+ncbi130454	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Arachis	Arachis ipaensis	-5.64134	4.8187613	Arachis ipaensis
+ncbi1305764	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Pseudozyma	Pseudozyma hubeiensis	12.586232	4.4897385	Pseudozyma hubeiensis
+ncbi130825	Metazoa	Chordata	Mammalia	Lagomorpha	Ochotonidae	Ochotona	Ochotona curzoniae	19.3493	30.654078	Ochotona curzoniae
+ncbi13146	Metazoa	Chordata	Aves	Psittaciformes	Psittaculidae	Melopsittacus	Melopsittacus undulatus	11.432237	33.752777	Melopsittacus undulatus
+ncbi1314773	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Plectosphaerellaceae	Sodiomyces	Sodiomyces alkalinus	9.531392	2.099944	Sodiomyces alkalinus
+ncbi1314785	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Laetiporaceae	Laetiporus	Laetiporus sulphureus	12.094868	1.4799821	Laetiporus sulphureus
+ncbi1314786	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Dissoconiaceae	Dissoconium	Dissoconium aciculare	10.90979	3.097278	Dissoconium aciculare
+ncbi13164	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Myzus	Myzus persicae	-10.847142	19.938456	Myzus persicae
+ncbi1316788	Fungi	Ascomycota	Leotiomycetes	Helotiales	Lachnaceae	Lachnellula	Lachnellula hyalina	7.2063484	1.6331499	Lachnellula hyalina
+ncbi132113	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus impatiens	-10.997343	20.98604	Bombus impatiens
+ncbi132259	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus pseudotamarii	6.123072	3.0810509	Aspergillus pseudotamarii
+ncbi1328760	Fungi	Ascomycota	Xylonomycetes	Xylonales	Xylonaceae	Xylona	Xylona heveae	11.620418	3.182997	Xylona heveae
+ncbi132908	Metazoa	Chordata	Mammalia	Chiroptera	Pteropodidae	Pteropus	Pteropus vampyrus	21.283646	29.54027	Pteropus vampyrus
+ncbi13333	Viridiplantae	Streptophyta	Magnoliopsida	Amborellales	Amborellaceae	Amborella	Amborella trichopoda	-6.2678437	4.5494914	Amborella trichopoda
+ncbi133434	Metazoa	Echinodermata	Asteroidea	Valvatida	Acanthasteridae	Acanthaster	Acanthaster planci	-10.15733	19.7322	Acanthaster planci
+ncbi133901	Metazoa	Arthropoda	Insecta	Thysanoptera	Thripidae	Frankliniella	Frankliniella occidentalis	-10.187375	20.449451	Frankliniella occidentalis
+ncbi13397	Metazoa	Chordata	Chondrichthyes	Lamniformes	Alopiidae	Carcharodon	Carcharodon carcharias	17.108486	30.187897	Carcharodon carcharias
+ncbi1340429	Fungi	Mucoromycota	Mucoromycetes	Mucorales	Rhizopodaceae	Rhizopus	Rhizopus microsporus	29.750292	-3.6260822	Rhizopus microsporus
+ncbi1341132	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus welwitschiae	7.424878	2.7801366	Aspergillus welwitschiae
+ncbi13443	Viridiplantae	Streptophyta	Magnoliopsida	Gentianales	Rubiaceae	Coffea	Coffea arabica	-6.409774	4.344102	Coffea arabica
+ncbi1344418	Fungi	Ascomycota	Saccharomycetes	Ascoideales	Ascoideaceae	Ascoidea	Ascoidea rubescens	14.564106	5.0468903	Ascoidea rubescens
+ncbi134920	Metazoa	Chordata	Actinopteri	Perciformes	Gasterosteidae	Pungitius	Pungitius pungitius	17.14138	30.90917	Pungitius pungitius
+ncbi13502	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Brettanomyces	Brettanomyces nanus	15.598113	5.476538	Brettanomyces nanus
+ncbi1354746	Fungi	Microsporidia			Ordosporidae	Ordospora	Ordospora colligata	30.158289	-3.6964777	Ordospora colligata
+ncbi136037	Metazoa	Arthropoda	Insecta	Blattodea	Termopsidae	Zootermopsis	Zootermopsis nevadensis	-10.865474	20.264606	Zootermopsis nevadensis
+ncbi13616	Metazoa	Chordata	Mammalia	Didelphimorphia	Didelphidae	Monodelphis	Monodelphis domestica	17.210335	30.181149	Monodelphis domestica
+ncbi13632	Metazoa	Arthropoda	Insecta	Diptera	Calliphoridae	Lucilia	Lucilia sericata	9.831234	36.382072	Lucilia sericata
+ncbi1365824	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Kalmanozyma	Kalmanozyma brasiliensis	12.593554	4.511015	Kalmanozyma brasiliensis
+ncbi1367422	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Fonsecaea	Fonsecaea erecta	10.245673	3.0548515	Fonsecaea erecta
+ncbi13686	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Solenopsis	Solenopsis invicta	-10.829772	21.326906	Solenopsis invicta
+ncbi13735	Metazoa	Chordata		Testudines	Trionychidae	Pelodiscus	Pelodiscus sinensis	43.587803	23.589346	Pelodiscus sinensis
+ncbi1380566	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Clavicipitaceae	Pochonia	Pochonia chlamydosporia	9.297238	2.3134022	Pochonia chlamydosporia
+ncbi1382522	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Kuraishia	Kuraishia capsulata	13.554685	3.3795073	Kuraishia capsulata
+ncbi1388766	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus ruber	6.863005	2.6255612	Aspergillus ruber
+ncbi1392243	Fungi	Ascomycota	Dothideomycetes	Eremomycetales	Eremomycetaceae	Eremomyces	Eremomyces bilateralis	10.237258	2.9841075	Eremomyces bilateralis
+ncbi1392245	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Dothidotthiaceae	Dothidotthia	Dothidotthia symphoricarpi	6.2886553	1.2347138	Dothidotthia symphoricarpi
+ncbi1392248	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus campestris	6.6416936	2.644136	Aspergillus campestris
+ncbi1392250	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus steynii	6.350689	2.7344916	Aspergillus steynii
+ncbi1392255	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus novofumigatus	6.246141	2.725622	Aspergillus novofumigatus
+ncbi1392256	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus ochraceoroseus	7.5664268	2.7256382	Aspergillus ochraceoroseus
+ncbi139641	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botrytis	Botrytis byssoidea	7.140528	1.5170616	Botrytis byssoidea
+ncbi139649	Metazoa	Arthropoda	Insecta	Diptera	Diopsidae	Teleopsis	Teleopsis dalmanni	10.9239855	33.459953	Teleopsis dalmanni
+ncbi1397361	Fungi	Ascomycota	Sordariomycetes	Ophiostomatales	Ophiostomataceae	Sporothrix	Sporothrix schenckii	9.519812	2.2749424	Sporothrix schenckii
+ncbi1398154	Fungi	Ascomycota	Sordariomycetes	Ophiostomatales	Ophiostomataceae	Sporothrix	Sporothrix brasiliensis	9.582651	2.202865	Sporothrix brasiliensis
+ncbi139825	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Sparassidaceae	Sparassis	Sparassis crispa	12.071033	1.5963564	Sparassis crispa
+ncbi1408163	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Rasamsonia	Rasamsonia emersonii	9.747171	2.6783783	Rasamsonia emersonii
+ncbi1408657	Fungi	Ascomycota	Pneumocystomycetes	Pneumocystales	Pneumocystaceae	Pneumocystis	Pneumocystis jirovecii	15.538375	5.3017263	Pneumocystis jirovecii
+ncbi1408658	Fungi	Ascomycota	Pneumocystomycetes	Pneumocystales	Pneumocystaceae	Pneumocystis	Pneumocystis carinii	15.562303	5.25081	Pneumocystis carinii
+ncbi1410327		Evosea	Eumycetozoa	Acytosteliales	Acytosteliaceae	Acytostelium	Acytostelium subglobosum	14.218972	5.3669186	Acytostelium subglobosum
+ncbi1415580	Metazoa	Chordata	Amphibia	Gymnophiona	Siphonopidae	Microcaecilia	Microcaecilia unicolor	43.023094	24.350794	Microcaecilia unicolor
+ncbi143291	Metazoa	Chordata	Mammalia	Chiroptera	Pteropodidae	Pteropus	Pteropus vampyrus	21.28654	29.580385	Pteropus vampyrus
+ncbi143292	Metazoa	Chordata	Mammalia	Pholidota	Manidae	Manis	Manis pentadactyla	21.480654	29.265	Manis pentadactyla
+ncbi143302	Metazoa	Chordata	Mammalia	Eulipotyphla	Talpidae	Condylura	Condylura cristata	18.24415	30.481451	Condylura cristata
+ncbi1437191	Metazoa	Arthropoda	Insecta	Hymenoptera	Megachilidae	Osmia	Osmia bicornis	-10.819092	21.32198	Osmia bicornis
+ncbi143948	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Diuraphis	Diuraphis noxia	-10.689265	20.085815	Diuraphis noxia
+ncbi143950	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Sipha	Sipha flava	-10.892829	20.770578	Sipha flava
+ncbi143995	Metazoa	Arthropoda	Insecta	Hymenoptera	Megachilidae	Megachile	Megachile rotundata	-10.8795595	21.255178	Megachile rotundata
+ncbi144034	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Pogonomyrmex	Pogonomyrmex barbatus	-11.000981	21.02428	Pogonomyrmex barbatus
+ncbi1441469	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Talaromyces	Talaromyces atroroseus	7.67346	2.616138	Talaromyces atroroseus
+ncbi144197	Metazoa	Chordata	Actinopteri		Pomacentridae	Stegastes	Stegastes partitus	43.91811	23.183683	Stegastes partitus
+ncbi1442368	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Fonsecaea	Fonsecaea pedrosoi	10.2885685	3.1595585	Fonsecaea pedrosoi
+ncbi1442369	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Rhinocladiella	Rhinocladiella mackenziei	10.230759	3.027666	Rhinocladiella mackenziei
+ncbi1442370	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Cladophialophora	Cladophialophora bantiana	10.307406	3.108245	Cladophialophora bantiana
+ncbi1442371	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Fonsecaea	Fonsecaea multimorphosa	10.2034235	3.0564156	Fonsecaea multimorphosa
+ncbi1448310	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus neoniger	7.5158715	2.6992848	Aspergillus neoniger
+ncbi1448311	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus vadensis	7.47937	2.7393713	Aspergillus vadensis
+ncbi1448312	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus japonicus	7.5911317	2.5002956	Aspergillus japonicus
+ncbi1448313	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus piperis	7.548488	2.7006345	Aspergillus piperis
+ncbi1448314	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus eucalypticola	7.5441446	2.6926658	Aspergillus eucalypticola
+ncbi1448315	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus uvarum	7.640122	2.4402428	Aspergillus uvarum
+ncbi1448316	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus ibericus	7.5292697	2.7055511	Aspergillus ibericus
+ncbi1448317	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus costaricensis	7.551061	2.651023	Aspergillus costaricensis
+ncbi1448319	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus fijiensis	7.6177745	2.5294816	Aspergillus fijiensis
+ncbi1448321	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus heteromorphus	7.590022	2.6266127	Aspergillus heteromorphus
+ncbi1448322	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus aculeatinus	7.640414	2.505118	Aspergillus aculeatinus
+ncbi1450172	Fungi	Ascomycota	Dothideomycetes	Pleosporales		Aaosphaeria	Aaosphaeria arxii	6.4692044	1.3261602	Aaosphaeria arxii
+ncbi1450533	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus niger	7.4321055	2.806895	Aspergillus niger
+ncbi1450534	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus brunneoviolaceus	7.6369367	2.4942691	Aspergillus brunneoviolaceus
+ncbi1450535	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus sclerotioniger	7.639804	2.66732	Aspergillus sclerotioniger
+ncbi1450536	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Physalacriaceae	Guyanagaster	Guyanagaster necrorhizus	11.575127	1.0639101	Guyanagaster necrorhizus
+ncbi1450537	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus homomorphus	7.5704	2.464551	Aspergillus homomorphus
+ncbi1450539	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus saccharolyticus	7.7113237	2.4583514	Aspergillus saccharolyticus
+ncbi145388	Viridiplantae	Chlorophyta	Chlorophyceae	Sphaeropleales	Selenastraceae	Monoraphidium	Monoraphidium neglectum	-0.4948307	18.272919	Monoraphidium neglectum
+ncbi1460663	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Didymosphaeriaceae	Paraphaeosphaeria	Paraphaeosphaeria sporulosa	6.321561	1.2444614	Paraphaeosphaeria sporulosa
+ncbi1463999	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botrytis	Botrytis sinoallii	7.1530123	1.4996198	Botrytis sinoallii
+ncbi146911	Metazoa	Chordata	Lepidosauria	Squamata	Gekkonidae	Gekko	Gekko japonicus	43.368397	23.94506	Gekko japonicus
+ncbi1477025	Metazoa	Arthropoda	Insecta	Lepidoptera	Cosmopterigidae	Hyposmocoma	Hyposmocoma kahamanoa	17.476938	30.49427	Hyposmocoma kahamanoa
+ncbi148305	Fungi	Ascomycota	Sordariomycetes	Magnaporthales	Pyriculariaceae	Pyricularia	Pyricularia grisea	9.1518	2.0022655	Pyricularia grisea
+ncbi1485682	Fungi	Microsporidia				Mitosporidium	Mitosporidium daphniae	30.613266	-2.4346726	Mitosporidium daphniae
+ncbi148594	Metazoa	Chordata	Aves	Falconiformes	Falconidae	Falco	Falco naumanni	21.698046	30.328875	Falco naumanni
+ncbi1486046	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila subpulchrella	19.406311	32.69822	Drosophila subpulchrella
+ncbi149040	Fungi	Ascomycota	Leotiomycetes	Helotiales	Mollisiaceae	Mollisia	Mollisia scopiformis	7.1733665	1.5270418	Mollisia scopiformis
+ncbi150288	Metazoa	Chordata	Actinopteri	Gobiiformes	Gobiidae	Boleophthalmus	Boleophthalmus pectinirostris	44.079697	23.214184	Boleophthalmus pectinirostris
+ncbi1506151	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus pseudonomiae	6.137242	3.0565343	Aspergillus pseudonomiae
+ncbi1509407	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus nomiae	6.117751	3.0722404	Aspergillus nomiae
+ncbi1517512	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus pseudoviridinutans	6.249045	2.7398438	Aspergillus pseudoviridinutans
+ncbi151771	Metazoa	Cnidaria	Anthozoa	Malacalcyonacea	Nephtheidae	Dendronephthya	Dendronephthya gigantea	19.467802	30.494312	Dendronephthya gigantea
+ncbi1518534	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles coluzzii	20.638027	32.962845	Anopheles coluzzii
+ncbi1522189	Fungi	Basidiomycota	Exobasidiomycetes	Ceraceosorales	Ceraceosoraceae	Ceraceosorus	Ceraceosorus guamensis	12.598361	2.9349694	Ceraceosorus guamensis
+ncbi1529436	Metazoa	Echinodermata	Crinoidea	Comatulida	Comatulidae	Anneissia	Anneissia japonica	-10.090941	19.704361	Anneissia japonica
+ncbi15368	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Brachypodium	Brachypodium distachyon	-6.2071915	5.2683554	Brachypodium distachyon
+ncbi1537102		Apicomplexa	Aconoidasida	Piroplasmida	Theileriidae	Theileria	Theileria equi	30.112827	-3.7008617	Theileria equi
+ncbi156304	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Ceratina	Ceratina calcarata	10.741342	33.451805	Ceratina calcarata
+ncbi156563	Metazoa	Chordata	Aves	Passeriformes	Paridae	Cyanistes	Cyanistes caeruleus	43.06548	24.305016	Cyanistes caeruleus
+ncbi156630	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Alternaria	Alternaria arborescens	6.350838	1.2849011	Alternaria arborescens
+ncbi1567544	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium tjaetaba	7.3407784	-0.12679267	Fusarium tjaetaba
+ncbi1569628	Fungi	Basidiomycota	Exobasidiomycetes	Microstromatales		Jaminaea	Jaminaea rosea	12.216006	2.3091204	Jaminaea rosea
+ncbi157072		Oomycota		Saprolegniales	Saprolegniaceae	Aphanomyces	Aphanomyces invadans	42.68194	24.845161	Aphanomyces invadans
+ncbi1574408	Metazoa	Chordata	Mammalia	Artiodactyla	Cervidae	Cervus	Cervus canadensis	11.141672	33.600616	Cervus canadensis
+ncbi157538		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leptomonas	Leptomonas pyrrhocoris	30.251305	-1.415061	Leptomonas pyrrhocoris
+ncbi1578925	Fungi	Ascomycota	Sordariomycetes	Magnaporthales	Pyriculariaceae	Pyricularia	Pyricularia pennisetigena	9.130315	2.025341	Pyricularia pennisetigena
+ncbi158386	Viridiplantae	Streptophyta	Magnoliopsida	Lamiales	Oleaceae	Olea	Olea europaea	-5.9956675	4.8721747	Olea europaea
+ncbi158441	Metazoa	Arthropoda	Collembola	Entomobryomorpha	Isotomidae	Folsomia	Folsomia candida	-0.4266308	18.30492	Folsomia candida
+ncbi158456	Metazoa	Chordata	Actinopteri	Anabantiformes	Osphronemidae	Betta	Betta splendens	17.220772	30.445704	Betta splendens
+ncbi1606681	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Puntigrus	Puntigrus tetrazona	19.39853	30.43291	Puntigrus tetrazona
+ncbi160734	Metazoa	Chordata	Actinopteri	Perciformes	Serranidae	Plectropomus	Plectropomus leopardus	19.037542	30.921585	Plectropomus leopardus
+ncbi1608454	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Sinocyclocheilus	Sinocyclocheilus anshuiensis	43.97873	23.276478	Sinocyclocheilus anshuiensis
+ncbi1608482	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Puma	Puma yagouaroundi	21.38439	29.140224	Puma yagouaroundi
+ncbi161013	Metazoa	Arthropoda	Insecta	Thysanoptera	Thripidae	Thrips	Thrips palmi	-10.251968	20.559065	Thrips palmi
+ncbi161584	Metazoa	Chordata	Actinopteri	Syngnathiformes	Syngnathidae	Syngnathus	Syngnathus acus	21.253744	29.304804	Syngnathus acus
+ncbi164674	Metazoa	Chordata	Aves	Passeriformes	Tyrannidae	Empidonax	Empidonax traillii	44.053947	23.166992	Empidonax traillii
+ncbi166361	Metazoa	Arthropoda	Insecta	Coleoptera	Scarabaeidae	Onthophagus	Onthophagus taurus	17.612991	30.410723	Onthophagus taurus
+ncbi1664694	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Cyphellophoraceae	Cyphellophora	Cyphellophora attinorum	10.204637	3.0039506	Cyphellophora attinorum
+ncbi1676925	Metazoa	Chordata	Actinopteri	Osteoglossiformes	Mormyridae	Paramormyrops	Paramormyrops kingsleyae	43.819195	23.389532	Paramormyrops kingsleyae
+ncbi1684307	Fungi	Basidiomycota	Exobasidiomycetes	Microstromatales		Pseudomicrostroma	Pseudomicrostroma glucosiphilum	12.591555	3.0444176	Pseudomicrostroma glucosiphilum
+ncbi1706337	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Neophocaena	Neophocaena asiaeorientalis	21.325384	29.219448	Neophocaena asiaeorientalis
+ncbi173247	Metazoa	Chordata	Actinopteri	Carangiformes	Echeneidae	Echeneis	Echeneis naucrates	44.03064	22.780024	Echeneis naucrates
+ncbi1734106	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Kwoniella	Kwoniella shandongensis	12.324686	3.0110912	Kwoniella shandongensis
+ncbi1735272	Metazoa	Mollusca	Gastropoda	Neomphalida	Peltospiridae	Gigantopelta	Gigantopelta aegis	-0.44767815	18.274788	Gigantopelta aegis
+ncbi174628	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Bactrocera	Bactrocera latifrons	9.900312	36.314556	Bactrocera latifrons
+ncbi1750568	Fungi	Basidiomycota	Agaricomycetes	Cantharellales	Cantharellaceae	Cantharellus	Cantharellus anzutake	12.259	2.555196	Cantharellus anzutake
+ncbi175836	Metazoa	Chordata	Aves	Bucerotiformes	Bucerotidae	Buceros	Buceros rhinoceros	44.007397	22.589354	Buceros rhinoceros
+ncbi176057	Metazoa	Chordata	Aves	Psittaciformes	Psittacidae	Nestor	Nestor notabilis	44.049545	23.139492	Nestor notabilis
+ncbi176946	Metazoa	Chordata	Lepidosauria	Squamata	Pythonidae	Python	Python bivittatus	43.00693	24.335485	Python bivittatus
+ncbi178035	Metazoa	Arthropoda	Insecta	Hymenoptera	Halictidae	Dufourea	Dufourea novaeangliae	-11.016014	20.794086	Dufourea novaeangliae
+ncbi178133	Viridiplantae	Streptophyta	Magnoliopsida	Myrtales	Myrtaceae	Rhodamnia	Rhodamnia argentea	-6.311728	4.3223066	Rhodamnia argentea
+ncbi180454	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles gambiae	20.643362	32.95006	Anopheles gambiae
+ncbi180498	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	Jatropha	Jatropha curcas	-5.71929	4.3237033	Jatropha curcas
+ncbi180675	Viridiplantae	Streptophyta	Magnoliopsida	Lamiales	Lamiaceae	Salvia	Salvia splendens	-6.2647347	4.3430634	Salvia splendens
+ncbi1806994	Fungi	Chytridiomycota	Chytridiomycetes	Synchytriales	Synchytriaceae	Synchytrium	Synchytrium microbalum	19.171017	30.219246	Synchytrium microbalum
+ncbi1810919	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus mulundensis	6.2716513	2.6853077	Aspergillus mulundensis
+ncbi181119	Metazoa	Chordata	Aves	Passeriformes	Paridae	Pseudopodoces	Pseudopodoces humilis	42.70941	24.779955	Pseudopodoces humilis
+ncbi181124	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Marasmiaceae	Marasmius	Marasmius oreades	11.572922	1.0638385	Marasmius oreades
+ncbi181472	Metazoa	Chordata	Actinopteri	Blenniiformes	Blenniidae	Salarias	Salarias fasciatus	43.798626	23.369469	Salarias fasciatus
+ncbi182096	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus chevalieri	6.799057	2.6040716	Aspergillus chevalieri
+ncbi1825980	Metazoa	Chordata		Testudines	Testudinidae	Gopherus	Gopherus evgoodei	42.848267	24.547195	Gopherus evgoodei
+ncbi183418	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	Apis laboriosa	-10.877079	21.229395	Apis laboriosa
+ncbi1835702	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium arizonense	7.034487	2.578442	Penicillium arizonense
+ncbi1841481	Metazoa	Chordata	Actinopteri	Carangiformes	Carangidae	Seriola	Seriola lalandi	43.856113	23.34864	Seriola lalandi
+ncbi185431		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma brucei	30.179684	-3.736006	Trypanosoma brucei
+ncbi185453	Metazoa	Chordata	Mammalia		Chrysochloridae	Chrysochloris	Chrysochloris asiatica	20.36708	30.451523	Chrysochloris asiatica
+ncbi1858805	Fungi	Basidiomycota	Dacrymycetes	Dacrymycetales	Dacrymycetaceae	Dacryopinax	Dacryopinax primogenitus	12.084669	1.4310691	Dacryopinax primogenitus
+ncbi1868482	Metazoa	Chordata	Mammalia	Primates	Tarsiidae	Carlito	Carlito syrichta	20.615301	32.929977	Carlito syrichta
+ncbi186990	Metazoa	Chordata	Mammalia	Chiroptera	Hipposideridae	Hipposideros	Hipposideros armiger	21.245077	29.27732	Hipposideros armiger
+ncbi187382	Metazoa	Chordata	Aves	Otidiformes	Otididae	Chlamydotis	Chlamydotis macqueenii	44.073082	22.628607	Chlamydotis macqueenii
+ncbi188344	Metazoa	Chordata	Aves	Coraciiformes	Leptosomidae	Leptosomus	Leptosomus discolor	43.040646	24.343628	Leptosomus discolor
+ncbi188379	Metazoa	Chordata	Aves	Pelecaniformes	Ardeidae	Egretta	Egretta garzetta	11.273429	33.626926	Egretta garzetta
+ncbi189622		Apicomplexa	Aconoidasida	Piroplasmida	Babesiidae	Babesia	Babesia ovata	30.137856	-3.6941657	Babesia ovata
+ncbi1904413	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus clintonianus	12.2706375	1.6299818	Suillus clintonianus
+ncbi1912936	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus discolor	12.174356	1.5289044	Suillus discolor
+ncbi1912939	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus fuscotomentosus	12.18131	1.5330265	Suillus fuscotomentosus
+ncbi192010	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium mangiferae	7.4000654	-0.16391236	Fusarium mangiferae
+ncbi192404	Metazoa	Chordata	Mammalia	Chiroptera	Phyllostomidae	Sturnira	Sturnira hondurensis	10.938942	33.484337	Sturnira hondurensis
+ncbi1937702	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Ogataea	Ogataea haglerorum	13.207333	3.3621368	Ogataea haglerorum
+ncbi194338	Metazoa	Chordata	Aves	Strigiformes	Strigidae	Athene	Athene cunicularia	43.83399	23.08731	Athene cunicularia
+ncbi194408	Metazoa	Chordata	Amphibia	Gymnophiona	Rhinatrematidae	Rhinatrema	Rhinatrema bivittatum	42.932625	24.460009	Rhinatrema bivittatum
+ncbi195615	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus stenolepis	21.455746	29.212666	Hippoglossus stenolepis
+ncbi1964551	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botrytis	Botrytis fragariae	7.137084	1.4941227	Botrytis fragariae
+ncbi198719	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila innubila	19.418425	32.73001	Drosophila innubila
+ncbi198806	Metazoa	Chordata	Aves	Charadriiformes	Scolopacidae	Calidris	Calidris pugnax	42.65014	24.840933	Calidris pugnax
+ncbi200361	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Aegilops	Aegilops tauschii	-6.1670265	5.232011	Aegilops tauschii
+ncbi2015173	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Ooceraea	Ooceraea biroi	-10.7817135	21.344027	Ooceraea biroi
+ncbi202533	Metazoa	Arthropoda	Arachnida	Araneae	Eresidae	Stegodyphus	Stegodyphus dumicola	10.900847	33.50007	Stegodyphus dumicola
+ncbi202946	Metazoa	Chordata	Aves	Apterygiformes	Apterygidae	Apteryx	Apteryx mantelli	43.715385	23.297953	Apteryx mantelli
+ncbi205130	Metazoa	Chordata	Actinopteri	Synbranchiformes	Mastacembelidae	Mastacembelus	Mastacembelus armatus	17.263931	30.262825	Mastacembelus armatus
+ncbi206008	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Panicum	Panicum hallii	-6.315272	5.161862	Panicum hallii
+ncbi207650	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus vosnesenskii	-10.90684	21.131565	Bombus vosnesenskii
+ncbi207710	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Prosopis	Prosopis alba	-5.904594	5.1397634	Prosopis alba
+ncbi208452		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium coatneyi	30.248606	-3.1730258	Plasmodium coatneyi
+ncbi209559	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus alliaceus	6.258771	2.9578447	Aspergillus alliaceus
+ncbi210225	Viridiplantae	Streptophyta	Magnoliopsida	Nymphaeales	Nymphaeaceae	Nymphaea	Nymphaea colorata	-6.313841	4.808036	Nymphaea colorata
+ncbi210632	Metazoa	Chordata	Actinopteri		Ambassidae	Parambassis	Parambassis ranga	43.96453	23.282146	Parambassis ranga
+ncbi211228	Metazoa	Arthropoda	Insecta	Hymenoptera	Cephidae	Cephus	Cephus cinctus	-10.165915	20.385368	Cephus cinctus
+ncbi2126181	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Mycenaceae	Mycena	Mycena indigotica	11.5671625	1.0555176	Mycena indigotica
+ncbi212818	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala	Exophiala mesophila	10.631873	3.0330474	Exophiala mesophila
+ncbi214684	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Cryptococcus	Cryptococcus neoformans	12.336417	2.93932	Cryptococcus neoformans
+ncbi214687	Viridiplantae	Streptophyta	Magnoliopsida	Zingiberales	Musaceae	Musa	Musa acuminata	-6.0868845	4.5721064	Musa acuminata
+ncbi215243	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala	Exophiala oligosperma	10.538997	3.0601926	Exophiala oligosperma
+ncbi215250	Fungi	Basidiomycota	Exobasidiomycetes	Exobasidiales	Cryptobasidiaceae	Acaromyces	Acaromyces ingoldii	12.2484865	2.6379175	Acaromyces ingoldii
+ncbi215358	Metazoa	Chordata	Actinopteri		Sciaenidae	Larimichthys	Larimichthys crocea	43.8737	23.35725	Larimichthys crocea
+ncbi217634	Metazoa	Arthropoda	Insecta	Coleoptera	Cerambycidae	Anoplophora	Anoplophora glabripennis	13.814986	5.6515646	Anoplophora glabripennis
+ncbi218467	Metazoa	Arthropoda	Arachnida	Scorpiones	Buthidae	Centruroides	Centruroides sculpturatus	12.2621355	32.286064	Centruroides sculpturatus
+ncbi219594	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Aythya	Aythya fuligula	21.850477	30.952618	Aythya fuligula
+ncbi219809	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Pseudomyrmex	Pseudomyrmex gracilis	-10.846376	21.206917	Pseudomyrmex gracilis
+ncbi219896	Viridiplantae	Streptophyta	Magnoliopsida	Myrtales	Myrtaceae	Syzygium	Syzygium oleosum	-6.12203	4.3269434	Syzygium oleosum
+ncbi221976	Metazoa	Chordata	Aves	Passeriformes	Passeridae	Pyrgilauda	Pyrgilauda ruficollis	21.94029	31.045452	Pyrgilauda ruficollis
+ncbi222816	Metazoa	Arthropoda	Insecta	Hymenoptera	Orussidae	Orussus	Orussus abietinus	-10.990814	20.088766	Orussus abietinus
+ncbi222929	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Onygenaceae	Coccidioides	Coccidioides posadasii	11.759826	3.186704	Coccidioides posadasii
+ncbi223781	Metazoa	Chordata	Aves	Accipitriformes	Accipitridae	Aquila	Aquila chrysaetos	21.762215	30.746338	Aquila chrysaetos
+ncbi224129	Metazoa	Arthropoda	Insecta	Coleoptera	Buprestidae	Agrilus	Agrilus planipennis	13.828284	5.6417933	Agrilus planipennis
+ncbi2249226	Viridiplantae	Streptophyta	Magnoliopsida	Fagales	Juglandaceae	Juglans	Juglans microcarpa x Juglans regia	-6.044437	4.620767	Juglans microcarpa x Juglans regia
+ncbi225117	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Pyrus	Pyrus x bretschneideri	-5.693914	4.4124436	Pyrus x bretschneideri
+ncbi225164	Metazoa	Mollusca	Gastropoda		Lottiidae	Lottia	Lottia gigantea	-0.44527495	18.326166	Lottia gigantea
+ncbi225400	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Myotis	Myotis davidii	17.093718	30.107836	Myotis davidii
+ncbi22663	Viridiplantae	Streptophyta	Magnoliopsida	Myrtales	Lythraceae	Punica	Punica granatum	-5.9859996	4.5427446	Punica granatum
+ncbi227086		Cercozoa	Chlorarachniophyceae			Bigelowiella	Bigelowiella natans	30.406294	-2.710812	Bigelowiella natans
+ncbi227321	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus nidulans	6.332877	2.6946917	Aspergillus nidulans
+ncbi229533	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium graminearum	7.3702803	-0.08831786	Fusarium graminearum
+ncbi230844	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Peromyscus	Peromyscus maniculatus	19.671425	30.063725	Peromyscus maniculatus
+ncbi231269	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium coffeatum	7.2936654	-0.04445824	Fusarium coffeatum
+ncbi235443	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Cryptococcus	Cryptococcus neoformans	12.3075285	2.9688048	Cryptococcus neoformans
+ncbi236234	Fungi	Ascomycota	Dothideomycetes	Botryosphaeriales	Botryosphaeriaceae	Diplodia	Diplodia corticola	6.557795	1.5695616	Diplodia corticola
+ncbi237561	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Candida	Candida albicans	13.291542	3.2668178	Candida albicans
+ncbi237631	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Mycosarcoma	Mycosarcoma maydis	12.629332	4.5265	Mycosarcoma maydis
+ncbi240176	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Psathyrellaceae	Coprinopsis	Coprinopsis cinerea	11.548949	1.1182286	Coprinopsis cinerea
+ncbi240206	Metazoa	Chordata	Aves	Pterocliformes	Pteroclidae	Pterocles	Pterocles gutturalis	44.036144	22.623005	Pterocles gutturalis
+ncbi241271	Metazoa	Chordata	Actinopteri	Labriformes	Labridae	Cheilinus	Cheilinus undulatus	21.380413	29.097559	Cheilinus undulatus
+ncbi242507	Fungi	Ascomycota	Sordariomycetes	Magnaporthales	Pyriculariaceae	Pyricularia	Pyricularia oryzae	9.11739	1.9849249	Pyricularia oryzae
+ncbi244447	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Cynoglossidae	Cynoglossus	Cynoglossus semilaevis	43.807297	23.363436	Cynoglossus semilaevis
+ncbi2448451	Metazoa	Arthropoda	Insecta	Hymenoptera	Halictidae	Nomia	Nomia melanderi	-10.883842	21.221659	Nomia melanderi
+ncbi245834	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Teratosphaeriaceae	Neohortaea	Neohortaea acidophila	11.410818	3.088649	Neohortaea acidophila
+ncbi246410	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Onygenaceae	Coccidioides	Coccidioides immitis	11.7036	3.2298636	Coccidioides immitis
+ncbi246437	Metazoa	Chordata	Mammalia	Scandentia	Tupaiidae	Tupaia	Tupaia chinensis	19.222366	30.674107	Tupaia chinensis
+ncbi2478750	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botrytis	Botrytis deweyae	7.1102905	1.5181049	Botrytis deweyae
+ncbi2489341	Metazoa	Chordata	Aves	Psittaciformes	Psittacidae	Strigops	Strigops habroptila	11.438477	33.88196	Strigops habroptila
+ncbi253628	Fungi	Ascomycota	Dothideomycetes	Venturiales	Sympoventuriaceae	Verruconis	Verruconis gallopava	11.049172	2.9995987	Verruconis gallopava
+ncbi254056	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Fonsecaea	Fonsecaea monophora	10.272531	3.1010058	Fonsecaea monophora
+ncbi2587831	Metazoa	Chordata		Testudines	Emydidae	Terrapene	Terrapene triunguis	43.05316	24.320297	Terrapene triunguis
+ncbi259920	Metazoa	Chordata	Chondrichthyes	Orectolobiformes	Rhincodontidae	Rhincodon	Rhincodon typus	43.832764	23.39146	Rhincodon typus
+ncbi260615	Metazoa	Chordata		Testudines	Geoemydidae	Mauremys	Mauremys reevesii	21.535753	29.864273	Mauremys reevesii
+ncbi2606893	Fungi	Ascomycota	Dipodascomycetes	Dipodascales	Dipodascaceae	Magnusiomyces	Magnusiomyces paraingens	13.045423	3.2401688	Magnusiomyces paraingens
+ncbi2607531	Metazoa	Mollusca	Cephalopoda	Octopoda	Octopodidae	Octopus	Octopus sinensis	-10.390383	21.01951	Octopus sinensis
+ncbi260995	Metazoa	Chordata	Amphibia	Gymnophiona	Dermophiidae	Geotrypetes	Geotrypetes seraphini	17.26156	30.96545	Geotrypetes seraphini
+ncbi261658		Evosea	Eumycetozoa	Acytosteliales	Cavenderiaceae	Cavenderia	Cavenderia fasciculata	14.13316	5.4093227	Cavenderia fasciculata
+ncbi264951	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Thermoascaceae	Paecilomyces	Paecilomyces variotii	11.47054	3.2057738	Paecilomyces variotii
+ncbi2652724	Metazoa	Cnidaria	Anthozoa	Actiniaria	Aiptasiidae	Exaiptasia	Exaiptasia diaphana	-0.21246482	18.021881	Exaiptasia diaphana
+ncbi265458	Metazoa	Arthropoda	Insecta	Diptera	Cecidomyiidae	Contarinia	Contarinia nasturtii	10.768742	33.4621	Contarinia nasturtii
+ncbi2656787	Fungi	Ascomycota	Leotiomycetes	Helotiales	Pleuroascaceae	Venustampulla	Venustampulla echinocandica	7.0183825	1.5207042	Venustampulla echinocandica
+ncbi2691554	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salvelinus	Salvelinus sp. IW2-2015	11.024346	33.52351	Salvelinus sp. IW2-2015
+ncbi2705178	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus vancouverensis	-11.020152	21.058256	Bombus vancouverensis
+ncbi2711	Viridiplantae	Streptophyta	Magnoliopsida	Sapindales	Rutaceae	Citrus	Citrus sinensis	-5.942263	4.6799874	Citrus sinensis
+ncbi2715852	Metazoa	Chordata	Mammalia	Primates	Cebidae	Cebus	Cebus imitator	19.731892	31.334787	Cebus imitator
+ncbi27291	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Saccharomyces	Saccharomyces paradoxus	14.70717	5.1236057	Saccharomyces paradoxus
+ncbi2732470	Fungi	Ascomycota	Lecanoromycetes	Lecanorales	Ramalinaceae	Bacidia	Bacidia gigantensis	11.250181	3.0885966	Bacidia gigantensis
+ncbi27334	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium expansum	6.8058453	2.6717284	Penicillium expansum
+ncbi27405	Metazoa	Arthropoda	Malacostraca	Decapoda	Penaeidae	Penaeus	Penaeus japonicus	-10.694307	19.803232	Penaeus japonicus
+ncbi27457	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Bactrocera	Bactrocera dorsalis	19.329996	32.56758	Bactrocera dorsalis
+ncbi2754530	Fungi	Ascomycota	Taphrinomycetes	Taphrinales	Protomycetaceae	Protomyces	Protomyces lactucae-debilis	14.131508	5.290569	Protomyces lactucae-debilis
+ncbi27622	Metazoa	Chordata	Mammalia	Chiroptera	Molossidae	Molossus	Molossus molossus	21.356504	29.164742	Molossus molossus
+ncbi27675	Metazoa	Chordata	Mammalia	Pilosa	Megalonychidae	Choloepus	Choloepus didactylus	20.360565	30.476719	Choloepus didactylus
+ncbi27687	Metazoa	Chordata	Cladistia	Polypteriformes	Polypteridae	Erpetoichthys	Erpetoichthys calabaricus	43.982132	23.2243	Erpetoichthys calabaricus
+ncbi2769		Rhodophyta	Florideophyceae	Gigartinales	Gigartinaceae	Chondrus	Chondrus crispus	43.900257	22.50697	Chondrus crispus
+ncbi27706	Metazoa	Chordata	Actinopteri	Centrarchiformes	Centrarchidae	Micropterus	Micropterus salmoides	17.162958	30.84282	Micropterus salmoides
+ncbi278856	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Danaus	Danaus plexippus	17.1596	30.619915	Danaus plexippus
+ncbi2795564	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Maniola	Maniola hyperantus	17.060156	30.714281	Maniola hyperantus
+ncbi279965	Metazoa	Chordata	Aves	Caprimulgiformes	Caprimulgidae	Antrostomus	Antrostomus carolinensis	43.84386	23.431131	Antrostomus carolinensis
+ncbi280036	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Sporisorium	Sporisorium graminicola	12.602097	4.5102634	Sporisorium graminicola
+ncbi280463		Haptophyta		Isochrysidales	Noelaerhabdaceae	Emiliania	Emiliania huxleyi	13.5737505	3.6588764	Emiliania huxleyi
+ncbi280699		Rhodophyta	Bangiophyceae	Cyanidiales	Cyanidiaceae	Cyanidioschyzon	Cyanidioschyzon merolae	30.608463	-2.437831	Cyanidioschyzon merolae
+ncbi283035	Metazoa	Chordata	Actinopteri	Perciformes	Percidae	Sander	Sander lucioperca	17.109743	30.589952	Sander lucioperca
+ncbi283643	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Cryptococcus	Cryptococcus neoformans	12.3644285	2.931516	Cryptococcus neoformans
+ncbi28377	Metazoa	Chordata	Lepidosauria	Squamata	Dactyloidae	Anolis	Anolis carolinensis	42.995117	24.392937	Anolis carolinensis
+ncbi284591	Fungi	Ascomycota	Dipodascomycetes	Dipodascales		Yarrowia	Yarrowia lipolytica	13.202349	3.2658367	Yarrowia lipolytica
+ncbi284592	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Debaryomyces	Debaryomyces hansenii	13.42557	3.3131742	Debaryomyces hansenii
+ncbi284811	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Eremothecium	Eremothecium gossypii	14.60622	5.1263914	Eremothecium gossypii
+ncbi284813	Fungi	Microsporidia			Unikaryonidae	Encephalitozoon	Encephalitozoon cuniculi	30.599983	-2.446269	Encephalitozoon cuniculi
+ncbi28526	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Solanum	Solanum pennellii	-6.0053453	5.101309	Solanum pennellii
+ncbi28532	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Cleomaceae	Tarenaya	Tarenaya hassleriana	-5.1286936	4.6300635	Tarenaya hassleriana
+ncbi28584	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila suzukii	19.613722	32.014084	Drosophila suzukii
+ncbi28588	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Zeugodacus	Zeugodacus cucurbitae	21.07154	29.364185	Zeugodacus cucurbitae
+ncbi28610	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Rhagoletis	Rhagoletis pomonella	17.491478	30.631992	Rhagoletis pomonella
+ncbi28612	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Rhagoletis	Rhagoletis zephyria	17.624882	30.25596	Rhagoletis zephyria
+ncbi286419	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus	17.158379	30.576468	Canis lupus
+ncbi286706	Metazoa	Arthropoda	Insecta	Hemiptera	Pentatomidae	Halyomorpha	Halyomorpha halys	10.832222	33.536995	Halyomorpha halys
+ncbi28737	Metazoa	Chordata	Mammalia	Macroscelidea	Macroscelididae	Elephantulus	Elephantulus edwardii	17.134659	30.885193	Elephantulus edwardii
+ncbi28743	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Cyprinodontidae	Cyprinodon	Cyprinodon variegatus	43.92928	23.393997	Cyprinodon variegatus
+ncbi28829	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Soleidae	Solea	Solea senegalensis	17.115398	30.857737	Solea senegalensis
+ncbi28985	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Kluyveromyces	Kluyveromyces lactis	15.548319	5.472595	Kluyveromyces lactis
+ncbi29029	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila eugracilis	19.314558	32.7849	Drosophila eugracilis
+ncbi29030	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila takahashii	19.36883	32.737133	Drosophila takahashii
+ncbi29053	Metazoa	Arthropoda	Insecta	Hymenoptera	Encyrtidae	Copidosoma	Copidosoma floridanum	-10.564731	19.597586	Copidosoma floridanum
+ncbi29058	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Helicoverpa	Helicoverpa armigera	17.075377	30.355522	Helicoverpa armigera
+ncbi29073	Metazoa	Chordata	Mammalia	Carnivora	Ursidae	Ursus	Ursus maritimus	17.550875	30.507862	Ursus maritimus
+ncbi29078	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Eptesicus	Eptesicus fuscus	21.396654	29.132347	Eptesicus fuscus
+ncbi29088	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Neomonachus	Neomonachus schauinslandi	21.477947	29.224463	Neomonachus schauinslandi
+ncbi291302	Metazoa	Chordata	Mammalia	Chiroptera	Miniopteridae	Miniopterus	Miniopterus natalensis	21.141476	29.341194	Miniopterus natalensis
+ncbi29139	Metazoa	Chordata	Mammalia	Diprotodontia	Vombatidae	Vombatus	Vombatus ursinus	19.536098	30.792595	Vombatus ursinus
+ncbi29144	Metazoa	Chordata	Actinopteri	Gonorynchiformes	Chanidae	Chanos	Chanos chanos	43.92141	23.369213	Chanos chanos
+ncbi29159	Metazoa	Mollusca	Bivalvia	Ostreida	Ostreidae	Magallana	Magallana gigas	-0.45151815	18.26605	Magallana gigas
+ncbi293939	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus lentulus	6.228145	2.7600098	Aspergillus lentulus
+ncbi294128	Metazoa	Arthropoda	Malacostraca	Amphipoda	Hyalellidae	Hyalella	Hyalella azteca	-10.666947	19.70162	Hyalella azteca
+ncbi294381		Evosea		Mastigamoebida	Entamoebidae	Entamoeba	Entamoeba histolytica	30.225517	-1.3770882	Entamoeba histolytica
+ncbi294746	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Meyerozyma	Meyerozyma guilliermondii	13.525962	3.357786	Meyerozyma guilliermondii
+ncbi294747	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Candida	Candida tropicalis	15.748002	5.2678776	Candida tropicalis
+ncbi296543		Bacillariophyta	Coscinodiscophyceae	Thalassiosirales	Thalassiosiraceae	Thalassiosira	Thalassiosira pseudonana	15.340392	5.152732	Thalassiosira pseudonana
+ncbi296587	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas commoda	30.052874	-3.6877759	Micromonas commoda
+ncbi296741	Metazoa	Chordata	Aves	Passeriformes	Pipridae	Chiroxiphia	Chiroxiphia lanceolata	21.696854	30.32405	Chiroxiphia lanceolata
+ncbi29729	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Gossypium	Gossypium arboreum	-6.1899333	4.1621647	Gossypium arboreum
+ncbi29730	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Gossypium	Gossypium raimondii	-6.3320932	4.2087736	Gossypium raimondii
+ncbi29760	Viridiplantae	Streptophyta	Magnoliopsida	Vitales	Vitaceae	Vitis	Vitis vinifera	-5.739877	4.5375094	Vitis vinifera
+ncbi29780	Viridiplantae	Streptophyta	Magnoliopsida	Sapindales	Anacardiaceae	Mangifera	Mangifera indica	-5.9729066	4.792803	Mangifera indica
+ncbi299123	Metazoa	Chordata	Aves	Passeriformes	Estrildidae	Lonchura	Lonchura striata	42.708748	24.780327	Lonchura striata
+ncbi299321	Metazoa	Chordata	Actinopteri	Clupeiformes	Denticipitidae	Denticeps	Denticeps clupeoides	43.995155	23.182232	Denticeps clupeoides
+ncbi300111	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Temnothorax	Temnothorax curvispinosus	-10.799744	21.253939	Temnothorax curvispinosus
+ncbi30019	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila busckii	9.842145	36.370163	Drosophila busckii
+ncbi30023	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila elegans	19.599903	32.228973	Drosophila elegans
+ncbi30025	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila ficusphila	19.713675	31.310999	Drosophila ficusphila
+ncbi30033	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila kikkawai	19.397758	32.70874	Drosophila kikkawai
+ncbi30066	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles merus	20.640947	32.982433	Anopheles merus
+ncbi30069	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles stephensi	9.861368	36.350914	Anopheles stephensi
+ncbi301207	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Didymellaceae	Macroventuria	Macroventuria anomochaeta	6.2209563	1.2201084	Macroventuria anomochaeta
+ncbi30195	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus terrestris	-11.018717	21.005886	Bombus terrestris
+ncbi30207	Metazoa	Arthropoda	Insecta	Hymenoptera	Vespidae	Polistes	Polistes fuscatus	-10.980712	20.041103	Polistes fuscatus
+ncbi30213	Metazoa	Arthropoda	Insecta	Hymenoptera	Vespidae	Vespula	Vespula pensylvanica	-11.002838	20.072113	Vespula pensylvanica
+ncbi30331	Metazoa	Chordata	Amphibia	Anura	Bufonidae	Bufo	Bufo gargarizans	20.683004	32.864468	Bufo gargarizans
+ncbi303518	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Pundamilia	Pundamilia nyererei	9.78547	36.429523	Pundamilia nyererei
+ncbi30410	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Lagopus	Lagopus leucura	21.687197	30.305016	Lagopus leucura
+ncbi30419	Metazoa	Chordata	Aves	Opisthocomiformes	Opisthocomidae	Opisthocomus	Opisthocomus hoazin	44.114357	23.13458	Opisthocomus hoazin
+ncbi30455	Metazoa	Chordata	Aves	Procellariiformes	Procellariidae	Fulmarus	Fulmarus glacialis	44.08878	23.19561	Fulmarus glacialis
+ncbi30464	Metazoa	Chordata	Aves	Tinamiformes	Tinamidae	Nothoprocta	Nothoprocta perdicaria	43.323837	23.997238	Nothoprocta perdicaria
+ncbi30522	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos indicus x Bos taurus	21.41702	29.242413	Bos indicus x Bos taurus
+ncbi30538	Metazoa	Chordata	Mammalia	Artiodactyla	Camelidae	Vicugna	Vicugna pacos	19.433418	30.690508	Vicugna pacos
+ncbi3055	Viridiplantae	Chlorophyta	Chlorophyceae	Chlamydomonadales	Chlamydomonadaceae	Chlamydomonas	Chlamydomonas reinhardtii	11.10315	33.192913	Chlamydomonas reinhardtii
+ncbi30608	Metazoa	Chordata	Mammalia	Primates	Cheirogaleidae	Microcebus	Microcebus murinus	19.690186	30.978409	Microcebus murinus
+ncbi30611	Metazoa	Chordata	Mammalia	Primates	Galagidae	Otolemur	Otolemur garnettii	21.435123	29.13082	Otolemur garnettii
+ncbi3068	Viridiplantae	Chlorophyta	Chlorophyceae	Chlamydomonadales	Volvocaceae	Volvox	Volvox carteri	14.455214	4.7521334	Volvox carteri
+ncbi306901	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Chaetomium	Chaetomium globosum	7.006237	0.4910617	Chaetomium globosum
+ncbi306902	Fungi	Ascomycota	Pichiomycetes	Serinales	Metschnikowiaceae	Clavispora	Clavispora lusitaniae	13.423463	3.327489	Clavispora lusitaniae
+ncbi30732	Metazoa	Chordata	Actinopteri	Beloniformes	Adrianichthyidae	Oryzias	Oryzias melastigma	21.147871	29.312593	Oryzias melastigma
+ncbi3075	Viridiplantae	Chlorophyta	Trebouxiophyceae	Chlorellales	Chlorellaceae	Auxenochlorella	Auxenochlorella protothecoides	11.355636	32.774	Auxenochlorella protothecoides
+ncbi307658	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Monomorium	Monomorium pharaonis	-10.817621	21.289341	Monomorium pharaonis
+ncbi307959	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Sinocyclocheilus	Sinocyclocheilus rhinocerous	44.03905	23.275745	Sinocyclocheilus rhinocerous
+ncbi308060	Metazoa	Chordata	Aves	Apterygiformes	Apterygidae	Apteryx	Apteryx rowi	42.864426	24.600286	Apteryx rowi
+ncbi31033	Metazoa	Chordata	Actinopteri	Tetraodontiformes	Tetraodontidae	Takifugu	Takifugu rubripes	43.40604	23.928251	Takifugu rubripes
+ncbi310571	Metazoa	Chordata	Actinopteri	Perciformes	Serranidae	Epinephelus	Epinephelus lanceolatus	18.469744	30.551786	Epinephelus lanceolatus
+ncbi310752	Metazoa	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Balaenoptera	Balaenoptera acutorostrata	20.583992	30.08019	Balaenoptera acutorostrata
+ncbi310915	Metazoa	Chordata	Actinopteri	Siluriformes	Pangasiidae	Pangasianodon	Pangasianodon hypophthalmus	20.63299	32.927937	Pangasianodon hypophthalmus
+ncbi31138	Metazoa	Chordata		Testudines	Emydidae	Trachemys	Trachemys scripta	21.604002	30.017935	Trachemys scripta
+ncbi312017		Ciliophora	Oligohymenophorea	Hymenostomatida	Tetrahymenidae	Tetrahymena	Tetrahymena thermophila	12.319058	32.250908	Tetrahymena thermophila
+ncbi31234	Metazoa	Nematoda	Chromadorea	Rhabditida	Rhabditidae	Caenorhabditis	Caenorhabditis remanei	11.291162	33.651566	Caenorhabditis remanei
+ncbi31271		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium chabaudi	30.177078	-3.4777133	Plasmodium chabaudi
+ncbi318751	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Sporormiaceae	Westerdykella	Westerdykella ornata	9.58255	2.2555416	Westerdykella ornata
+ncbi321398	Metazoa	Chordata	Aves	Passeriformes	Pipridae	Lepidothrix	Lepidothrix coronata	42.811123	24.692072	Lepidothrix coronata
+ncbi321614	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Phaeosphaeriaceae	Parastagonospora	Parastagonospora nodorum	6.2994123	1.304981	Parastagonospora nodorum
+ncbi3218	Viridiplantae	Streptophyta	Bryopsida	Funariales	Funariaceae	Physcomitrium	Physcomitrium patens	-6.0852003	4.706289	Physcomitrium patens
+ncbi32201	Viridiplantae	Streptophyta	Magnoliopsida	Fagales	Juglandaceae	Carya	Carya illinoinensis	-5.835389	4.3374944	Carya illinoinensis
+ncbi322104	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Scheffersomyces	Scheffersomyces stipitis	13.516056	3.3733234	Scheffersomyces stipitis
+ncbi32260	Metazoa	Arthropoda	Insecta	Hymenoptera	Ichneumonidae	Venturia	Venturia canescens	-10.584262	19.652246	Venturia canescens
+ncbi32264	Metazoa	Arthropoda	Arachnida	Trombidiformes	Tetranychidae	Tetranychus	Tetranychus urticae	12.186694	32.34673	Tetranychus urticae
+ncbi32391	Metazoa	Arthropoda	Insecta	Hymenoptera	Braconidae	Cotesia	Cotesia glomerata	11.162522	33.60745	Cotesia glomerata
+ncbi32473	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus	Xiphophorus couchianus	43.5755	23.709732	Xiphophorus couchianus
+ncbi32507	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Neolamprologus	Neolamprologus brichardi	19.631582	30.103352	Neolamprologus brichardi
+ncbi32536	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Acinonyx	Acinonyx jubatus	17.215826	30.549927	Acinonyx jubatus
+ncbi326594	Metazoa	Arthropoda	Insecta	Hymenoptera	Agaonidae	Ceratosolen	Ceratosolen solmsi	-10.650335	19.666721	Ceratosolen solmsi
+ncbi326645	Fungi	Ascomycota	Sordariomycetes	Xylariales	Hypoxylaceae	Daldinia	Daldinia childiae	9.063181	1.8957838	Daldinia childiae
+ncbi326968	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rhamnaceae	Ziziphus	Ziziphus jujuba	-5.7838764	4.7433715	Ziziphus jujuba
+ncbi328815	Metazoa	Chordata	Aves	Passeriformes	Pipridae	Manacus	Manacus vitellinus	42.755554	24.736177	Manacus vitellinus
+ncbi330879	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus fumigatus	6.3049517	2.733474	Aspergillus fumigatus
+ncbi331117	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus fischeri	6.246919	2.7504444	Aspergillus fischeri
+ncbi33203	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Ophiocordycipitaceae	Purpureocillium	Purpureocillium lilacinum	10.662685	2.4227526	Purpureocillium lilacinum
+ncbi332648	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botrytis	Botrytis cinerea	7.0880265	1.5133023	Botrytis cinerea
+ncbi332952	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus flavus	6.17869	2.997523	Aspergillus flavus
+ncbi333668		Apicomplexa	Aconoidasida	Piroplasmida	Theileriidae	Theileria	Theileria parva	30.61855	-2.4206052	Theileria parva
+ncbi334116	Metazoa	Arthropoda	Insecta	Lepidoptera	Nymphalidae	Vanessa	Vanessa tameamea	11.349735	33.68345	Vanessa tameamea
+ncbi33412	Metazoa	Arthropoda	Insecta	Lepidoptera	Pieridae	Zerene	Zerene cesonia	17.33192	30.153046	Zerene cesonia
+ncbi334819	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium verticillioides	7.3713365	-0.1315716	Fusarium verticillioides
+ncbi33528	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Gambusia	Gambusia affinis	21.465454	29.120096	Gambusia affinis
+ncbi33562	Metazoa	Chordata	Mammalia	Microbiotheria	Microbiotheriidae	Dromiciops	Dromiciops gliroides	21.42807	29.06919	Dromiciops gliroides
+ncbi336722	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Zymoseptoria	Zymoseptoria tritici	10.1895895	2.9691048	Zymoseptoria tritici
+ncbi336963	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Onygenaceae	Uncinocarpus	Uncinocarpus reesii	11.548611	3.1970427	Uncinocarpus reesii
+ncbi336983	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Colobus	Colobus angolensis	10.869978	33.50597	Colobus angolensis
+ncbi341663	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus terreus	6.3697567	2.7667558	Aspergillus terreus
+ncbi342668	Fungi	Ascomycota	Leotiomycetes	Thelebolales	Thelebolaceae	Pseudogymnoascus	Pseudogymnoascus verrucosus	6.5661254	1.1620066	Pseudogymnoascus verrucosus
+ncbi343691	Metazoa	Arthropoda	Insecta	Diptera	Stratiomyidae	Hermetia	Hermetia illucens	9.879388	36.33363	Hermetia illucens
+ncbi344612	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus clavatus	7.4650097	2.7164135	Aspergillus clavatus
+ncbi34506	Metazoa	Nematoda	Chromadorea	Rhabditida	Strongyloididae	Strongyloides	Strongyloides ratti	11.022071	33.392887	Strongyloides ratti
+ncbi345164	Metazoa	Chordata	Aves	Falconiformes	Falconidae	Falco	Falco cherrug	42.71809	24.775137	Falco cherrug
+ncbi34632	Metazoa	Arthropoda	Arachnida	Ixodida	Ixodidae	Rhipicephalus	Rhipicephalus sanguineus	12.316278	32.2463	Rhipicephalus sanguineus
+ncbi34638	Metazoa	Arthropoda	Arachnida	Mesostigmata	Phytoseiidae	Galendromus	Galendromus occidentalis	29.536375	-3.3421495	Galendromus occidentalis
+ncbi3469	Viridiplantae	Streptophyta	Magnoliopsida	Ranunculales	Papaveraceae	Papaver	Papaver somniferum	-6.099764	5.1467366	Papaver somniferum
+ncbi34720	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Trachymyrmex	Trachymyrmex septentrionalis	-10.743692	21.145407	Trachymyrmex septentrionalis
+ncbi347515		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania	Leishmania major	30.399607	-2.7692587	Leishmania major
+ncbi34773	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Alosa	Alosa sapidissima	17.481228	30.608303	Alosa sapidissima
+ncbi34816	Metazoa	Chordata	Actinopteri		Moronidae	Morone	Morone saxatilis	21.262577	29.30489	Morone saxatilis
+ncbi3483	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Cannabaceae	Cannabis	Cannabis sativa	-6.480083	4.5318217	Cannabis sativa
+ncbi34839	Metazoa	Chordata	Mammalia	Rodentia	Chinchillidae	Chinchilla	Chinchilla lanigera	21.497732	29.123716	Chinchilla lanigera
+ncbi348802	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala	Exophiala xenobiotica	10.274701	3.1150043	Exophiala xenobiotica
+ncbi34884	Metazoa	Chordata	Mammalia	Carnivora	Otariidae	Callorhinus	Callorhinus ursinus	17.380102	30.5363	Callorhinus ursinus
+ncbi34886	Metazoa	Chordata	Mammalia	Carnivora	Otariidae	Eumetopias	Eumetopias jubatus	17.329926	30.452381	Eumetopias jubatus
+ncbi35005	Metazoa	Chordata	Lepidosauria	Squamata	Colubridae	Thamnophis	Thamnophis elegans	17.503967	30.814213	Thamnophis elegans
+ncbi35019	Metazoa	Chordata	Lepidosauria	Squamata	Colubridae	Thamnophis	Thamnophis sirtalis	42.977684	24.428112	Thamnophis sirtalis
+ncbi352472		Evosea	Eumycetozoa	Dictyosteliales	Dictyosteliaceae	Dictyostelium	Dictyostelium discoideum	15.684151	4.9293513	Dictyostelium discoideum
+ncbi353151		Apicomplexa	Conoidasida	Eucoccidiorida	Cryptosporidiidae	Cryptosporidium	Cryptosporidium hominis	30.200808	-3.466	Cryptosporidium hominis
+ncbi353152		Apicomplexa	Conoidasida	Eucoccidiorida	Cryptosporidiidae	Cryptosporidium	Cryptosporidium parvum	30.177979	-3.5642354	Cryptosporidium parvum
+ncbi353153		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma cruzi	30.60506	-2.4377503	Trypanosoma cruzi
+ncbi35525	Metazoa	Arthropoda	Branchiopoda	Diplostraca	Daphniidae	Daphnia	Daphnia magna	-10.970061	21.04838	Daphnia magna
+ncbi3555	Viridiplantae	Streptophyta	Magnoliopsida	Caryophyllales	Chenopodiaceae	Beta	Beta vulgaris	-5.521551	4.88098	Beta vulgaris
+ncbi35570	Metazoa	Arthropoda	Insecta	Diptera	Muscidae	Stomoxys	Stomoxys calcitrans	19.409597	32.69523	Stomoxys calcitrans
+ncbi3562	Viridiplantae	Streptophyta	Magnoliopsida	Caryophyllales	Chenopodiaceae	Spinacia	Spinacia oleracea	-6.317237	4.606782	Spinacia oleracea
+ncbi35658	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Mastomys	Mastomys coucha	19.59389	30.155676	Mastomys coucha
+ncbi356909	Metazoa	Chordata	Aves	Passeriformes	Passeridae	Onychostruthus	Onychostruthus taczanowskii	21.950472	31.059517	Onychostruthus taczanowskii
+ncbi35883	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Convolvulaceae	Ipomoea	Ipomoea nil	-6.193293	4.669665	Ipomoea nil
+ncbi35885	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Convolvulaceae	Ipomoea	Ipomoea triloba	-5.66016	4.7855215	Ipomoea triloba
+ncbi36050	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium poae	7.314443	-0.032681692	Fusarium poae
+ncbi36176	Metazoa	Chordata	Chondrichthyes	Orectolobiformes	Hemiscylliidae	Chiloscyllium	Chiloscyllium plagiosum	19.620676	32.02253	Chiloscyllium plagiosum
+ncbi36300	Metazoa	Chordata	Aves	Pelecaniformes	Pelecanidae	Pelecanus	Pelecanus crispus	44.087822	23.368473	Pelecanus crispus
+ncbi36329		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium falciparum	30.169422	-3.5243442	Plasmodium falciparum
+ncbi3635	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Gossypium	Gossypium hirsutum	-6.2177334	4.207372	Gossypium hirsutum
+ncbi3641	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Theobroma	Theobroma cacao	-6.354827	4.2634783	Theobroma cacao
+ncbi3649	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Caricaceae	Carica	Carica papaya	-6.1745806	4.491174	Carica papaya
+ncbi3656	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Cucumis	Cucumis melo	-6.0013866	4.5730186	Cucumis melo
+ncbi3659	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Cucumis	Cucumis sativus	-5.9824257	4.4497766	Cucumis sativus
+ncbi3661	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Cucurbita	Cucurbita maxima	-5.871899	4.3843255	Cucurbita maxima
+ncbi3662	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Cucurbita	Cucurbita moschata	-5.7669687	4.587848	Cucurbita moschata
+ncbi3664	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Cucurbita	Cucurbita pepo	-5.9271	4.5017967	Cucurbita pepo
+ncbi367110	Fungi	Ascomycota	Sordariomycetes	Sordariales	Sordariaceae	Neurospora	Neurospora crassa	9.262466	2.015358	Neurospora crassa
+ncbi36723	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Mustela	Mustela erminea	21.259188	29.298918	Mustela erminea
+ncbi3673	Viridiplantae	Streptophyta	Magnoliopsida	Cucurbitales	Cucurbitaceae	Momordica	Momordica charantia	-5.8659844	4.5458755	Momordica charantia
+ncbi367775	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cryptococcaceae	Cryptococcus	Cryptococcus gattii	12.367506	2.9129367	Cryptococcus gattii
+ncbi3694	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Salicaceae	Populus	Populus trichocarpa	-6.1845765	4.4730964	Populus trichocarpa
+ncbi37003	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Rivulidae	Kryptolebias	Kryptolebias marmoratus	20.347591	30.465502	Kryptolebias marmoratus
+ncbi3702	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Arabidopsis	Arabidopsis thaliana	-5.098249	4.60643	Arabidopsis thaliana
+ncbi37029	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Prionailurus	Prionailurus bengalensis	17.248186	30.374475	Prionailurus bengalensis
+ncbi37032	Metazoa	Chordata	Mammalia	Carnivora	Herpestidae	Suricata	Suricata suricatta	43.799004	23.430777	Suricata suricatta
+ncbi370354		Evosea		Mastigamoebida	Entamoebidae	Entamoeba	Entamoeba dispar	30.219318	-1.3693242	Entamoeba dispar
+ncbi370355		Evosea		Mastigamoebida	Entamoebidae	Entamoeba	Entamoeba invadens	30.15504	-1.5568521	Entamoeba invadens
+ncbi37040	Metazoa	Chordata	Aves	Gaviiformes	Gaviidae	Gavia	Gavia stellata	44.03243	23.26215	Gavia stellata
+ncbi3708	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Brassica	Brassica napus	-5.1115165	4.681067	Brassica napus
+ncbi3711	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Brassica	Brassica rapa	-5.080472	4.610283	Brassica rapa
+ncbi3726	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Raphanus	Raphanus sativus	-5.1240387	4.6246357	Raphanus sativus
+ncbi37293	Metazoa	Chordata	Mammalia	Primates	Aotidae	Aotus	Aotus nancymaae	17.514797	30.60277	Aotus nancymaae
+ncbi37344	Metazoa	Arthropoda	Insecta	Hymenoptera	Athaliidae	Athalia	Athalia rosae	17.066875	30.220179	Athalia rosae
+ncbi3750	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Malus	Malus domestica	-5.7092786	4.371828	Malus domestica
+ncbi3755	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Prunus	Prunus dulcis	-5.735189	5.2130485	Prunus dulcis
+ncbi375764	Metazoa	Chordata	Actinopteri	Kurtiformes	Apogonidae	Sphaeramia	Sphaeramia orbicularis	44.130314	22.782307	Sphaeramia orbicularis
+ncbi3760	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Prunus	Prunus persica	-5.7465563	5.161578	Prunus persica
+ncbi37621	Metazoa	Priapulida	Priapulimorpha	Priapulimorphida	Priapulidae	Priapulus	Priapulus caudatus	10.973928	33.409073	Priapulus caudatus
+ncbi37653	Metazoa	Mollusca	Cephalopoda	Octopoda	Octopodidae	Octopus	Octopus bimaculoides	0.06862929	18.453232	Octopus bimaculoides
+ncbi379508	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Lodderomyces	Lodderomyces elongisporus	15.482862	5.494276	Lodderomyces elongisporus
+ncbi379532	Metazoa	Chordata	Mammalia	Primates	Indriidae	Propithecus	Propithecus coquereli	19.766645	30.896702	Propithecus coquereli
+ncbi381198	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Anser	Anser cygnoides	44.035507	23.229513	Anser cygnoides
+ncbi3816	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Abrus	Abrus precatorius	-6.276092	4.546789	Abrus precatorius
+ncbi3818	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Arachis	Arachis hypogaea	-5.5829434	4.6800656	Arachis hypogaea
+ncbi3821	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Cajanus	Cajanus cajan	-6.0183635	4.8825073	Cajanus cajan
+ncbi3827	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Cicer	Cicer arietinum	-6.2415347	5.1025133	Cicer arietinum
+ncbi38358	Metazoa	Arthropoda	Insecta	Diptera	Sciaridae	Bradysia	Bradysia coprophila	-0.4146837	18.359156	Bradysia coprophila
+ncbi383855	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Pseudocercospora	Pseudocercospora fijiensis	6.8040805	2.4154754	Pseudocercospora fijiensis
+ncbi3847	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Glycine	Glycine max	-6.1531353	4.813268	Glycine max
+ncbi3848	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Glycine	Glycine soja	-6.1364017	4.7725134	Glycine soja
+ncbi38626	Metazoa	Chordata	Mammalia	Diprotodontia	Phascolarctidae	Phascolarctos	Phascolarctos cinereus	21.157804	29.221382	Phascolarctos cinereus
+ncbi38654	Metazoa	Chordata		Crocodylia	Alligatoridae	Alligator	Alligator sinensis	30.241964	-1.3887078	Alligator sinensis
+ncbi386614	Metazoa	Chordata	Chondrichthyes	Rajiformes	Rajidae	Amblyraja	Amblyraja radiata	20.605217	32.91963	Amblyraja radiata
+ncbi38674	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Onychomys	Onychomys torridus	19.599598	30.147022	Onychomys torridus
+ncbi3871	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Lupinus	Lupinus angustifolius	-5.8806543	5.134746	Lupinus angustifolius
+ncbi38727	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Panicum	Panicum virgatum	-6.4084606	5.1768804	Panicum virgatum
+ncbi3880	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Medicago	Medicago truncatula	-6.2832966	4.5809484	Medicago truncatula
+ncbi3885	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Phaseolus	Phaseolus vulgaris	-5.8529463	5.1769156	Phaseolus vulgaris
+ncbi390379	Metazoa	Chordata	Actinopteri	Batrachoidiformes	Batrachoididae	Thalassophryne	Thalassophryne amazonica	21.054909	29.400185	Thalassophryne amazonica
+ncbi390896	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Trematosphaeriaceae	Trematosphaeria	Trematosphaeria pertusa	6.3743763	1.3062707	Trematosphaeria pertusa
+ncbi391180	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Enhydra	Enhydra lutris	21.23823	29.114677	Enhydra lutris
+ncbi3914	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Vigna	Vigna angularis	-5.704804	5.0640144	Vigna angularis
+ncbi3916	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Vigna	Vigna radiata	-5.3776464	4.8317666	Vigna radiata
+ncbi3917	Viridiplantae	Streptophyta	Magnoliopsida	Fabales	Fabaceae	Vigna	Vigna unguiculata	-5.841757	5.1384277	Vigna unguiculata
+ncbi39432	Metazoa	Chordata	Mammalia	Primates	Cebidae	Saimiri	Saimiri boliviensis	17.317133	30.351082	Saimiri boliviensis
+ncbi396416	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Bombus	Bombus pyrosoma	-10.97985	21.054888	Bombus pyrosoma
+ncbi3981	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	Hevea	Hevea brasiliensis	-5.9190316	4.537839	Hevea brasiliensis
+ncbi3983	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	Manihot	Manihot esculenta	-5.3818517	4.3848224	Manihot esculenta
+ncbi398673	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma gamsii	8.8992195	2.2489092	Trichoderma gamsii
+ncbi3988	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Euphorbiaceae	Ricinus	Ricinus communis	-5.906007	4.360158	Ricinus communis
+ncbi39947	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Oryza	Oryza sativa	-6.242492	5.3513207	Oryza sativa
+ncbi400682	Metazoa	Porifera	Demospongiae	Haplosclerida	Niphatidae	Amphimedon	Amphimedon queenslandica	29.487427	-3.2931616	Amphimedon queenslandica
+ncbi400727	Metazoa	Mollusca	Gastropoda	Architaenioglossa	Ampullariidae	Pomacea	Pomacea canaliculata	-0.44640976	18.292551	Pomacea canaliculata
+ncbi40151	Metazoa	Chordata	Mammalia	Artiodactyla	Monodontidae	Monodon	Monodon monoceros	21.51947	29.158152	Monodon monoceros
+ncbi402676	Fungi	Ascomycota	Schizosaccharomycetes	Schizosaccharomycetales	Schizosaccharomycetaceae	Schizosaccharomyces	Schizosaccharomyces japonicus	15.320031	5.1231914	Schizosaccharomyces japonicus
+ncbi40302	Fungi	Microsporidia			Nosematidae	Vairimorpha	Vairimorpha ceranae	30.526344	-2.5324771	Vairimorpha ceranae
+ncbi403677		Oomycota		Peronosporales	Peronosporaceae	Phytophthora	Phytophthora infestans	13.270873	4.733849	Phytophthora infestans
+ncbi40690	Metazoa	Chordata	Actinopteri	Perciformes	Nototheniidae	Trematomus	Trematomus bernacchii	17.278097	30.439285	Trematomus bernacchii
+ncbi4072	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Capsicum	Capsicum annuum	-5.6402044	4.932658	Capsicum annuum
+ncbi4081	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Solanum	Solanum lycopersicum	-5.8445206	5.078034	Solanum lycopersicum
+ncbi4096	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Nicotiana	Nicotiana sylvestris	-5.785104	4.962887	Nicotiana sylvestris
+ncbi4097	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Nicotiana	Nicotiana tabacum	-5.7925057	4.90159	Nicotiana tabacum
+ncbi4098	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Nicotiana	Nicotiana tomentosiformis	-5.9666524	4.719522	Nicotiana tomentosiformis
+ncbi409849	Metazoa	Chordata	Actinopteri	Gobiiformes	Gobiidae	Periophthalmus	Periophthalmus magnuspinnatus	18.318027	30.536598	Periophthalmus magnuspinnatus
+ncbi41047	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus thermomutatus	6.2782063	2.7259755	Aspergillus thermomutatus
+ncbi41067	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus candidus	6.517305	2.693704	Aspergillus candidus
+ncbi41117	Metazoa	Arthropoda	Thecostraca	Pollicipedomorpha	Pollicipedidae	Pollicipes	Pollicipes pollicipes	-10.472971	20.069534	Pollicipes pollicipes
+ncbi4113	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Solanum	Solanum tuberosum	-5.4555063	4.9847765	Solanum tuberosum
+ncbi411798	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Vollenhovia	Vollenhovia emeryi	-11.025829	20.044178	Vollenhovia emeryi
+ncbi412030		Ciliophora	Oligohymenophorea	Peniculida	Parameciidae	Paramecium	Paramecium tetraurelia	29.831089	-3.0446293	Paramecium tetraurelia
+ncbi412133		Parabasalia		Trichomonadida	Trichomonadidae	Trichomonas	Trichomonas vaginalis	11.824797	32.58658	Trichomonas vaginalis
+ncbi413071	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma virens	9.149257	2.3243961	Trichoderma virens
+ncbi41447	Metazoa	Chordata	Actinopteri	Carangiformes	Carangidae	Seriola	Seriola dumerili	43.912308	23.173183	Seriola dumerili
+ncbi415028	Metazoa	Chordata	Aves	Passeriformes	Pipridae	Corapipo	Corapipo altera	42.796215	24.689423	Corapipo altera
+ncbi4155	Viridiplantae	Streptophyta	Magnoliopsida	Lamiales	Phrymaceae	Erythranthe	Erythranthe guttata	-5.197468	4.5026026	Erythranthe guttata
+ncbi417921	Metazoa	Chordata	Actinopteri	Perciformes	Percidae	Etheostoma	Etheostoma cragini	17.261997	30.41672	Etheostoma cragini
+ncbi4182	Viridiplantae	Streptophyta	Magnoliopsida	Lamiales	Pedaliaceae	Sesamum	Sesamum indicum	-6.062055	5.1455984	Sesamum indicum
+ncbi418459	Fungi	Basidiomycota	Pucciniomycetes	Pucciniales	Pucciniaceae	Puccinia	Puccinia graminis	13.11103	4.5174837	Puccinia graminis
+ncbi41875	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Bathycoccus	Bathycoccus prasinos	30.201532	-3.1224365	Bathycoccus prasinos
+ncbi418784	Fungi	Ascomycota	Pichiomycetes	Serinales	Metschnikowiaceae	Candidozyma	Candidozyma pseudohaemuli	13.405678	3.4039261	Candidozyma pseudohaemuli
+ncbi41895	Metazoa	Arthropoda	Insecta	Coleoptera	Tenebrionidae	Tribolium	Tribolium madens	-10.875705	19.931496	Tribolium madens
+ncbi419612	Metazoa	Chordata	Mammalia	Artiodactyla	Camelidae	Camelus	Camelus ferus	19.34289	30.712694	Camelus ferus
+ncbi420245		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania	Leishmania braziliensis	30.374758	-2.809271	Leishmania braziliensis
+ncbi42026	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila bipectinata	9.861298	36.352325	Drosophila bipectinata
+ncbi42100	Metazoa	Chordata	Mammalia	Artiodactyla	Phocoenidae	Phocoena	Phocoena sinus	20.378696	30.44595	Phocoena sinus
+ncbi42229	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Prunus	Prunus avium	-5.753885	5.175881	Prunus avium
+ncbi42254	Metazoa	Chordata	Mammalia	Eulipotyphla	Soricidae	Sorex	Sorex araneus	19.733086	31.36756	Sorex araneus
+ncbi42260	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Zygotorulaspora	Zygotorulaspora mrakii	15.489531	5.531479	Zygotorulaspora mrakii
+ncbi4232	Viridiplantae	Streptophyta	Magnoliopsida	Asterales	Asteraceae	Helianthus	Helianthus annuus	-6.154854	5.025352	Helianthus annuus
+ncbi42345	Viridiplantae	Streptophyta	Magnoliopsida	Arecales	Arecaceae	Phoenix	Phoenix dactylifera	-6.347323	4.7075033	Phoenix dactylifera
+ncbi423536		Perkinsozoa		Perkinsida	Perkinsidae	Perkinsus	Perkinsus marinus	29.755741	-3.3043618	Perkinsus marinus
+ncbi4236	Viridiplantae	Streptophyta	Magnoliopsida	Asterales	Asteraceae	Lactuca	Lactuca sativa	-5.9979334	4.468772	Lactuca sativa
+ncbi42434	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Culex	Culex pipiens	9.784376	36.42992	Culex pipiens
+ncbi425011	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus niger	7.4600096	2.7792747	Aspergillus niger
+ncbi42514	Metazoa	Chordata	Actinopteri	Characiformes	Serrasalmidae	Pygocentrus	Pygocentrus nattereri	11.307891	33.67285	Pygocentrus nattereri
+ncbi42526	Metazoa	Chordata	Actinopteri	Characiformes	Serrasalmidae	Colossoma	Colossoma macropomum	11.346945	33.69952	Colossoma macropomum
+ncbi425265	Fungi	Basidiomycota	Malasseziomycetes	Malasseziales	Malasseziaceae	Malassezia	Malassezia globosa	15.6811695	5.670217	Malassezia globosa
+ncbi426418	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Pyrenophora	Pyrenophora tritici-repentis	6.2733855	1.3305541	Pyrenophora tritici-repentis
+ncbi426428	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium oxysporum	7.3192163	-0.077706106	Fusarium oxysporum
+ncbi42677	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium subglutinans	7.317098	-0.12962957	Fusarium subglutinans
+ncbi431241	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma reesei	9.162653	2.3164392	Trichoderma reesei
+ncbi43146	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Rhopalosiphum	Rhopalosiphum maidis	-10.866763	19.895615	Rhopalosiphum maidis
+ncbi43150	Metazoa	Chordata	Aves	Passeriformes	Hirundinidae	Hirundo	Hirundo rustica	21.8136	30.684551	Hirundo rustica
+ncbi43179	Metazoa	Chordata	Mammalia	Rodentia	Sciuridae	Ictidomys	Ictidomys tridecemlineatus	19.599598	30.129139	Ictidomys tridecemlineatus
+ncbi431895			Choanoflagellata	Craspedida	Salpingoecidae	Monosiga	Monosiga brevicollis	30.346788	-1.2495452	Monosiga brevicollis
+ncbi43335	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Salicaceae	Populus	Populus alba	-6.378776	4.290299	Populus alba
+ncbi433405	Metazoa	Chordata	Actinopteri	Perciformes	Anarhichadidae	Anarrhichthys	Anarrhichthys ocellatus	43.95819	23.126747	Anarrhichthys ocellatus
+ncbi43346	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bison	Bison bison	11.315123	33.689545	Bison bison
+ncbi435258		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania	Leishmania infantum	30.263868	-3.0892587	Leishmania infantum
+ncbi436017	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Ostreococcus	Ostreococcus sp. 'lucimarinus'	43.617085	23.119055	Ostreococcus sp. 'lucimarinus'
+ncbi43689	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Simochromis	Simochromis diagramma	21.464413	29.178284	Simochromis diagramma
+ncbi436907	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Vanderwaltozyma	Vanderwaltozyma polyspora	15.555164	5.386659	Vanderwaltozyma polyspora
+ncbi43700	Metazoa	Chordata	Actinopteri	Synbranchiformes	Synbranchidae	Monopterus	Monopterus albus	44.016644	23.102474	Monopterus albus
+ncbi44056			Pelagophyceae	Pelagomonadales	Pelagomonadaceae	Aureococcus	Aureococcus anophagefferens	12.837843	3.2296946	Aureococcus anophagefferens
+ncbi441366	Metazoa	Chordata	Actinopteri	Blenniiformes	Gobiesocidae	Gouania	Gouania willdenowi	9.8573	36.355804	Gouania willdenowi
+ncbi441375		Apicomplexa	Conoidasida	Eucoccidiorida	Cryptosporidiidae	Cryptosporidium	Cryptosporidium muris	30.126482	-3.6573882	Cryptosporidium muris
+ncbi441894	Metazoa	Chordata	Aves	Struthioniformes	Struthionidae	Struthio	Struthio camelus	43.81553	23.184687	Struthio camelus
+ncbi441921	Metazoa	Arthropoda	Insecta	Hymenoptera	Diprionidae	Neodiprion	Neodiprion lecontei	-10.874426	19.89857	Neodiprion lecontei
+ncbi441959	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Talaromyces	Talaromyces stipitatus	9.261241	2.4184804	Talaromyces stipitatus
+ncbi441960	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Trichocomaceae	Talaromyces	Talaromyces marneffei	7.310983	2.3847458	Talaromyces marneffei
+ncbi4432	Viridiplantae	Streptophyta	Magnoliopsida	Proteales	Nelumbonaceae	Nelumbo	Nelumbo nucifera	-6.0945597	4.7493258	Nelumbo nucifera
+ncbi44394	Metazoa	Chordata	Aves	Passeriformes	Passerellidae	Zonotrichia	Zonotrichia albicollis	42.650993	24.838146	Zonotrichia albicollis
+ncbi44415		Apicomplexa	Conoidasida	Eucoccidiorida	Eimeriidae	Eimeria	Eimeria mitis	30.102106	-3.6898868	Eimeria mitis
+ncbi4442	Viridiplantae	Streptophyta	Magnoliopsida	Ericales	Theaceae	Camellia	Camellia sinensis	-6.432747	4.419221	Camellia sinensis
+ncbi45133	Fungi	Ascomycota	Dothideomycetes	Botryosphaeriales	Botryosphaeriaceae	Lasiodiplodia	Lasiodiplodia theobromae	6.5804048	1.495474	Lasiodiplodia theobromae
+ncbi451745	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Rivulidae	Nematolebias	Nematolebias whitei	17.200766	30.387903	Nematolebias whitei
+ncbi452589	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma atroviride	8.882098	2.279371	Trichoderma atroviride
+ncbi45264	Metazoa	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora	Acropora millepora	-0.2125747	18.078274	Acropora millepora
+ncbi45286	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Eremothecium	Eremothecium sinecaudum	15.40698	5.5405807	Eremothecium sinecaudum
+ncbi4533	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Oryza	Oryza brachyantha	-6.236556	5.259539	Oryza brachyantha
+ncbi45351	Metazoa	Cnidaria	Anthozoa	Actiniaria	Edwardsiidae	Nematostella	Nematostella vectensis	-0.18737477	18.052435	Nematostella vectensis
+ncbi45357	Fungi	Ascomycota	Pichiomycetes	Serinales	Metschnikowiaceae	Candidozyma	Candidozyma haemuli	13.327592	3.306686	Candidozyma haemuli
+ncbi454923	Metazoa	Arthropoda	Insecta	Hymenoptera	Braconidae	Diachasma	Diachasma alloeum	-10.548861	19.609497	Diachasma alloeum
+ncbi45513	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Scheffersomyces	Scheffersomyces spartinae	13.332567	3.3164985	Scheffersomyces spartinae
+ncbi4555	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Setaria	Setaria italica	-6.296232	5.1111274	Setaria italica
+ncbi4556	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Setaria	Setaria viridis	-6.3313804	5.080366	Setaria viridis
+ncbi4558	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Sorghum	Sorghum bicolor	-6.349481	4.954125	Sorghum bicolor
+ncbi45607	Fungi	Ascomycota	Dipodascomycetes	Dipodascales	Trichomonascaceae	Wickerhamiella	Wickerhamiella sorbophila	15.505206	5.5691614	Wickerhamiella sorbophila
+ncbi456900	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Cyphomyrmex	Cyphomyrmex costatus	-10.773316	21.251091	Cyphomyrmex costatus
+ncbi456999	Fungi	Basidiomycota	Agaricomycetes	Cantharellales	Ceratobasidiaceae	Rhizoctonia	Rhizoctonia solani	6.6514707	0.100550726	Rhizoctonia solani
+ncbi4577	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Zea	Zea mays	-6.3261027	4.6657677	Zea mays
+ncbi458696	Viridiplantae	Streptophyta	Magnoliopsida	Celastrales	Celastraceae	Tripterygium	Tripterygium wilfordii	-5.72701	4.7389774	Tripterygium wilfordii
+ncbi460523	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Ogataea	Ogataea polymorpha	13.255445	3.3010747	Ogataea polymorpha
+ncbi460826	Metazoa	Arthropoda	Insecta	Hymenoptera	Braconidae	Chelonus	Chelonus insularis	21.369703	29.134695	Chelonus insularis
+ncbi4615	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Bromeliaceae	Ananas	Ananas comosus	-6.22753	5.263046	Ananas comosus
+ncbi461836				Apusomonadida	Apusomonadidae	Thecamonas	Thecamonas trahens	14.122959	5.3854723	Thecamonas trahens
+ncbi462227		Apicomplexa	Aconoidasida	Piroplasmida	Babesiidae	Babesia	Babesia sp. Xinjiang	30.20689	-3.7360785	Babesia sp. Xinjiang
+ncbi464988			Cryptophyceae	Cryptomonadales	Hemiselmidaceae	Hemiselmis	Hemiselmis andersenii	30.542791	-2.5189905	Hemiselmis andersenii
+ncbi46514	Metazoa	Echinodermata	Asteroidea	Valvatida	Asterinidae	Patiria	Patiria miniata	-10.329828	20.91157	Patiria miniata
+ncbi46731	Metazoa	Cnidaria	Anthozoa	Scleractinia	Pocilloporidae	Pocillopora	Pocillopora damicornis	-0.18704885	18.104546	Pocillopora damicornis
+ncbi4686	Viridiplantae	Streptophyta	Magnoliopsida	Asparagales	Asparagaceae	Asparagus	Asparagus officinalis	-5.6734133	4.668102	Asparagus officinalis
+ncbi470096	Fungi	Ascomycota	Dothideomycetes	Acrospermales	Acrospermaceae	Pseudovirgaria	Pseudovirgaria hyperparasitica	6.6385684	1.5855343	Pseudovirgaria hyperparasitica
+ncbi471704	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Trachymyrmex	Trachymyrmex cornetzi	-10.798925	21.29551	Trachymyrmex cornetzi
+ncbi47314	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila novamexicana	9.800278	36.412834	Drosophila novamexicana
+ncbi473952	Metazoa	Arthropoda	Insecta	Hymenoptera	Megachilidae	Osmia	Osmia lignaria	-10.928619	21.262852	Osmia lignaria
+ncbi4781		Oomycota		Peronosporales	Peronosporaceae	Plasmopara	Plasmopara halstedii	13.402092	4.8515615	Plasmopara halstedii
+ncbi47969	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Oreochromis	Oreochromis aureus	20.19582	30.583166	Oreochromis aureus
+ncbi481459	Metazoa	Chordata	Actinopteri	Perciformes	Gasterosteidae	Gasterosteus	Gasterosteus aculeatus	17.132278	30.383528	Gasterosteus aculeatus
+ncbi482537	Metazoa	Chordata	Mammalia	Dermoptera	Cynocephalidae	Galeopterus	Galeopterus variegatus	21.583357	29.389128	Galeopterus variegatus
+ncbi48254	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Torulaspora	Torulaspora globosa	15.501812	5.56819	Torulaspora globosa
+ncbi483514	Fungi	Ascomycota	Schizosaccharomycetes	Schizosaccharomycetales	Schizosaccharomycetaceae	Schizosaccharomyces	Schizosaccharomyces octosporus	15.357874	5.197581	Schizosaccharomyces octosporus
+ncbi484906		Apicomplexa	Aconoidasida	Piroplasmida	Babesiidae	Babesia	Babesia bovis	30.16211	-3.6523724	Babesia bovis
+ncbi48498	Metazoa	Cnidaria	Anthozoa	Scleractinia	Merulinidae	Orbicella	Orbicella faveolata	-10.836814	19.884876	Orbicella faveolata
+ncbi48563	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus bovinus	12.20121	1.5629992	Suillus bovinus
+ncbi48578	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus paluster	12.183675	1.5548006	Suillus paluster
+ncbi48586	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus subalutaceus	12.1828785	1.5681654	Suillus subalutaceus
+ncbi48587	Fungi	Basidiomycota	Agaricomycetes	Boletales	Suillaceae	Suillus	Suillus subaureus	12.173706	1.5401897	Suillus subaureus
+ncbi486041	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Hydnangiaceae	Laccaria	Laccaria bicolor	12.246296	1.5513757	Laccaria bicolor
+ncbi486640	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Odontomachus	Odontomachus brunneus	21.649693	29.25096	Odontomachus brunneus
+ncbi48698	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia	Poecilia formosa	44.063526	23.280685	Poecilia formosa
+ncbi48699	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia	Poecilia latipinna	43.989895	23.274534	Poecilia latipinna
+ncbi48701	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia	Poecilia mexicana	44.03311	23.27895	Poecilia mexicana
+ncbi48883	Metazoa	Chordata	Aves	Passeriformes	Thraupidae	Geospiza	Geospiza fortis	43.110058	24.2515	Geospiza fortis
+ncbi4896	Fungi	Ascomycota	Schizosaccharomycetes	Schizosaccharomycetales	Schizosaccharomycetaceae	Schizosaccharomyces	Schizosaccharomyces pombe	15.402377	5.2535105	Schizosaccharomyces pombe
+ncbi4909	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Pichia	Pichia kudriavzevii	15.441673	5.489587	Pichia kudriavzevii
+ncbi491861	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Grammomys	Grammomys surdaster	19.75289	30.45444	Grammomys surdaster
+ncbi49369	Viridiplantae	Streptophyta	Magnoliopsida	Gentianales	Rubiaceae	Coffea	Coffea eugenioides	-6.0040393	4.458794	Coffea eugenioides
+ncbi49451	Viridiplantae	Streptophyta	Magnoliopsida	Solanales	Solanaceae	Nicotiana	Nicotiana attenuata	-5.8819504	5.0461617	Nicotiana attenuata
+ncbi494514	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Vulpes	Vulpes lagopus	21.429018	29.213867	Vulpes lagopus
+ncbi4950	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Torulaspora	Torulaspora delbrueckii	15.493526	5.439095	Torulaspora delbrueckii
+ncbi4956	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Zygosaccharomyces	Zygosaccharomyces rouxii	15.447658	5.553887	Zygosaccharomyces rouxii
+ncbi498019	Fungi	Ascomycota	Pichiomycetes	Serinales	Metschnikowiaceae	Candidozyma	Candidozyma auris	15.661335	5.429572	Candidozyma auris
+ncbi498257	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Plectosphaerellaceae	Verticillium	Verticillium dahliae	7.095539	-0.1552706	Verticillium dahliae
+ncbi4999	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Cuniculitremaceae	Kockovaella	Kockovaella imperatae	12.194987	3.0656178	Kockovaella imperatae
+ncbi500485	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium rubens	6.8477554	2.5486984	Penicillium rubens
+ncbi5007	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Brettanomyces	Brettanomyces bruxellensis	15.614269	5.436275	Brettanomyces bruxellensis
+ncbi502779	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Ajellomycetaceae	Paracoccidioides	Paracoccidioides lutzii	11.543244	3.1920562	Paracoccidioides lutzii
+ncbi502780	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Ajellomycetaceae	Paracoccidioides	Paracoccidioides brasiliensis	11.534282	3.241463	Paracoccidioides brasiliensis
+ncbi50390	Metazoa	Arthropoda	Insecta	Coleoptera	Chrysomelidae	Diabrotica	Diabrotica virgifera	13.830448	5.649628	Diabrotica virgifera
+ncbi50402	Metazoa	Chordata	Aves	Charadriiformes	Charadriidae	Charadrius	Charadrius vociferus	44.04247	23.233124	Charadrius vociferus
+ncbi50429	Metazoa	Cnidaria	Anthozoa	Scleractinia	Pocilloporidae	Stylophora	Stylophora pistillata	-0.23673838	18.087	Stylophora pistillata
+ncbi5068	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus tubingensis	7.501841	2.7064784	Aspergillus tubingensis
+ncbi5078	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium griseofulvum	6.9857745	2.6273608	Penicillium griseofulvum
+ncbi5082	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium roqueforti	6.791859	2.6694777	Penicillium roqueforti
+ncbi508771		Apicomplexa	Conoidasida	Eucoccidiorida	Sarcocystidae	Toxoplasma	Toxoplasma gondii	12.10675	32.405064	Toxoplasma gondii
+ncbi50954	Metazoa	Chordata	Mammalia	Eulipotyphla	Talpidae	Talpa	Talpa occidentalis	17.164957	30.268932	Talpa occidentalis
+ncbi51031	Metazoa	Nematoda	Chromadorea	Rhabditida	Ancylostomatidae	Necator	Necator americanus	11.026168	33.298176	Necator americanus
+ncbi510516	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus oryzae	6.125012	3.079046	Aspergillus oryzae
+ncbi510951	Fungi	Ascomycota	Sordariomycetes	Sordariales	Sordariaceae	Neurospora	Neurospora tetrasperma	9.304365	2.0693913	Neurospora tetrasperma
+ncbi51240	Viridiplantae	Streptophyta	Magnoliopsida	Fagales	Juglandaceae	Juglans	Juglans regia	-5.9087076	4.670878	Juglans regia
+ncbi51298	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Myotis	Myotis myotis	17.215445	30.241713	Myotis myotis
+ncbi51315		Apicomplexa	Conoidasida	Eucoccidiorida	Eimeriidae	Eimeria	Eimeria necatrix	30.402847	-2.71864	Eimeria necatrix
+ncbi51337	Metazoa	Chordata	Mammalia	Rodentia	Dipodidae	Jaculus	Jaculus jaculus	19.719896	31.001629	Jaculus jaculus
+ncbi51338	Metazoa	Chordata	Mammalia	Rodentia	Castoridae	Castor	Castor canadensis	17.164038	30.159548	Castor canadensis
+ncbi515849	Fungi	Ascomycota	Sordariomycetes	Sordariales	Podosporaceae	Podospora	Podospora anserina	9.26979	1.9895773	Podospora anserina
+ncbi51637		Heterolobosea			Vahlkampfiidae	Naegleria	Naegleria lovaniensis	43.935608	22.537252	Naegleria lovaniensis
+ncbi51655	Metazoa	Arthropoda	Insecta	Lepidoptera	Plutellidae	Plutella	Plutella xylostella	17.231834	30.257795	Plutella xylostella
+ncbi516756	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Eufriesea	Eufriesea mexicana	-11.005055	21.003925	Eufriesea mexicana
+ncbi51953	Viridiplantae	Streptophyta	Magnoliopsida	Arecales	Arecaceae	Elaeis	Elaeis guineensis	-5.971001	5.0091977	Elaeis guineensis
+ncbi520822	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Atta	Atta colombica	-11.005435	20.126238	Atta colombica
+ncbi52239	Metazoa	Chordata	Actinopteri	Perciformes	Channichthyidae	Pseudochaenichthys	Pseudochaenichthys georgianus	18.162447	30.456999	Pseudochaenichthys georgianus
+ncbi526221	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Plectosphaerellaceae	Verticillium	Verticillium alfalfae	7.1298	-0.12616172	Verticillium alfalfae
+ncbi52644	Metazoa	Chordata	Aves	Accipitriformes	Accipitridae	Haliaeetus	Haliaeetus leucocephalus	43.31689	24.004946	Haliaeetus leucocephalus
+ncbi52670	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Rivulidae	Austrofundulus	Austrofundulus limnaeus	44.09491	23.31029	Austrofundulus limnaeus
+ncbi52904	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Scophthalmidae	Scophthalmus	Scophthalmus maximus	20.351004	30.47564	Scophthalmus maximus
+ncbi5322	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Pleurotaceae	Pleurotus	Pleurotus ostreatus	11.570942	1.062852	Pleurotus ostreatus
+ncbi535722	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Nannizzia	Nannizzia gypsea	11.601017	3.2805007	Nannizzia gypsea
+ncbi54180	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Trachypithecus	Trachypithecus francoisi	19.737696	31.300238	Trachypithecus francoisi
+ncbi54343	Metazoa	Chordata	Actinopteri	Perciformes	Percidae	Etheostoma	Etheostoma spectabile	17.330814	30.275286	Etheostoma spectabile
+ncbi543639	Metazoa	Arthropoda	Arachnida	Ixodida	Ixodidae	Dermacentor	Dermacentor silvarum	12.325074	32.248753	Dermacentor silvarum
+ncbi54374	Metazoa	Chordata	Aves	Mesitornithiformes	Mesitornithidae	Mesitornis	Mesitornis unicolor	44.072014	22.647728	Mesitornis unicolor
+ncbi54380	Metazoa	Chordata	Aves	Cariamiformes	Cariamidae	Cariama	Cariama cristata	44.04127	22.634478	Cariama cristata
+ncbi54383	Metazoa	Chordata	Aves	Eurypygiformes	Eurypygidae	Eurypyga	Eurypyga helias	44.089397	22.598127	Eurypyga helias
+ncbi5454	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Didymellaceae	Ascochyta	Ascochyta rabiei	6.291761	1.2386347	Ascochyta rabiei
+ncbi5467	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum truncatum	6.7336802	0.039000675	Colletotrichum truncatum
+ncbi54757		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium vinckei	30.05542	-3.7534094	Plasmodium vinckei
+ncbi5478	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Nakaseomyces	Nakaseomyces glabratus	15.464925	5.6012716	Nakaseomyces glabratus
+ncbi5480	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Candida	Candida parapsilosis	13.305325	3.2548137	Candida parapsilosis
+ncbi5481	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Diutina	Diutina rugosa	15.491447	5.546888	Diutina rugosa
+ncbi54955	Viridiplantae	Streptophyta	Magnoliopsida	Proteales	Proteaceae	Telopea	Telopea speciosissima	-6.2353897	4.4282994	Telopea speciosissima
+ncbi55291	Metazoa	Chordata	Cladistia	Polypteriformes	Polypteridae	Polypterus	Polypterus senegalus	17.681547	30.270937	Polypterus senegalus
+ncbi554065	Viridiplantae	Chlorophyta	Trebouxiophyceae	Chlorellales	Chlorellaceae	Chlorella	Chlorella variabilis	11.286105	32.692368	Chlorella variabilis
+ncbi554155	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Microsporum	Microsporum canis	11.561726	3.261567	Microsporum canis
+ncbi55513	Viridiplantae	Streptophyta	Magnoliopsida	Sapindales	Anacardiaceae	Pistacia	Pistacia vera	-6.0322995	4.5067863	Pistacia vera
+ncbi55577	Viridiplantae	Streptophyta	Magnoliopsida	Dioscoreales	Dioscoreaceae	Dioscorea	Dioscorea cayenensis	-6.168049	4.886764	Dioscorea cayenensis
+ncbi556484		Bacillariophyta	Bacillariophyceae	Naviculales	Phaeodactylaceae	Phaeodactylum	Phaeodactylum tricornutum	14.23135	4.721774	Phaeodactylum tricornutum
+ncbi55661	Metazoa	Chordata	Aves	Cuculiformes	Cuculidae	Cuculus	Cuculus canorus	43.01449	24.363352	Cuculus canorus
+ncbi559292	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Saccharomyces	Saccharomyces cerevisiae	14.638128	5.144424	Saccharomyces cerevisiae
+ncbi559295	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Lachancea	Lachancea thermotolerans	15.456975	5.546038	Lachancea thermotolerans
+ncbi559298	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Ajellomycetaceae	Blastomyces	Blastomyces gilchristii	11.524818	3.180094	Blastomyces gilchristii
+ncbi559305	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton	Trichophyton rubrum	11.615306	3.300439	Trichophyton rubrum
+ncbi5599	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Alternaria	Alternaria alternata	6.3149495	1.268554	Alternaria alternata
+ncbi560253	Fungi	Ascomycota	Lecanoromycetes	Lecanorales	Parmeliaceae	Letharia	Letharia lupina	11.350969	3.08576	Letharia lupina
+ncbi561572	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Frieseomelitta	Frieseomelitta varia	-10.815596	21.299805	Frieseomelitta varia
+ncbi56313	Metazoa	Chordata	Aves	Strigiformes	Tytonidae	Tyto	Tyto alba	21.697897	30.28815	Tyto alba
+ncbi563466	Fungi	Ascomycota	Sordariomycetes	Microascales	Microascaceae	Scedosporium	Scedosporium apiospermum	9.482736	2.052853	Scedosporium apiospermum
+ncbi564608	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Mamiellaceae	Micromonas	Micromonas pusilla	30.023037	-3.7012863	Micromonas pusilla
+ncbi5661		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania	Leishmania donovani	30.230478	-3.1651523	Leishmania donovani
+ncbi56646	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium venenatum	7.271884	-0.041507646	Fusarium venenatum
+ncbi56716	Metazoa	Chordata	Actinopteri	Perciformes	Bovichtidae	Cottoperca	Cottoperca gobio	43.733887	23.5182	Cottoperca gobio
+ncbi56723	Metazoa	Chordata	Actinopteri	Labriformes	Labridae	Labrus	Labrus bergylta	43.76773	23.462952	Labrus bergylta
+ncbi5679		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania	Leishmania panamensis	30.416004	-2.7080994	Leishmania panamensis
+ncbi569365	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Cladophialophora	Cladophialophora immunda	10.480011	3.0835912	Cladophialophora immunda
+ncbi5698		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma rangeli	30.525358	-2.5388658	Trypanosoma rangeli
+ncbi57068	Metazoa	Chordata	Aves	Passeriformes	Acanthisittidae	Acanthisitta	Acanthisitta chloris	44.087322	22.632212	Acanthisitta chloris
+ncbi572307		Apicomplexa	Conoidasida	Eucoccidiorida	Sarcocystidae	Neospora	Neospora caninum	11.833241	32.581676	Neospora caninum
+ncbi573729	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermothelomyces	Thermothelomyces thermophilus	7.1262197	0.6711591	Thermothelomyces thermophilus
+ncbi573826	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Candida	Candida dubliniensis	13.184853	3.214174	Candida dubliniensis
+ncbi57397	Metazoa	Chordata	Aves	Trogoniformes	Trogonidae	Apaloderma	Apaloderma vittatum	44.010437	22.693317	Apaloderma vittatum
+ncbi5741		Fornicata		Diplomonadida	Hexamitidae	Giardia	Giardia intestinalis	30.555723	-2.5040913	Giardia intestinalis
+ncbi57412	Metazoa	Chordata	Aves	Coliiformes	Coliidae	Colius	Colius striatus	43.033295	24.338013	Colius striatus
+ncbi57421	Metazoa	Chordata	Aves	Coraciiformes	Meropidae	Merops	Merops nubicus	44.092827	22.63323	Merops nubicus
+ncbi574566	Viridiplantae	Chlorophyta	Trebouxiophyceae			Coccomyxa	Coccomyxa subellipsoidea	-11.058664	21.050423	Coccomyxa subellipsoidea
+ncbi574789	Fungi	Ascomycota	Dothideomycetes	Mytilinidiales	Mytilinidiaceae	Mytilinidion	Mytilinidion resinicola	7.0858064	1.6005653	Mytilinidion resinicola
+ncbi5763		Heterolobosea			Vahlkampfiidae	Naegleria	Naegleria fowleri	43.96547	22.55942	Naegleria fowleri
+ncbi578455	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermothielavioides	Thermothielavioides terrestris	9.261554	2.1079395	Thermothielavioides terrestris
+ncbi578456	Fungi	Basidiomycota	Tremellomycetes	Tremellales	Tremellaceae	Tremella	Tremella mesenterica	12.263401	3.0348365	Tremella mesenterica
+ncbi578457	Fungi	Basidiomycota	Agaricomycetes	Boletales	Serpulaceae	Serpula	Serpula lacrymans	12.053751	1.4372627	Serpula lacrymans
+ncbi578458	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Schizophyllaceae	Schizophyllum	Schizophyllum commune	11.559786	1.0175118	Schizophyllum commune
+ncbi578459	Fungi	Basidiomycota	Microbotryomycetes	Sporidiobolales	Sporidiobolaceae	Rhodotorula	Rhodotorula graminis	12.080122	3.1658008	Rhodotorula graminis
+ncbi5786		Evosea	Eumycetozoa	Dictyosteliales	Dictyosteliaceae	Dictyostelium	Dictyostelium purpureum	15.727931	4.9717784	Dictyostelium purpureum
+ncbi5801		Apicomplexa	Conoidasida	Eucoccidiorida	Eimeriidae	Eimeria	Eimeria acervulina	30.556728	-2.4905438	Eimeria acervulina
+ncbi5802		Apicomplexa	Conoidasida	Eucoccidiorida	Eimeriidae	Eimeria	Eimeria tenella	30.304634	-3.0232432	Eimeria tenella
+ncbi5804		Apicomplexa	Conoidasida	Eucoccidiorida	Eimeriidae	Eimeria	Eimeria maxima	30.385733	-2.7298663	Eimeria maxima
+ncbi5823		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium berghei	30.151098	-3.721115	Plasmodium berghei
+ncbi58331	Viridiplantae	Streptophyta	Magnoliopsida	Fagales	Fagaceae	Quercus	Quercus suber	-6.373037	4.897904	Quercus suber
+ncbi5849		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium gallinaceum	30.086584	-3.707769	Plasmodium gallinaceum
+ncbi5851		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium knowlesi	30.245981	-3.16723	Plasmodium knowlesi
+ncbi5854		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium reichenowi	30.077923	-3.6407483	Plasmodium reichenowi
+ncbi5855		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium vivax	30.144716	-3.6534746	Plasmodium vivax
+ncbi5857		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium fragile	30.226397	-3.626673	Plasmodium fragile
+ncbi5858		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium malariae	30.167841	-3.6581411	Plasmodium malariae
+ncbi5861		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium yoelii	30.127129	-3.6913614	Plasmodium yoelii
+ncbi58627	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Debaryomyces	Debaryomyces fabryi	13.47443	3.31384	Debaryomyces fabryi
+ncbi5866		Apicomplexa	Aconoidasida	Piroplasmida	Babesiidae	Babesia	Babesia bigemina	30.106012	-3.803091	Babesia bigemina
+ncbi586833	Metazoa	Chordata	Actinopteri	Holocentriformes	Holocentridae	Myripristis	Myripristis murdjan	43.74179	23.489237	Myripristis murdjan
+ncbi5874		Apicomplexa	Aconoidasida	Piroplasmida	Theileriidae	Theileria	Theileria annulata	30.260273	-3.7997634	Theileria annulata
+ncbi58853	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma citrinoviride	9.14736	2.3514512	Trichoderma citrinoviride
+ncbi58919	Fungi	Basidiomycota	Exobasidiomycetes	Entylomatales		Tilletiopsis	Tilletiopsis washingtonensis	11.802242	3.2355554	Tilletiopsis washingtonensis
+ncbi590646	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Yamadazyma	Yamadazyma tenuis	13.548647	3.3048537	Yamadazyma tenuis
+ncbi591936	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Piliocolobus	Piliocolobus tephrosceles	17.722122	30.350668	Piliocolobus tephrosceles
+ncbi5932		Ciliophora	Oligohymenophorea	Hymenostomatida		Ichthyophthirius	Ichthyophthirius multifiliis	29.798738	-3.468442	Ichthyophthirius multifiliis
+ncbi59463	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Myotis	Myotis lucifugus	21.30299	29.431467	Myotis lucifugus
+ncbi59472	Metazoa	Chordata	Mammalia	Chiroptera	Vespertilionidae	Pipistrellus	Pipistrellus kuhlii	21.551085	29.260027	Pipistrellus kuhlii
+ncbi59479	Metazoa	Chordata	Mammalia	Chiroptera	Rhinolophidae	Rhinolophus	Rhinolophus ferrumequinum	17.118395	30.353554	Rhinolophus ferrumequinum
+ncbi59534	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Oryx	Oryx dammah	20.592989	32.905228	Oryx dammah
+ncbi595528			Filasterea			Capsaspora	Capsaspora owczarzaki	29.539656	-2.9539905	Capsaspora owczarzaki
+ncbi59729	Metazoa	Chordata	Aves	Passeriformes	Estrildidae	Taeniopygia	Taeniopygia guttata	11.491148	33.75271	Taeniopygia guttata
+ncbi597362	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Agaricaceae	Agaricus	Agaricus bisporus	11.629477	1.1051308	Agaricus bisporus
+ncbi597456	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Habropoda	Habropoda laboriosa	-10.800178	20.127726	Habropoda laboriosa
+ncbi59861	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Coregonus	Coregonus clupeaformis	17.454426	30.278765	Coregonus clupeaformis
+ncbi59894	Metazoa	Chordata	Aves	Passeriformes	Muscicapidae	Ficedula	Ficedula albicollis	42.847984	24.86127	Ficedula albicollis
+ncbi59895	Viridiplantae	Streptophyta	Magnoliopsida	Asterales	Asteraceae	Cynara	Cynara cardunculus	-5.827131	4.700275	Cynara cardunculus
+ncbi59916	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Bactrocera	Bactrocera tryoni	19.311604	30.73651	Bactrocera tryoni
+ncbi599839	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Fibroporiaceae	Fibroporia	Fibroporia radiculosa	12.119506	1.4781183	Fibroporia radiculosa
+ncbi60172	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Penicillium	Penicillium solitum	6.7849154	2.638308	Penicillium solitum
+ncbi60698	Viridiplantae	Streptophyta	Magnoliopsida	Proteales	Proteaceae	Macadamia	Macadamia integrifolia	-6.271599	4.5508065	Macadamia integrifolia
+ncbi60711	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Chlorocebus	Chlorocebus sabaeus	21.349588	29.112314	Chlorocebus sabaeus
+ncbi6087	Metazoa	Cnidaria	Hydrozoa	Anthoathecata	Hydridae	Hydra	Hydra vulgaris	11.897829	32.610893	Hydra vulgaris
+ncbi609295	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Dinoponera	Dinoponera quadriceps	10.821371	33.452847	Dinoponera quadriceps
+ncbi610380	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Harpegnathos	Harpegnathos saltator	17.524927	30.27914	Harpegnathos saltator
+ncbi6105	Metazoa	Cnidaria	Anthozoa	Actiniaria	Actiniidae	Actinia	Actinia tenebrosa	-0.20447703	18.05677	Actinia tenebrosa
+ncbi61156	Metazoa	Chordata	Mammalia	Rodentia	Muridae	Arvicanthis	Arvicanthis niloticus	19.723001	31.3584	Arvicanthis niloticus
+ncbi61221	Metazoa	Chordata	Lepidosauria	Squamata	Varanidae	Varanus	Varanus komodoensis	17.183659	30.906466	Varanus komodoensis
+ncbi61262	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Maudiozyma	Maudiozyma barnettii	15.461932	5.6130075	Maudiozyma barnettii
+ncbi61383	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Lynx	Lynx canadensis	21.38573	29.105827	Lynx canadensis
+ncbi613905	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Nylanderia	Nylanderia fulva	-11.046335	20.093376	Nylanderia fulva
+ncbi61395	Fungi	Zoopagomycota	Kickxellomycetes	Kickxellales	Kickxellaceae	Linderina	Linderina pennispora	13.217111	3.4783278	Linderina pennispora
+ncbi61420	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus caelatus	6.110043	3.0926704	Aspergillus caelatus
+ncbi61621	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Rhinopithecus	Rhinopithecus bieti	11.225261	33.598362	Rhinopithecus bieti
+ncbi61622	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Rhinopithecus	Rhinopithecus roxellana	20.595064	32.910244	Rhinopithecus roxellana
+ncbi6183	Metazoa	Platyhelminthes	Trematoda	Strigeidida	Schistosomatidae	Schistosoma	Schistosoma mansoni	30.21148	-1.3661919	Schistosoma mansoni
+ncbi6185	Metazoa	Platyhelminthes	Trematoda	Strigeidida	Schistosomatidae	Schistosoma	Schistosoma haematobium	29.99639	-3.59926	Schistosoma haematobium
+ncbi61853	Metazoa	Chordata	Mammalia	Primates	Hylobatidae	Nomascus	Nomascus leucogenys	17.267889	30.328783	Nomascus leucogenys
+ncbi619300	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Spathaspora	Spathaspora passalidarum	13.504139	3.3633387	Spathaspora passalidarum
+ncbi6198	Metazoa	Platyhelminthes	Trematoda	Opisthorchiida	Opisthorchiidae	Opisthorchis	Opisthorchis viverrini	29.795267	-2.0156534	Opisthorchis viverrini
+ncbi6210	Metazoa	Platyhelminthes	Cestoda	Cyclophyllidea	Taeniidae	Echinococcus	Echinococcus granulosus	11.813697	32.68284	Echinococcus granulosus
+ncbi6238	Metazoa	Nematoda	Chromadorea	Rhabditida	Rhabditidae	Caenorhabditis	Caenorhabditis briggsae	11.016377	33.434895	Caenorhabditis briggsae
+ncbi6239	Metazoa	Nematoda	Chromadorea	Rhabditida	Rhabditidae	Caenorhabditis	Caenorhabditis elegans	11.022803	33.421574	Caenorhabditis elegans
+ncbi62625	Metazoa	Arthropoda	Arachnida	Mesostigmata	Varroidae	Varroa	Varroa jacobsoni	17.663826	30.552723	Varroa jacobsoni
+ncbi6279	Metazoa	Nematoda	Chromadorea	Rhabditida	Onchocercidae	Brugia	Brugia malayi	11.9917345	32.492012	Brugia malayi
+ncbi63155	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Archocentrus	Archocentrus centrarchus	43.999287	23.18783	Archocentrus centrarchus
+ncbi6334	Metazoa	Nematoda	Enoplea	Trichinellida	Trichinellidae	Trichinella	Trichinella spiralis	30.113377	-3.7013326	Trichinella spiralis
+ncbi63436	Metazoa	Arthropoda	Insecta	Hymenoptera	Figitidae	Leptopilina	Leptopilina heterotoma	-10.527637	19.611225	Leptopilina heterotoma
+ncbi63459	Viridiplantae	Streptophyta	Magnoliopsida	Caryophyllales	Chenopodiaceae	Chenopodium	Chenopodium quinoa	-6.327561	4.5327525	Chenopodium quinoa
+ncbi6412	Metazoa	Annelida	Clitellata	Rhynchobdellida	Glossiphoniidae	Helobdella	Helobdella robusta	11.805632	32.67122	Helobdella robusta
+ncbi64144	Metazoa	Chordata	Actinopteri	Anabantiformes	Anabantidae	Anabas	Anabas testudineus	17.150694	30.863111	Anabas testudineus
+ncbi64176	Metazoa	Chordata	Lepidosauria	Squamata	Lacertidae	Podarcis	Podarcis muralis	42.82893	24.553198	Podarcis muralis
+ncbi644223	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Komagataella	Komagataella phaffii	15.643564	5.3767285	Komagataella phaffii
+ncbi644352	Fungi	Ascomycota	Sordariomycetes	Magnaporthales	Magnaporthaceae	Gaeumannomyces	Gaeumannomyces tritici	9.114473	1.9694315	Gaeumannomyces tritici
+ncbi64459	Metazoa	Arthropoda	Insecta	Lepidoptera	Pieridae	Pieris	Pieris rapae	17.207232	30.343826	Pieris rapae
+ncbi645133	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum graminicola	6.791799	-0.0012086256	Colletotrichum graminicola
+ncbi645134	Fungi	Chytridiomycota	Chytridiomycetes	Spizellomycetales	Spizellomycetaceae	Spizellomyces	Spizellomyces punctatus	29.88312	-3.5660756	Spizellomyces punctatus
+ncbi64571	Fungi	Mucoromycota	Mortierellomycetes	Mortierellales	Mortierellaceae	Lobosporangium	Lobosporangium transversale	30.158394	-1.3015056	Lobosporangium transversale
+ncbi647221		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium gaboni	30.15632	-3.705733	Plasmodium gaboni
+ncbi64791	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Trachymyrmex	Trachymyrmex zeteki	-10.980558	21.032642	Trachymyrmex zeteki
+ncbi64793	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Wasmannia	Wasmannia auropunctata	-10.805962	21.305004	Wasmannia auropunctata
+ncbi64838	Metazoa	Arthropoda	Insecta	Hymenoptera	Braconidae	Fopius	Fopius arisanus	-10.680044	19.685104	Fopius arisanus
+ncbi649802	Metazoa	Chordata	Aves	Passeriformes	Pipridae	Pipra	Pipra filicauda	21.801916	30.729622	Pipra filicauda
+ncbi6500	Metazoa	Mollusca	Gastropoda	Aplysiida	Aplysiidae	Aplysia	Aplysia californica	-0.434105	18.254795	Aplysia californica
+ncbi650164	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Phanerochaetaceae	Phanerochaete	Phanerochaete carnosa	11.637341	1.1596093	Phanerochaete carnosa
+ncbi6526	Metazoa	Mollusca	Gastropoda		Planorbidae	Biomphalaria	Biomphalaria glabrata	-0.5603899	18.266172	Biomphalaria glabrata
+ncbi653667	Fungi	Ascomycota	Schizosaccharomycetes	Schizosaccharomycetales	Schizosaccharomycetaceae	Schizosaccharomyces	Schizosaccharomyces cryophilus	15.349731	5.1734905	Schizosaccharomyces cryophilus
+ncbi655819	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Cordycipitaceae	Beauveria	Beauveria bassiana	10.660187	2.4428966	Beauveria bassiana
+ncbi655827	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Clavicipitaceae	Metarhizium	Metarhizium acridum	10.72761	2.4963143	Metarhizium acridum
+ncbi655844	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Clavicipitaceae	Metarhizium	Metarhizium robertsii	10.725857	2.4825518	Metarhizium robertsii
+ncbi655863	Fungi	Ascomycota	Sordariomycetes	Ophiostomatales	Ophiostomataceae	Leptographium	Leptographium clavigerum	6.8499904	2.3502593	Leptographium clavigerum
+ncbi655981	Fungi	Ascomycota	Leotiomycetes	Thelebolales	Thelebolaceae	Pseudogymnoascus	Pseudogymnoascus destructans	11.342784	3.190417	Pseudogymnoascus destructans
+ncbi656061	Fungi	Ascomycota	Pezizomycetes	Pezizales	Tuberaceae	Tuber	Tuber melanosporum	6.880257	2.5065048	Tuber melanosporum
+ncbi6565	Metazoa	Mollusca	Bivalvia	Ostreida	Ostreidae	Crassostrea	Crassostrea virginica	-0.4873627	18.263222	Crassostrea virginica
+ncbi6573	Metazoa	Mollusca	Bivalvia	Pectinida	Pectinidae	Mizuhopecten	Mizuhopecten yessoensis	-0.48460832	18.29944	Mizuhopecten yessoensis
+ncbi6579	Metazoa	Mollusca	Bivalvia	Pectinida	Pectinidae	Pecten	Pecten maximus	-0.49757794	18.309492	Pecten maximus
+ncbi660027	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium oxysporum	6.750054	2.3604794	Fusarium oxysporum
+ncbi660029	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium oxysporum	7.3303037	-0.10330145	Fusarium oxysporum
+ncbi660122	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Nectriaceae	Fusarium	Fusarium vanettenii	7.2414517	0.034266498	Fusarium vanettenii
+ncbi660469	Fungi	Ascomycota	Sordariomycetes	Diaporthales	Cryphonectriaceae	Cryphonectria	Cryphonectria parasitica	7.2038827	1.0971808	Cryphonectria parasitica
+ncbi663202	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton	Trichophyton verrucosum	11.647918	3.3272386	Trichophyton verrucosum
+ncbi663331	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Trichophyton	Trichophyton benhamiae	11.636117	3.2829394	Trichophyton benhamiae
+ncbi66420	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Papilio	Papilio xuthus	17.338335	30.320732	Papilio xuthus
+ncbi665024	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Bipolaris	Bipolaris maydis	6.273714	1.3337477	Bipolaris maydis
+ncbi665079	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Sclerotinia	Sclerotinia sclerotiorum	7.1778874	1.5739429	Sclerotinia sclerotiorum
+ncbi665912	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Bipolaris	Bipolaris sorokiniana	6.317491	1.2563412	Bipolaris sorokiniana
+ncbi66656	Viridiplantae	Streptophyta	Magnoliopsida	Malvales	Malvaceae	Durio	Durio zibethinus	-5.9590545	4.4201603	Durio zibethinus
+ncbi667725			Ichthyosporea	Ichthyophonida		Sphaeroforma	Sphaeroforma arctica	42.842278	24.673296	Sphaeroforma arctica
+ncbi6687	Metazoa	Arthropoda	Malacostraca	Decapoda	Penaeidae	Penaeus	Penaeus monodon	12.338886	32.2381	Penaeus monodon
+ncbi6689	Metazoa	Arthropoda	Malacostraca	Decapoda	Penaeidae	Penaeus	Penaeus vannamei	12.333857	32.232162	Penaeus vannamei
+ncbi67003		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma theileri	30.58562	-2.4639626	Trypanosoma theileri
+ncbi670386		Evosea	Eumycetozoa	Acytosteliales	Acytosteliaceae	Heterostelium	Heterostelium album	14.127216	5.4209566	Heterostelium album
+ncbi670483	Fungi	Basidiomycota	Agaricomycetes	Gloeophyllales	Gloeophyllaceae	Gloeophyllum	Gloeophyllum trabeum	12.150627	1.5147449	Gloeophyllum trabeum
+ncbi670580	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Postiaceae	Postia	Postia placenta	12.100731	1.5508255	Postia placenta
+ncbi6706	Metazoa	Arthropoda	Malacostraca	Decapoda	Nephropidae	Homarus	Homarus americanus	-10.71211	19.826942	Homarus americanus
+ncbi671144	Fungi	Basidiomycota	Wallemiomycetes	Wallemiales	Wallemiaceae	Wallemia	Wallemia mellicola	12.832729	3.1641648	Wallemia mellicola
+ncbi671987	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Exserohilum	Exserohilum turcicum	6.2889285	1.278611	Exserohilum turcicum
+ncbi673940	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Lindgomycetaceae	Lindgomyces	Lindgomyces ingoldianus	6.6626782	1.433721	Lindgomyces ingoldianus
+ncbi67593		Oomycota		Peronosporales	Peronosporaceae	Phytophthora	Phytophthora sojae	13.313842	4.7736745	Phytophthora sojae
+ncbi679716		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma brucei	30.570795	-2.4782333	Trypanosoma brucei
+ncbi680683	Metazoa	Arthropoda	Insecta	Lepidoptera	Pyralidae	Amyelois	Amyelois transitella	9.75912	36.45542	Amyelois transitella
+ncbi68294	Metazoa	Chordata	Aves	Passeriformes	Corvidae	Corvus	Corvus kubaryi	21.78959	30.423382	Corvus kubaryi
+ncbi683960	Fungi	Ascomycota	Saccharomycetes	Phaffomycetales	Wickerhamomycetaceae	Wickerhamomyces	Wickerhamomyces anomalus	13.334203	3.3629704	Wickerhamomyces anomalus
+ncbi684364	Fungi	Chytridiomycota	Chytridiomycetes	Rhizophydiales		Batrachochytrium	Batrachochytrium dendrobatidis	30.215366	-1.3639477	Batrachochytrium dendrobatidis
+ncbi684658	Metazoa	Arthropoda	Insecta	Hymenoptera	Braconidae	Aphidius	Aphidius gifuensis	17.140097	30.268572	Aphidius gifuensis
+ncbi6850	Metazoa	Arthropoda	Merostomata	Xiphosura	Limulidae	Limulus	Limulus polyphemus	12.308425	32.248795	Limulus polyphemus
+ncbi690256	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum fructicola	6.757071	0.0072328122	Colletotrichum fructicola
+ncbi690259	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum siamense	6.7596097	0.016170137	Colletotrichum siamense
+ncbi690307	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus aculeatus	7.6212635	2.455474	Aspergillus aculeatus
+ncbi691883				Rotosphaerida	Fonticulaceae	Fonticula	Fonticula alba	29.957182	-3.510964	Fonticula alba
+ncbi692275	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Sphaerulina	Sphaerulina musiva	6.765399	2.3392146	Sphaerulina musiva
+ncbi69319	Metazoa	Arthropoda	Insecta	Hymenoptera	Braconidae	Microplitis	Microplitis demolitor	17.28285	30.369745	Microplitis demolitor
+ncbi694068	Fungi	Basidiomycota	Agaricomycetes	Hymenochaetales	Hymenochaetaceae	Fomitiporia	Fomitiporia mediterranea	11.709768	1.1610293	Fomitiporia mediterranea
+ncbi6941	Metazoa	Arthropoda	Arachnida	Ixodida	Ixodidae	Rhipicephalus	Rhipicephalus microplus	12.300007	32.259285	Rhipicephalus microplus
+ncbi6945	Metazoa	Arthropoda	Arachnida	Ixodida	Ixodidae	Ixodes	Ixodes scapularis	12.269484	32.282356	Ixodes scapularis
+ncbi6956	Metazoa	Arthropoda	Arachnida	Sarcoptiformes	Pyroglyphidae	Dermatophagoides	Dermatophagoides pteronyssinus	11.827137	32.553032	Dermatophagoides pteronyssinus
+ncbi695850		Oomycota		Saprolegniales	Saprolegniaceae	Saprolegnia	Saprolegnia parasitica	13.306913	4.7389584	Saprolegnia parasitica
+ncbi69820	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Spodoptera	Spodoptera litura	-0.006949325	18.370928	Spodoptera litura
+ncbi698492	Fungi	Ascomycota				Saitoella	Saitoella complicata	11.716226	3.3509314	Saitoella complicata
+ncbi7029	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Acyrthosiphon	Acyrthosiphon pisum	-10.911319	19.968689	Acyrthosiphon pisum
+ncbi7038	Metazoa	Arthropoda	Insecta	Hemiptera	Aleyrodidae	Bemisia	Bemisia tabaci	-10.124255	20.379747	Bemisia tabaci
+ncbi70448	Viridiplantae	Chlorophyta	Mamiellophyceae	Mamiellales	Bathycoccaceae	Ostreococcus	Ostreococcus tauri	43.589638	23.221964	Ostreococcus tauri
+ncbi7048	Metazoa	Arthropoda	Insecta	Coleoptera	Curculionidae	Sitophilus	Sitophilus oryzae	13.807865	5.650317	Sitophilus oryzae
+ncbi7054	Metazoa	Arthropoda	Insecta	Coleoptera	Lampyridae	Photinus	Photinus pyralis	-10.861078	19.973116	Photinus pyralis
+ncbi7070	Metazoa	Arthropoda	Insecta	Coleoptera	Tenebrionidae	Tribolium	Tribolium castaneum	-10.865505	19.943867	Tribolium castaneum
+ncbi70779	Metazoa	Cnidaria	Anthozoa	Scleractinia	Acroporidae	Acropora	Acropora digitifera	-0.1520436	18.050262	Acropora digitifera
+ncbi7091	Metazoa	Arthropoda	Insecta	Lepidoptera	Bombycidae	Bombyx	Bombyx mori	11.32783	33.687916	Bombyx mori
+ncbi7092	Metazoa	Arthropoda	Insecta	Lepidoptera	Bombycidae	Bombyx	Bombyx mandarina	17.18459	30.294899	Bombyx mandarina
+ncbi7108	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Spodoptera	Spodoptera frugiperda	10.954411	33.486458	Spodoptera frugiperda
+ncbi7111	Metazoa	Arthropoda	Insecta	Lepidoptera	Noctuidae	Trichoplusia	Trichoplusia ni	17.192099	30.148495	Trichoplusia ni
+ncbi71139	Viridiplantae	Streptophyta	Magnoliopsida	Myrtales	Myrtaceae	Eucalyptus	Eucalyptus grandis	-5.807459	4.5803447	Eucalyptus grandis
+ncbi7130	Metazoa	Arthropoda	Insecta	Lepidoptera	Sphingidae	Manduca	Manduca sexta	21.428526	29.103994	Manduca sexta
+ncbi7137	Metazoa	Arthropoda	Insecta	Lepidoptera	Pyralidae	Galleria	Galleria mellonella	10.861701	33.600716	Galleria mellonella
+ncbi7159	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Aedes	Aedes aegypti	9.745353	36.470097	Aedes aegypti
+ncbi7160	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Aedes	Aedes albopictus	9.68286	36.524826	Aedes albopictus
+ncbi7167	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles albimanus	20.006025	31.447048	Anopheles albimanus
+ncbi7173	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Anopheles	Anopheles arabiensis	20.617674	32.951122	Anopheles arabiensis
+ncbi7176	Metazoa	Arthropoda	Insecta	Diptera	Culicidae	Culex	Culex quinquefasciatus	9.8040905	36.411324	Culex quinquefasciatus
+ncbi717646	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Teratosphaeriaceae	Baudoinia	Baudoinia panamericana	9.687985	2.7170086	Baudoinia panamericana
+ncbi717944	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Polyporaceae	Trametes	Trametes versicolor	11.748653	1.1888052	Trametes versicolor
+ncbi71804		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma grayi	30.290264	-1.4965782	Trypanosoma grayi
+ncbi72004	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos mutus	11.302537	33.661594	Bos mutus
+ncbi72036	Metazoa	Arthropoda	Hexanauplia	Siphonostomatoida	Caligidae	Lepeophtheirus	Lepeophtheirus salmonis	11.828499	32.70763	Lepeophtheirus salmonis
+ncbi7209	Metazoa	Nematoda	Chromadorea	Rhabditida	Onchocercidae	Loa	Loa loa	29.70929	-3.3688815	Loa loa
+ncbi72105	Metazoa	Chordata	Actinopteri	Perciformes	Sebastidae	Sebastes	Sebastes umbrosus	17.02055	30.495256	Sebastes umbrosus
+ncbi7213	Metazoa	Arthropoda	Insecta	Diptera	Tephritidae	Ceratitis	Ceratitis capitata	21.11414	29.324703	Ceratitis capitata
+ncbi7217	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila ananassae	9.766058	36.44798	Drosophila ananassae
+ncbi721885	Fungi	Basidiomycota	Agaricomycetes	Russulales	Stereaceae	Stereum	Stereum hirsutum	7.825559	2.3401563	Stereum hirsutum
+ncbi7220	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila erecta	19.40892	32.69549	Drosophila erecta
+ncbi7222	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila grimshawi	19.374819	32.72024	Drosophila grimshawi
+ncbi7224	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila hydei	9.809132	36.404205	Drosophila hydei
+ncbi7225	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Scaptodrosophila	Scaptodrosophila lebanonensis	10.938729	33.484337	Scaptodrosophila lebanonensis
+ncbi7226	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila mauritiana	19.431759	32.644207	Drosophila mauritiana
+ncbi7227	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila melanogaster	19.420002	32.652817	Drosophila melanogaster
+ncbi7229	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila miranda	9.807182	36.405537	Drosophila miranda
+ncbi7230	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila mojavensis	9.887147	36.32548	Drosophila mojavensis
+ncbi7232	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila navojoa	9.948787	36.259747	Drosophila navojoa
+ncbi7234	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila persimilis	9.9085	36.30347	Drosophila persimilis
+ncbi7237	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila pseudoobscura	9.918332	36.293995	Drosophila pseudoobscura
+ncbi7238	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila sechellia	19.41964	32.660656	Drosophila sechellia
+ncbi7240	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila simulans	19.365927	32.594498	Drosophila simulans
+ncbi7241	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila subobscura	20.622759	32.91775	Drosophila subobscura
+ncbi7243	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila teissieri	19.393673	32.703568	Drosophila teissieri
+ncbi7244	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila virilis	9.860455	36.351818	Drosophila virilis
+ncbi7245	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila yakuba	19.412638	32.676575	Drosophila yakuba
+ncbi7260	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila willistoni	10.885859	33.484486	Drosophila willistoni
+ncbi7263	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila arizonae	9.949677	36.264774	Drosophila arizonae
+ncbi7266	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila guanche	9.897706	36.312393	Drosophila guanche
+ncbi72664	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Eutrema	Eutrema salsugineum	-5.11293	4.657345	Eutrema salsugineum
+ncbi7274	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila serrata	19.364412	32.735638	Drosophila serrata
+ncbi72781	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Formica	Formica exsecta	-10.91832	21.21538	Formica exsecta
+ncbi7282	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila obscura	10.874541	33.498573	Drosophila obscura
+ncbi7291	Metazoa	Arthropoda	Insecta	Diptera	Drosophilidae	Drosophila	Drosophila albomicans	9.799538	36.412937	Drosophila albomicans
+ncbi72917	Viridiplantae	Streptophyta	Magnoliopsida	Asterales	Asteraceae	Erigeron	Erigeron canadensis	-6.053733	5.272217	Erigeron canadensis
+ncbi732165	Fungi	Basidiomycota	Agaricomycetes	Polyporales	Polyporaceae	Dichomitus	Dichomitus squalens	11.754867	1.1875359	Dichomitus squalens
+ncbi73337	Metazoa	Chordata	Mammalia	Perissodactyla	Rhinocerotidae	Ceratotherium	Ceratotherium simum	21.384201	29.152142	Ceratotherium simum
+ncbi7370	Metazoa	Arthropoda	Insecta	Diptera	Muscidae	Musca	Musca domestica	9.843684	36.367645	Musca domestica
+ncbi7375	Metazoa	Arthropoda	Insecta	Diptera	Calliphoridae	Lucilia	Lucilia cuprina	9.899169	36.31389	Lucilia cuprina
+ncbi7396	Metazoa	Arthropoda	Insecta	Diptera	Glossinidae	Glossina	Glossina fuscipes	10.964704	33.447193	Glossina fuscipes
+ncbi74035	Fungi	Ascomycota	Eurotiomycetes	Onygenales	Arthrodermataceae	Arthroderma	Arthroderma uncinatum	11.636199	3.323579	Arthroderma uncinatum
+ncbi741275	Fungi	Basidiomycota	Agaricomycetes	Corticiales	Punctulariaceae	Punctularia	Punctularia strigosozonata	7.7619452	2.2859526	Punctularia strigosozonata
+ncbi741705	Fungi	Basidiomycota	Agaricomycetes	Boletales	Coniophoraceae	Coniophora	Coniophora puteana	12.103196	1.4675578	Coniophora puteana
+ncbi742174	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Melanaphis	Melanaphis sacchari	-10.854714	19.85476	Melanaphis sacchari
+ncbi7425	Metazoa	Arthropoda	Insecta	Hymenoptera	Pteromalidae	Nasonia	Nasonia vitripennis	-10.679876	19.688807	Nasonia vitripennis
+ncbi743375	Metazoa	Arthropoda	Insecta	Hymenoptera	Vespidae	Polistes	Polistes dominula	-11.042424	20.12029	Polistes dominula
+ncbi7446	Metazoa	Arthropoda	Insecta	Hymenoptera	Vespidae	Vespa	Vespa mandarinia	-10.972728	20.051853	Vespa mandarinia
+ncbi7460	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	Apis mellifera	-10.827535	21.381298	Apis mellifera
+ncbi7461	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	Apis cerana	-11.07347	20.973354	Apis cerana
+ncbi7462	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	Apis dorsata	-10.894213	21.233244	Apis dorsata
+ncbi7463	Metazoa	Arthropoda	Insecta	Hymenoptera	Apidae	Apis	Apis florea	-10.849513	21.400837	Apis florea
+ncbi74649	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Rosaceae	Rosa	Rosa chinensis	-6.213367	4.3530655	Rosa chinensis
+ncbi747089	Fungi	Mucoromycota	Glomeromycetes	Glomerales	Glomeraceae	Rhizophagus	Rhizophagus irregularis	29.869114	-3.5975668	Rhizophagus irregularis
+ncbi747525	Fungi	Basidiomycota	Agaricomycetes	Russulales	Bondarzewiaceae	Heterobasidion	Heterobasidion irregulare	11.677285	1.1077113	Heterobasidion irregulare
+ncbi747676	Fungi	Basidiomycota	Pucciniomycetes	Pucciniales	Melampsoraceae	Melampsora	Melampsora laricis-populina	-6.1620035	4.6565986	Melampsora laricis-populina
+ncbi748121	Fungi	Ascomycota	Sordariomycetes	Diaporthales	Diaporthaceae	Diaporthe	Diaporthe batatas	6.759394	0.7696229	Diaporthe batatas
+ncbi7493	Metazoa	Arthropoda	Insecta	Hymenoptera	Trichogrammatidae	Trichogramma	Trichogramma pretiosum	17.111681	30.096813	Trichogramma pretiosum
+ncbi74940	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus tshawytscha	11.343375	33.687874	Oncorhynchus tshawytscha
+ncbi7515	Metazoa	Arthropoda	Insecta	Siphonaptera	Pulicidae	Ctenocephalides	Ctenocephalides felis	17.036104	30.047234	Ctenocephalides felis
+ncbi75366	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Sinocyclocheilus	Sinocyclocheilus grahami	44.078053	23.367464	Sinocyclocheilus grahami
+ncbi7539	Metazoa	Arthropoda	Insecta	Coleoptera	Chrysomelidae	Leptinotarsa	Leptinotarsa decemlineata	13.850241	5.6292076	Leptinotarsa decemlineata
+ncbi75553	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus viridinutans	6.3231955	2.681204	Aspergillus viridinutans
+ncbi756982	Fungi	Ascomycota	Orbiliomycetes	Orbiliales	Orbiliaceae	Orbilia	Orbilia oligospora	6.8047476	1.4879652	Orbilia oligospora
+ncbi75702	Viridiplantae	Streptophyta	Magnoliopsida	Malpighiales	Salicaceae	Populus	Populus euphratica	-6.3464336	4.253736	Populus euphratica
+ncbi7574	Metazoa	Brachiopoda	Lingulata	Lingulida	Lingulidae	Lingula	Lingula anatina	-0.47336257	18.294722	Lingula anatina
+ncbi759272	Fungi	Ascomycota	Sordariomycetes	Sordariales	Chaetomiaceae	Thermochaetoides	Thermochaetoides thermophila	9.476697	2.1016948	Thermochaetoides thermophila
+ncbi759273	Fungi	Ascomycota	Sordariomycetes	Glomerellales	Glomerellaceae	Colletotrichum	Colletotrichum higginsianum	6.7336445	0.021264698	Colletotrichum higginsianum
+ncbi7604	Metazoa	Echinodermata	Asteroidea	Forcipulatida	Asteriidae	Asterias	Asterias rubens	10.976615	33.89454	Asterias rubens
+ncbi761204		Oomycota		Peronosporales	Peronosporaceae	Phytophthora	Phytophthora nicotianae	13.312561	4.772898	Phytophthora nicotianae
+ncbi76193	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Papilio	Papilio machaon	17.090672	30.607155	Papilio machaon
+ncbi76194	Metazoa	Arthropoda	Insecta	Lepidoptera	Papilionidae	Papilio	Papilio polytes	21.678108	29.272882	Papilio polytes
+ncbi763406	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Pichia	Pichia membranifaciens	15.425626	5.4882956	Pichia membranifaciens
+ncbi763407	Fungi	Mucoromycota	Mucoromycetes	Mucorales	Phycomycetaceae	Phycomyces	Phycomyces blakesleeanus	29.750822	-3.5468092	Phycomyces blakesleeanus
+ncbi764103	Fungi	Basidiomycota	Mixiomycetes	Mixiales	Mixiaceae	Mixia	Mixia osmundae	15.305356	5.2533064	Mixia osmundae
+ncbi7654	Metazoa	Echinodermata	Echinoidea	Temnopleuroida	Toxopneustidae	Lytechinus	Lytechinus variegatus	-10.548313	21.117575	Lytechinus variegatus
+ncbi7668	Metazoa	Echinodermata	Echinoidea	Camarodonta	Strongylocentrotidae	Strongylocentrotus	Strongylocentrotus purpuratus	-10.415529	21.036062	Strongylocentrotus purpuratus
+ncbi76717	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Lontra	Lontra canadensis	21.55053	29.127186	Lontra canadensis
+ncbi76775	Fungi	Basidiomycota	Malasseziomycetes	Malasseziales	Malasseziaceae	Malassezia	Malassezia restricta	15.701048	5.7096567	Malassezia restricta
+ncbi77020	Fungi	Basidiomycota	Malasseziomycetes	Malasseziales	Malasseziaceae	Malassezia	Malassezia pachydermatis	15.699606	5.703597	Malassezia pachydermatis
+ncbi77115	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Cyprinodontidae	Cyprinodon	Cyprinodon tularosa	17.200481	30.311508	Cyprinodon tularosa
+ncbi77166	Metazoa	Arthropoda	Insecta	Coleoptera	Curculionidae	Dendroctonus	Dendroctonus ponderosae	13.832611	5.661819	Dendroctonus ponderosae
+ncbi771870	Fungi	Ascomycota	Sordariomycetes	Sordariales	Sordariaceae	Sordaria	Sordaria macrospora	9.298794	2.0181828	Sordaria macrospora
+ncbi7719	Metazoa	Chordata	Ascidiacea	Phlebobranchia	Cionidae	Ciona	Ciona intestinalis	-10.183478	19.709631	Ciona intestinalis
+ncbi7725	Metazoa	Chordata	Ascidiacea	Stolidobranchia	Styelidae	Styela	Styela clava	-10.586145	19.610666	Styela clava
+ncbi7739	Metazoa	Chordata	Leptocardii	Amphioxiformes	Branchiostomatidae	Branchiostoma	Branchiostoma floridae	-0.3159096	18.165512	Branchiostoma floridae
+ncbi7741	Metazoa	Chordata	Leptocardii	Amphioxiformes	Branchiostomatidae	Branchiostoma	Branchiostoma belcheri	-0.29680768	18.180449	Branchiostoma belcheri
+ncbi77519		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium gonderi	30.281544	-3.0617285	Plasmodium gonderi
+ncbi7757	Metazoa	Chordata	Hyperoartia	Petromyzontiformes	Petromyzontidae	Petromyzon	Petromyzon marinus	19.754028	30.990112	Petromyzon marinus
+ncbi7830	Metazoa	Chordata	Chondrichthyes	Carcharhiniformes	Scyliorhinidae	Scyliorhinus	Scyliorhinus canicula	17.05224	30.336666	Scyliorhinus canicula
+ncbi7868	Metazoa	Chordata	Chondrichthyes	Chimaeriformes	Callorhinchidae	Callorhinchus	Callorhinchus milii	19.600864	30.146667	Callorhinchus milii
+ncbi78828	Viridiplantae	Streptophyta	Magnoliopsida	Asparagales	Orchidaceae	Phalaenopsis	Phalaenopsis equestris	-5.8233266	5.2683735	Phalaenopsis equestris
+ncbi7897	Metazoa	Chordata		Coelacanthiformes	Coelacanthidae	Latimeria	Latimeria chalumnae	43.593662	23.693567	Latimeria chalumnae
+ncbi7906	Metazoa	Chordata	Actinopteri	Acipenseriformes	Acipenseridae	Acipenser	Acipenser ruthenus	18.572384	30.603546	Acipenser ruthenus
+ncbi7913	Metazoa	Chordata	Actinopteri	Acipenseriformes	Polyodontidae	Polyodon	Polyodon spathula	17.15498	30.452438	Polyodon spathula
+ncbi7918	Metazoa	Chordata	Actinopteri	Semionotiformes	Lepisosteidae	Lepisosteus	Lepisosteus oculatus	43.84272	23.147858	Lepisosteus oculatus
+ncbi79200	Viridiplantae	Streptophyta	Magnoliopsida	Apiales	Apiaceae	Daucus	Daucus carota	-5.9226365	4.754599	Daucus carota
+ncbi7936	Metazoa	Chordata	Actinopteri	Anguilliformes	Anguillidae	Anguilla	Anguilla anguilla	18.572145	30.602802	Anguilla anguilla
+ncbi7950	Metazoa	Chordata	Actinopteri	Clupeiformes	Clupeidae	Clupea	Clupea harengus	19.076494	30.896812	Clupea harengus
+ncbi7955	Metazoa	Chordata	Actinopteri	Cypriniformes	Danionidae	Danio	Danio rerio	18.565928	30.538942	Danio rerio
+ncbi7957	Metazoa	Chordata	Actinopteri	Cypriniformes	Cyprinidae	Carassius	Carassius auratus	44.20237	22.993124	Carassius auratus
+ncbi796027	Fungi	Ascomycota	Dipodascomycetes	Dipodascales	Trichomonascaceae	Sugiyamaella	Sugiyamaella lignohabitans	13.5399685	3.4320283	Sugiyamaella lignohabitans
+ncbi79684	Metazoa	Chordata	Mammalia	Rodentia	Cricetidae	Microtus	Microtus ochrogaster	17.307598	30.44638	Microtus ochrogaster
+ncbi79782	Metazoa	Arthropoda	Insecta	Hemiptera	Cimicidae	Cimex	Cimex lectularius	10.87907	33.49521	Cimex lectularius
+ncbi7994	Metazoa	Chordata	Actinopteri	Characiformes	Characidae	Astyanax	Astyanax mexicanus	43.5798	23.703081	Astyanax mexicanus
+ncbi7998	Metazoa	Chordata	Actinopteri	Siluriformes	Ictaluridae	Ictalurus	Ictalurus punctatus	9.770923	36.44513	Ictalurus punctatus
+ncbi8005	Metazoa	Chordata	Actinopteri	Gymnotiformes	Gymnotidae	Electrophorus	Electrophorus electricus	11.32516	33.680164	Electrophorus electricus
+ncbi8010	Metazoa	Chordata	Actinopteri	Esociformes	Esocidae	Esox	Esox lucius	10.834267	33.57523	Esox lucius
+ncbi8018	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus keta	9.836123	36.3767	Oncorhynchus keta
+ncbi8019	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus kisutch	44.018845	22.92696	Oncorhynchus kisutch
+ncbi8022	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus mykiss	10.932051	33.45965	Oncorhynchus mykiss
+ncbi8023	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Oncorhynchus	Oncorhynchus nerka	43.99904	23.348755	Oncorhynchus nerka
+ncbi8030	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo salar	44.158306	23.223286	Salmo salar
+ncbi8032	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salmo	Salmo trutta	44.073437	23.204838	Salmo trutta
+ncbi8040	Metazoa	Chordata	Actinopteri	Salmoniformes	Salmonidae	Salvelinus	Salvelinus namaycush	11.304321	33.68131	Salvelinus namaycush
+ncbi80427	Metazoa	Chordata	Lepidosauria	Squamata	Lacertidae	Lacerta	Lacerta agilis	17.581541	30.654951	Lacerta agilis
+ncbi8049	Metazoa	Chordata	Actinopteri	Gadiformes	Gadidae	Gadus	Gadus morhua	43.689518	23.378754	Gadus morhua
+ncbi80765	Metazoa	Arthropoda	Insecta	Hemiptera	Aphididae	Aphis	Aphis gossypii	-10.921667	19.875761	Aphis gossypii
+ncbi8078	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Fundulidae	Fundulus	Fundulus heteroclitus	17.545807	30.413317	Fundulus heteroclitus
+ncbi8081	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Poecilia	Poecilia reticulata	44.150017	23.254658	Poecilia reticulata
+ncbi8083	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus	Xiphophorus maculatus	43.608807	23.667698	Xiphophorus maculatus
+ncbi8084	Metazoa	Chordata	Actinopteri	Cyprinodontiformes	Poeciliidae	Xiphophorus	Xiphophorus hellerii	20.457014	30.203339	Xiphophorus hellerii
+ncbi8090	Metazoa	Chordata	Actinopteri	Beloniformes	Adrianichthyidae	Oryzias	Oryzias latipes	44.094997	23.180092	Oryzias latipes
+ncbi80966	Metazoa	Chordata	Actinopteri		Pomacentridae	Acanthochromis	Acanthochromis polyacanthus	43.67293	23.581724	Acanthochromis polyacanthus
+ncbi80972	Metazoa	Chordata	Actinopteri		Pomacentridae	Amphiprion	Amphiprion ocellaris	20.820953	29.863285	Amphiprion ocellaris
+ncbi8103	Metazoa	Chordata	Actinopteri	Perciformes	Cyclopteridae	Cyclopterus	Cyclopterus lumpus	17.383406	30.493439	Cyclopterus lumpus
+ncbi8128	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Oreochromis	Oreochromis niloticus	44.02128	23.25397	Oreochromis niloticus
+ncbi8153	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Haplochromis	Haplochromis burtoni	20.135017	30.626345	Haplochromis burtoni
+ncbi8154	Metazoa	Chordata	Actinopteri	Cichliformes	Cichlidae	Astatotilapia	Astatotilapia calliptera	44.03244	23.282614	Astatotilapia calliptera
+ncbi81572	Metazoa	Chordata	Mammalia	Primates	Hylobatidae	Hylobates	Hylobates moloch	11.301334	33.67807	Hylobates moloch
+ncbi8167	Metazoa	Chordata	Actinopteri	Perciformes	Percidae	Perca	Perca flavescens	44.11264	23.224087	Perca flavescens
+ncbi8168	Metazoa	Chordata	Actinopteri	Perciformes	Percidae	Perca	Perca fluviatilis	20.14994	30.625883	Perca fluviatilis
+ncbi8175	Metazoa	Chordata	Actinopteri	Spariformes	Sparidae	Sparus	Sparus aurata	44.143837	23.162035	Sparus aurata
+ncbi8177	Metazoa	Chordata	Actinopteri	Spariformes	Sparidae	Acanthopagrus	Acanthopagrus latus	19.02686	30.896303	Acanthopagrus latus
+ncbi8187	Metazoa	Chordata	Actinopteri		Centropomidae	Lates	Lates calcarifer	44.128757	23.304762	Lates calcarifer
+ncbi81972	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Arabidopsis	Arabidopsis lyrata	-5.093303	4.6163564	Arabidopsis lyrata
+ncbi81985	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Capsella	Capsella rubella	-5.0597663	4.57006	Capsella rubella
+ncbi8208	Metazoa	Chordata	Actinopteri	Perciformes	Nototheniidae	Notothenia	Notothenia coriiceps	43.68012	23.260952	Notothenia coriiceps
+ncbi8218	Metazoa	Chordata	Actinopteri	Perciformes	Bathydraconidae	Gymnodraco	Gymnodraco acuticeps	17.299288	30.880638	Gymnodraco acuticeps
+ncbi8236	Metazoa	Chordata	Actinopteri	Scombriformes	Scombridae	Thunnus	Thunnus albacares	17.44386	30.208609	Thunnus albacares
+ncbi8240	Metazoa	Chordata	Actinopteri	Scombriformes	Scombridae	Thunnus	Thunnus maccoyii	17.558737	30.238277	Thunnus maccoyii
+ncbi8245	Metazoa	Chordata	Actinopteri	Istiophoriformes	Xiphiidae	Xiphias	Xiphias gladius	17.700212	30.409025	Xiphias gladius
+ncbi8255	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Paralichthyidae	Paralichthys	Paralichthys olivaceus	44.10014	23.183521	Paralichthys olivaceus
+ncbi8267	Metazoa	Chordata	Actinopteri	Pleuronectiformes	Pleuronectidae	Hippoglossus	Hippoglossus hippoglossus	21.43997	29.08182	Hippoglossus hippoglossus
+ncbi83186	Fungi	Ascomycota	Sordariomycetes	Diaporthales	Diaporthaceae	Diaporthe	Diaporthe citri	6.8644524	0.7740952	Diaporthe citri
+ncbi83485	Metazoa	Arthropoda	Insecta	Hymenoptera	Formicidae	Linepithema	Linepithema humile	-10.935878	20.27133	Linepithema humile
+ncbi8364	Metazoa	Chordata	Amphibia	Anura	Pipidae	Xenopus	Xenopus tropicalis	43.326023	23.998764	Xenopus tropicalis
+ncbi8384	Metazoa	Chordata	Amphibia	Anura	Bufonidae	Bufo	Bufo bufo	21.572557	30.002905	Bufo bufo
+ncbi83891		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Trypanosoma	Trypanosoma conorhini	30.27536	-1.4877661	Trypanosoma conorhini
+ncbi8407	Metazoa	Chordata	Amphibia	Anura	Ranidae	Rana	Rana temporaria	21.555931	29.951052	Rana temporaria
+ncbi84275	Fungi	Ascomycota	Dothideomycetes	Mycosphaerellales	Mycosphaerellaceae	Cercospora	Cercospora kikuchii	6.7519026	2.0264382	Cercospora kikuchii
+ncbi8469	Metazoa	Chordata		Testudines	Cheloniidae	Chelonia	Chelonia mydas	21.771097	30.528662	Chelonia mydas
+ncbi84753	Fungi	Basidiomycota	Ustilaginomycetes	Ustilaginales	Ustilaginaceae	Moesziomyces	Moesziomyces antarcticus	12.557359	4.504906	Moesziomyces antarcticus
+ncbi8478	Metazoa	Chordata		Testudines	Emydidae	Chrysemys	Chrysemys picta	21.602095	29.998829	Chrysemys picta
+ncbi84834	Metazoa	Chordata	Aves	Passeriformes	Icteridae	Molothrus	Molothrus ater	21.94335	31.046335	Molothrus ater
+ncbi8496	Metazoa	Chordata		Crocodylia	Alligatoridae	Alligator	Alligator mississippiensis	42.612465	24.88285	Alligator mississippiensis
+ncbi8502	Metazoa	Chordata		Crocodylia	Crocodylidae	Crocodylus	Crocodylus porosus	43.65514	23.208616	Crocodylus porosus
+ncbi85066	Metazoa	Chordata	Aves	Passeriformes	Corvidae	Corvus	Corvus brachyrhynchos	42.661617	24.80655	Corvus brachyrhynchos
+ncbi8520	Metazoa	Chordata	Lepidosauria	Squamata	Phrynosomatidae	Sceloporus	Sceloporus undulatus	17.479345	30.88666	Sceloporus undulatus
+ncbi8524	Metazoa	Chordata	Lepidosauria	Squamata	Lacertidae	Zootoca	Zootoca vivipara	17.215872	30.963697	Zootoca vivipara
+ncbi85471		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium relictum	30.089495	-3.7044077	Plasmodium relictum
+ncbi85681	Viridiplantae	Streptophyta	Magnoliopsida	Sapindales	Rutaceae	Citrus	Citrus x clementina	-5.736642	4.75998	Citrus x clementina
+ncbi856822	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Fonsecaea	Fonsecaea nubica	10.262707	3.104119	Fonsecaea nubica
+ncbi85692	Viridiplantae	Streptophyta	Magnoliopsida	Poales	Poaceae	Triticum	Triticum dicoccoides	-6.245891	5.226344	Triticum dicoccoides
+ncbi857276		Apicomplexa	Conoidasida	Eucoccidiorida	Cryptosporidiidae	Cryptosporidium	Cryptosporidium ubiquitum	30.061493	-3.6549187	Cryptosporidium ubiquitum
+ncbi857342	Fungi	Ascomycota	Leotiomycetes	Helotiales	Amorphothecaceae	Amorphotheca	Amorphotheca resinae	10.776021	2.531024	Amorphotheca resinae
+ncbi858893	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala	Exophiala dermatitidis	10.359026	3.088864	Exophiala dermatitidis
+ncbi8663	Metazoa	Chordata	Lepidosauria	Squamata	Elapidae	Notechis	Notechis scutatus	43.34328	23.966719	Notechis scutatus
+ncbi8673	Metazoa	Chordata	Lepidosauria	Squamata	Elapidae	Pseudonaja	Pseudonaja textilis	43.355946	23.962006	Pseudonaja textilis
+ncbi869250		Apicomplexa	Aconoidasida	Piroplasmida	Theileriidae	Theileria	Theileria orientalis	30.15934	-3.6838865	Theileria orientalis
+ncbi869754	Fungi	Ascomycota	Pichiomycetes	Serinales	Metschnikowiaceae	Metschnikowia	Metschnikowia bicuspidata	13.367337	3.310467	Metschnikowia bicuspidata
+ncbi870730	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Ogataea	Ogataea angusta	13.256987	3.295687	Ogataea angusta
+ncbi871575	Fungi	Ascomycota	Pichiomycetes	Pichiales	Pichiaceae	Ogataea	Ogataea parapolymorpha	13.2680855	3.2916486	Ogataea parapolymorpha
+ncbi87175	Metazoa	Chordata	Aves	Passeriformes	Thraupidae	Camarhynchus	Camarhynchus parvulus	42.60139	24.882841	Camarhynchus parvulus
+ncbi87229	Fungi	Ascomycota	Leotiomycetes	Helotiales	Sclerotiniaceae	Botrytis	Botrytis porri	7.0586042	1.582141	Botrytis porri
+ncbi876142	Fungi	Microsporidia			Unikaryonidae	Encephalitozoon	Encephalitozoon intestinalis	30.535114	-2.5308905	Encephalitozoon intestinalis
+ncbi8790	Metazoa	Chordata	Aves	Casuariiformes	Dromaiidae	Dromaius	Dromaius novaehollandiae	43.92823	23.096865	Dromaius novaehollandiae
+ncbi879819	Fungi	Basidiomycota	Tremellomycetes	Trichosporonales	Trichosporonaceae	Cutaneotrichosporon	Cutaneotrichosporon oleaginosum	12.184847	3.118921	Cutaneotrichosporon oleaginosum
+ncbi88015	Metazoa	Arthropoda	Hexanauplia	Calanoida	Temoridae	Eurytemora	Eurytemora affinis	-0.22454867	18.077803	Eurytemora affinis
+ncbi88036	Viridiplantae	Streptophyta	Lycopodiopsida	Selaginellales	Selaginellaceae	Selaginella	Selaginella moellendorffii	-6.2794175	4.6125345	Selaginella moellendorffii
+ncbi880535		Apicomplexa	Aconoidasida	Haemosporida	Plasmodiidae	Plasmodium	Plasmodium sp. gorilla clade G2	30.271778	-3.1219387	Plasmodium sp. gorilla clade G2
+ncbi88082	Metazoa	Chordata	Lepidosauria	Squamata	Viperidae	Crotalus	Crotalus tigris	17.205755	31.020958	Crotalus tigris
+ncbi881290	Fungi	Microsporidia				Nematocida	Nematocida parisii	30.618086	-2.4565442	Nematocida parisii
+ncbi8839	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Anas	Anas platyrhynchos	21.79799	30.694904	Anas platyrhynchos
+ncbi88456		Apicomplexa	Conoidasida	Eucoccidiorida	Eimeriidae	Cyclospora	Cyclospora cayetanensis	30.414972	-2.706865	Cyclospora cayetanensis
+ncbi885580	Metazoa	Chordata	Mammalia	Rodentia	Bathyergidae	Fukomys	Fukomys damarensis	11.335661	33.703323	Fukomys damarensis
+ncbi8868	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Cygnus	Cygnus atratus	21.785477	30.523039	Cygnus atratus
+ncbi8869	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Cygnus	Cygnus olor	21.895302	30.85048	Cygnus olor
+ncbi8884	Metazoa	Chordata	Aves	Anseriformes	Anatidae	Oxyura	Oxyura jamaicensis	21.938265	31.065777	Oxyura jamaicensis
+ncbi8897	Metazoa	Chordata	Aves	Apodiformes	Apodidae	Chaetura	Chaetura pelagica	42.62372	24.870457	Chaetura pelagica
+ncbi8932	Metazoa	Chordata	Aves	Columbiformes	Columbidae	Columba	Columba livia	42.594425	24.89032	Columba livia
+ncbi89462	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bubalus	Bubalus bubalis	20.605154	32.93906	Bubalus bubalis
+ncbi8954	Metazoa	Chordata	Aves	Falconiformes	Falconidae	Falco	Falco peregrinus	42.597378	24.898647	Falco peregrinus
+ncbi89673	Metazoa	Chordata	Mammalia	Chiroptera	Phyllostomidae	Phyllostomus	Phyllostomus discolor	17.18836	30.459425	Phyllostomus discolor
+ncbi8969	Metazoa	Chordata	Aves	Accipitriformes	Accipitridae	Haliaeetus	Haliaeetus albicilla	44.03057	22.579533	Haliaeetus albicilla
+ncbi8996	Metazoa	Chordata	Aves	Galliformes	Numididae	Numida	Numida meleagris	42.719875	24.757307	Numida meleagris
+ncbi9002	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Centrocercus	Centrocercus urophasianus	21.719564	30.355627	Centrocercus urophasianus
+ncbi90247	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Lagenorhynchus	Lagenorhynchus obliquidens	21.465094	29.516018	Lagenorhynchus obliquidens
+ncbi9031	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Gallus	Gallus gallus	10.132146	35.89053	Gallus gallus
+ncbi905079			Cryptophyceae	Pyrenomonadales	Geminigeraceae	Guillardia	Guillardia theta	29.6679	-3.1089168	Guillardia theta
+ncbi9054	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Phasianus	Phasianus colchicus	42.680622	24.8049	Phasianus colchicus
+ncbi906689	Viridiplantae	Streptophyta	Magnoliopsida	Asparagales	Orchidaceae	Dendrobium	Dendrobium catenatum	-6.1240306	5.0078177	Dendrobium catenatum
+ncbi90675	Viridiplantae	Streptophyta	Magnoliopsida	Brassicales	Brassicaceae	Camelina	Camelina sativa	-5.150056	4.678927	Camelina sativa
+ncbi907965	Fungi	Microsporidia			Unikaryonidae	Encephalitozoon	Encephalitozoon hellem	30.185596	-3.8113499	Encephalitozoon hellem
+ncbi90988	Metazoa	Chordata	Actinopteri	Cypriniformes	Leuciscidae	Pimephales	Pimephales promelas	19.78449	30.975975	Pimephales promelas
+ncbi9103	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Meleagris	Meleagris gallopavo	42.70605	24.788065	Meleagris gallopavo
+ncbi9135	Metazoa	Chordata	Aves	Passeriformes	Fringillidae	Serinus	Serinus canaria	42.5443	24.933172	Serinus canaria
+ncbi91411	Metazoa	Arthropoda	Insecta	Hymenoptera	Vespidae	Polistes	Polistes canadensis	-11.041013	20.241777	Polistes canadensis
+ncbi91492	Fungi	Ascomycota	Eurotiomycetes	Eurotiales	Aspergillaceae	Aspergillus	Aspergillus udagawae	6.2480397	2.7557957	Aspergillus udagawae
+ncbi9157	Metazoa	Chordata	Aves	Passeriformes	Paridae	Parus	Parus major	20.739199	32.76989	Parus major
+ncbi9160	Metazoa	Chordata	Aves	Passeriformes	Passeridae	Passer	Passer montanus	21.790165	30.545095	Passer montanus
+ncbi9172	Metazoa	Chordata	Aves	Passeriformes	Sturnidae	Sturnus	Sturnus vulgaris	42.58627	24.914082	Sturnus vulgaris
+ncbi91739	Metazoa	Arthropoda	Insecta	Lepidoptera	Lycaenidae	Aricia	Aricia agestis	17.243734	30.476194	Aricia agestis
+ncbi91928	Fungi	Ascomycota	Eurotiomycetes	Chaetothyriales	Herpotrichiellaceae	Exophiala	Exophiala spinifera	10.42885	3.0174675	Exophiala spinifera
+ncbi91951	Metazoa	Chordata	Aves	Passeriformes	Turdidae	Catharus	Catharus ustulatus	21.885464	30.81419	Catharus ustulatus
+ncbi9209	Metazoa	Chordata	Aves	Suliformes	Phalacrocoracidae	Phalacrocorax	Phalacrocorax carbo	44.176636	23.303896	Phalacrocorax carbo
+ncbi9233	Metazoa	Chordata	Aves	Sphenisciformes	Spheniscidae	Aptenodytes	Aptenodytes forsteri	42.593697	24.89915	Aptenodytes forsteri
+ncbi9238	Metazoa	Chordata	Aves	Sphenisciformes	Spheniscidae	Pygoscelis	Pygoscelis adeliae	43.03296	24.366976	Pygoscelis adeliae
+ncbi9244	Metazoa	Chordata	Aves	Apodiformes	Trochilidae	Calypte	Calypte anna	42.996067	24.357204	Calypte anna
+ncbi9258	Metazoa	Chordata	Mammalia	Monotremata	Ornithorhynchidae	Ornithorhynchus	Ornithorhynchus anatinus	11.445981	33.64095	Ornithorhynchus anatinus
+ncbi9261	Metazoa	Chordata	Mammalia	Monotremata	Tachyglossidae	Tachyglossus	Tachyglossus aculeatus	21.343346	29.464258	Tachyglossus aculeatus
+ncbi929439		Euglenozoa	Kinetoplastea	Trypanosomatida	Trypanosomatidae	Leishmania	Leishmania mexicana	30.259535	-3.1749394	Leishmania mexicana
+ncbi930089	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Bipolaris	Bipolaris zeicola	6.307036	1.2512845	Bipolaris zeicola
+ncbi930090	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Bipolaris	Bipolaris oryzae	6.2974253	1.2646112	Bipolaris oryzae
+ncbi930091	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Pleosporaceae	Bipolaris	Bipolaris victoriae	6.3458076	1.3259372	Bipolaris victoriae
+ncbi9305	Metazoa	Chordata	Mammalia	Dasyuromorphia	Dasyuridae	Sarcophilus	Sarcophilus harrisii	19.329443	30.64729	Sarcophilus harrisii
+ncbi93162	Metazoa	Chordata	Mammalia	Rodentia	Sciuridae	Marmota	Marmota flaviventris	21.364689	29.387043	Marmota flaviventris
+ncbi931890	Fungi	Ascomycota	Saccharomycetes	Saccharomycetales	Saccharomycetaceae	Eremothecium	Eremothecium cymbalariae	14.63197	5.1353416	Eremothecium cymbalariae
+ncbi932674	Metazoa	Chordata	Aves	Passeriformes	Corvidae	Corvus	Corvus cornix	17.314064	30.29154	Corvus cornix
+ncbi9337	Metazoa	Chordata	Mammalia	Diprotodontia	Phalangeridae	Trichosurus	Trichosurus vulpecula	17.296415	30.420057	Trichosurus vulpecula
+ncbi93504	Metazoa	Arthropoda	Insecta	Lepidoptera	Crambidae	Ostrinia	Ostrinia furnacalis	0.1122814	18.479597	Ostrinia furnacalis
+ncbi935657	Metazoa	Arthropoda	Insecta	Hymenoptera	Colletidae	Colletes	Colletes gigas	-11.005874	20.68489	Colletes gigas
+ncbi936046	Fungi	Basidiomycota	Agaricomycetes	Agaricales	Agaricaceae	Agaricus	Agaricus bisporus	11.610835	1.0851159	Agaricus bisporus
+ncbi9361	Metazoa	Chordata	Mammalia	Cingulata	Dasypodidae	Dasypus	Dasypus novemcinctus	19.606737	30.054945	Dasypus novemcinctus
+ncbi9365	Metazoa	Chordata	Mammalia	Eulipotyphla	Erinaceidae	Erinaceus	Erinaceus europaeus	21.542675	29.457167	Erinaceus europaeus
+ncbi9371	Metazoa	Chordata	Mammalia		Tenrecidae	Echinops	Echinops telfairi	21.37294	29.396128	Echinops telfairi
+ncbi93934	Metazoa	Chordata	Aves	Galliformes	Phasianidae	Coturnix	Coturnix japonica	21.605667	30.381233	Coturnix japonica
+ncbi9402	Metazoa	Chordata	Mammalia	Chiroptera	Pteropodidae	Pteropus	Pteropus alecto	21.312567	29.384695	Pteropus alecto
+ncbi9407	Metazoa	Chordata	Mammalia	Chiroptera	Pteropodidae	Rousettus	Rousettus aegyptiacus	21.349033	29.58027	Rousettus aegyptiacus
+ncbi9417	Metazoa	Chordata	Mammalia	Chiroptera	Phyllostomidae	Artibeus	Artibeus jamaicensis	-10.970708	20.896347	Artibeus jamaicensis
+ncbi941984	Metazoa	Chordata	Actinopteri		Toxotidae	Toxotes	Toxotes jaculatrix	18.370285	30.590696	Toxotes jaculatrix
+ncbi9430	Metazoa	Chordata	Mammalia	Chiroptera	Phyllostomidae	Desmodus	Desmodus rotundus	21.411198	29.550882	Desmodus rotundus
+ncbi94328	Viridiplantae	Streptophyta	Magnoliopsida	Zingiberales	Zingiberaceae	Zingiber	Zingiber officinale	-5.19245	4.7150674	Zingiber officinale
+ncbi944170			Bigyra	Opalinata	Blastocystidae	Blastocystis	Blastocystis sp. subtype 4	29.87032	-2.397127	Blastocystis sp. subtype 4
+ncbi946362			Choanoflagellata	Craspedida	Salpingoecidae	Salpingoeca	Salpingoeca rosetta	14.03395	5.4784803	Salpingoeca rosetta
+ncbi94643		Apicomplexa	Conoidasida	Eucoccidiorida	Sarcocystidae	Besnoitia	Besnoitia besnoiti	11.778942	32.642323	Besnoitia besnoiti
+ncbi94827	Metazoa	Chordata	Aves	Tinamiformes	Tinamidae	Tinamus	Tinamus guttatus	44.168777	23.101753	Tinamus guttatus
+ncbi9483	Metazoa	Chordata	Mammalia	Primates	Cebidae	Callithrix	Callithrix jacchus	17.234175	30.282719	Callithrix jacchus
+ncbi94835	Metazoa	Chordata		Crocodylia	Gavialidae	Gavialis	Gavialis gangeticus	44.073536	23.34836	Gavialis gangeticus
+ncbi948595	Fungi	Microsporidia			Pleistophoridae	Vavraia	Vavraia culicis	30.585842	-2.4649575	Vavraia culicis
+ncbi94885	Metazoa	Chordata	Lepidosauria	Squamata	Colubridae	Pantherophis	Pantherophis guttatus	17.45609	30.753332	Pantherophis guttatus
+ncbi9515	Metazoa	Chordata	Mammalia	Primates	Cebidae	Sapajus	Sapajus apella	19.701115	30.887688	Sapajus apella
+ncbi9531	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Cercocebus	Cercocebus atys	21.377453	29.225693	Cercocebus atys
+ncbi9541	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Macaca	Macaca fascicularis	17.128225	30.239433	Macaca fascicularis
+ncbi9544	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Macaca	Macaca mulatta	21.433424	29.204481	Macaca mulatta
+ncbi9545	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Macaca	Macaca nemestrina	21.361803	29.161802	Macaca nemestrina
+ncbi9555	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Papio	Papio anubis	21.525358	29.210674	Papio anubis
+ncbi9565	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Theropithecus	Theropithecus gelada	21.35205	29.06559	Theropithecus gelada
+ncbi9568	Metazoa	Chordata	Mammalia	Primates	Cercopithecidae	Mandrillus	Mandrillus leucophaeus	21.45282	29.121912	Mandrillus leucophaeus
+ncbi95912	Metazoa	Chordata	Mammalia	Carnivora	Hyaenidae	Hyaena	Hyaena hyaena	17.179716	30.332819	Hyaena hyaena
+ncbi9595	Metazoa	Chordata	Mammalia	Primates	Hominidae	Gorilla	Gorilla gorilla	19.778648	30.899057	Gorilla gorilla
+ncbi9597	Metazoa	Chordata	Mammalia	Primates	Hominidae	Pan	Pan paniscus	20.350504	30.486567	Pan paniscus
+ncbi9598	Metazoa	Chordata	Mammalia	Primates	Hominidae	Pan	Pan troglodytes	20.358452	30.496035	Pan troglodytes
+ncbi9601	Metazoa	Chordata	Mammalia	Primates	Hominidae	Pongo	Pongo abelii	17.091125	30.394884	Pongo abelii
+ncbi9606	Metazoa	Chordata	Mammalia	Primates	Hominidae	Homo	Homo sapiens	20.35882	30.47307	Homo sapiens
+ncbi9615	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Canis	Canis lupus	17.129509	30.362057	Canis lupus
+ncbi9627	Metazoa	Chordata	Mammalia	Carnivora	Canidae	Vulpes	Vulpes vulpes	16.966784	30.384483	Vulpes vulpes
+ncbi9646	Metazoa	Chordata	Mammalia	Carnivora	Ursidae	Ailuropoda	Ailuropoda melanoleuca	17.628202	30.497215	Ailuropoda melanoleuca
+ncbi9669	Metazoa	Chordata	Mammalia	Carnivora	Mustelidae	Mustela	Mustela putorius	17.093542	30.166685	Mustela putorius
+ncbi9685	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Felis	Felis catus	16.999657	30.163795	Felis catus
+ncbi9689	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Panthera	Panthera leo	17.117908	30.252699	Panthera leo
+ncbi9691	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Panthera	Panthera pardus	17.024261	30.156487	Panthera pardus
+ncbi96939	Viridiplantae	Streptophyta	Magnoliopsida	Vitales	Vitaceae	Vitis	Vitis riparia	-5.7254605	4.415583	Vitis riparia
+ncbi9694	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Panthera	Panthera tigris	17.245863	30.108185	Panthera tigris
+ncbi9696	Metazoa	Chordata	Mammalia	Carnivora	Felidae	Puma	Puma concolor	21.333805	29.564077	Puma concolor
+ncbi9704	Metazoa	Chordata	Mammalia	Carnivora	Otariidae	Zalophus	Zalophus californianus	17.06503	30.448112	Zalophus californianus
+ncbi9708	Metazoa	Chordata	Mammalia	Carnivora	Odobenidae	Odobenus	Odobenus rosmarus	17.196424	30.174105	Odobenus rosmarus
+ncbi97097	Metazoa	Chordata	Aves	Phaethontiformes	Phaethontidae	Phaethon	Phaethon lepturus	44.11456	22.67056	Phaethon lepturus
+ncbi9711	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Halichoerus	Halichoerus grypus	17.175896	30.27651	Halichoerus grypus
+ncbi9713	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Leptonychotes	Leptonychotes weddellii	20.589708	32.90295	Leptonychotes weddellii
+ncbi9715	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Mirounga	Mirounga leonina	16.960728	30.019255	Mirounga leonina
+ncbi9720	Metazoa	Chordata	Mammalia	Carnivora	Phocidae	Phoca	Phoca vitulina	17.071499	30.202044	Phoca vitulina
+ncbi9731	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Globicephala	Globicephala melas	21.478388	29.05364	Globicephala melas
+ncbi9733	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Orcinus	Orcinus orca	21.301315	29.062206	Orcinus orca
+ncbi9739	Metazoa	Chordata	Mammalia	Artiodactyla	Delphinidae	Tursiops	Tursiops truncatus	21.442217	29.094557	Tursiops truncatus
+ncbi9749	Metazoa	Chordata	Mammalia	Artiodactyla	Monodontidae	Delphinapterus	Delphinapterus leucas	21.345337	29.070415	Delphinapterus leucas
+ncbi9755	Metazoa	Chordata	Mammalia	Artiodactyla	Physeteridae	Physeter	Physeter macrocephalus	21.619762	28.973331	Physeter macrocephalus
+ncbi97700	Viridiplantae	Streptophyta	Magnoliopsida	Fagales	Fagaceae	Quercus	Quercus lobata	-6.1484017	4.33834	Quercus lobata
+ncbi9771	Metazoa	Chordata	Mammalia	Artiodactyla	Balaenopteridae	Balaenoptera	Balaenoptera musculus	21.52579	29.061253	Balaenoptera musculus
+ncbi9785	Metazoa	Chordata	Mammalia	Proboscidea	Elephantidae	Loxodonta	Loxodonta africana	21.605999	29.07943	Loxodonta africana
+ncbi9793	Metazoa	Chordata	Mammalia	Perissodactyla	Equidae	Equus	Equus asinus	10.961409	33.438652	Equus asinus
+ncbi9796	Metazoa	Chordata	Mammalia	Perissodactyla	Equidae	Equus	Equus caballus	17.030478	30.359608	Equus caballus
+ncbi9798	Metazoa	Chordata	Mammalia	Perissodactyla	Equidae	Equus	Equus przewalskii	10.932474	33.461178	Equus przewalskii
+ncbi981085	Viridiplantae	Streptophyta	Magnoliopsida	Rosales	Moraceae	Morus	Morus notabilis	-5.854416	4.237615	Morus notabilis
+ncbi9823	Metazoa	Chordata	Mammalia	Artiodactyla	Suidae	Sus	Sus scrofa	19.412804	30.492104	Sus scrofa
+ncbi983644	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Cordycipitaceae	Cordyceps	Cordyceps militaris	10.72908	2.4516895	Cordyceps militaris
+ncbi9837	Metazoa	Chordata	Mammalia	Artiodactyla	Camelidae	Camelus	Camelus bactrianus	19.286947	30.658056	Camelus bactrianus
+ncbi9838	Metazoa	Chordata	Mammalia	Artiodactyla	Camelidae	Camelus	Camelus dromedarius	19.366499	30.733032	Camelus dromedarius
+ncbi983964	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Hypocreaceae	Trichoderma	Trichoderma harzianum	9.120023	2.266868	Trichoderma harzianum
+ncbi983966	Fungi	Ascomycota	Saccharomycetes	Phaffomycetales	Phaffomycetaceae	Cyberlindnera	Cyberlindnera jadinii	13.413631	3.2729752	Cyberlindnera jadinii
+ncbi98403	Fungi	Ascomycota	Sordariomycetes	Hypocreales	Ophiocordycipitaceae	Drechmeria	Drechmeria coniospora	10.753336	2.4830234	Drechmeria coniospora
+ncbi984485	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Hyphopichia	Hyphopichia burtonii	13.540526	3.3767571	Hyphopichia burtonii
+ncbi984486	Fungi	Ascomycota	Pichiomycetes	Serinales		Babjeviella	Babjeviella inositovora	13.458383	3.3219826	Babjeviella inositovora
+ncbi984487	Fungi	Ascomycota	Pichiomycetes	Serinales	Debaryomycetaceae	Suhomyces	Suhomyces tanzawaensis	15.66787	5.2634125	Suhomyces tanzawaensis
+ncbi985895	Fungi	Ascomycota	Dothideomycetes	Pleosporales	Leptosphaeriaceae	Plenodomus	Plenodomus lingam	6.313471	1.2364317	Plenodomus lingam
+ncbi9860	Metazoa	Chordata	Mammalia	Artiodactyla	Cervidae	Cervus	Cervus elaphus	20.629496	32.966854	Cervus elaphus
+ncbi9880	Metazoa	Chordata	Mammalia	Artiodactyla	Cervidae	Odocoileus	Odocoileus virginianus	20.596132	32.981335	Odocoileus virginianus
+ncbi9913	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos taurus	17.126753	30.266018	Bos taurus
+ncbi9915	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Bos	Bos indicus	21.465622	29.145773	Bos indicus
+ncbi9925	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Capra	Capra hircus	21.409138	28.910582	Capra hircus
+ncbi993615	Fungi	Microsporidia			Nosematidae	Vittaforma	Vittaforma corneae	30.108454	-3.735959	Vittaforma corneae
+ncbi9940	Metazoa	Chordata	Mammalia	Artiodactyla	Bovidae	Ovis	Ovis aries	20.624504	32.957928	Ovis aries
+ncbi9974	Metazoa	Chordata	Mammalia	Pholidota	Manidae	Manis	Manis javanica	21.467367	28.977781	Manis javanica
+ncbi9978	Metazoa	Chordata	Mammalia	Lagomorpha	Ochotonidae	Ochotona	Ochotona princeps	19.3997	30.698885	Ochotona princeps
+ncbi9986	Metazoa	Chordata	Mammalia	Lagomorpha	Leporidae	Oryctolagus	Oryctolagus cuniculus	21.407797	29.528236	Oryctolagus cuniculus
+ncbi9994	Metazoa	Chordata	Mammalia	Rodentia	Sciuridae	Marmota	Marmota marmota	13.859084	5.5122204	Marmota marmota
+ncbi9999	Metazoa	Chordata	Mammalia	Rodentia	Sciuridae	Urocitellus	Urocitellus parryii	19.674896	30.06114	Urocitellus parryii

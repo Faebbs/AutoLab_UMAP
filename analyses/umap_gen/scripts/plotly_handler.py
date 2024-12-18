@@ -5,6 +5,7 @@ from dash import Dash, dcc, html, Output, Input, callback
 import webbrowser
 from threading import Timer
 import threading
+import dash_bootstrap_components as dbc
 
 def open_browser(port):
 	webbrowser.open_new("http://localhost:{}".format(port))
@@ -13,7 +14,7 @@ def run_dash(app, port, debug):
     Timer(1, open_browser(port)).start();
     app.run_server(debug=debug, port=port, use_reloader=False)
 
-def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
+def create_diagramm(data_matrix, port, colorscale, debug=False):
     """
     Creates a plotly plot in a Dash app.
     :param data_matrix: Matrix with information for plotly graph object
@@ -23,20 +24,28 @@ def create_diagramm(data_matrix, port=8050, colorscale="Rainbow", debug=False):
     :return:
     """
 
-    app = Dash()
+    app = Dash(external_stylesheets=[dbc.themes.SUPERHERO])
 
     # creates dict of lineage for slider
     list_lineage_order = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
     marks_dict = {}
     i = 0
     while i < len(list_lineage_order):
-        marks_dict.update({i: list_lineage_order[i]})
+        marks_dict.update({i:list_lineage_order[i]})
         i = i + 1
 
-    # Layout for output
+    # Layout for slider
+    body = dbc.Container([
+            dbc.Row([
+                html.Div(
+                    dcc.Slider(0, len(list_lineage_order)-1, step=1,
+                               marks=marks_dict, value=0, id="rank_slider"), style={'width': '80vw'})
+            ], justify="center", align='center')
+        ])
+    # puts together layout for entire app
     app.layout = html.Div(children=[
         dcc.Graph(id="graph", style={'width': '100vw', 'height': '90vh'}),
-        dcc.Slider(0, len(list_lineage_order)-1, step=1, marks=marks_dict, value=0, id="rank_slider")
+        body
     ])
 
     # callback for slider: let's you decide which rank should be displayed in the legend and by color coding

@@ -8,7 +8,16 @@ class Matrix_ncbiID:
         self.data = data
         self.matrix_out = None
 
-    def create_matrix(self, row_value, column_value, on, mask_value, track_time):
+    def create_matrix(self, row_value, column_value, transformdata, mask_value, track_time):
+        """
+
+        :param row_value:
+        :param column_value:
+        :param transformdata:
+        :param mask_value:
+        :param track_time:
+        :return:
+        """
         if track_time is True:
             # Start Timer
             start = time.time()
@@ -27,7 +36,7 @@ class Matrix_ncbiID:
         count_droped = 0
         for nID in columnIDs:
             x = grouped_ncbi.get_group(nID)
-            new_df = x[[row_value, on]].copy()
+            new_df = x[[row_value, transformdata]].copy()
             #identifying duplicates in data, keeps the largest FAS Score, discards rest
             while True:
                 duplicates = new_df.duplicated(subset=row_value,keep=False)
@@ -38,8 +47,8 @@ class Matrix_ncbiID:
                 compare_element = subset.iat[0,0]
                 subset_duplicates = subset[subset[row_value] == compare_element]
                 # figures out the max element and it's index
-                max_score = subset_duplicates[on].max()
-                max_score_id = subset_duplicates[on].idxmax()
+                max_score = subset_duplicates[transformdata].max()
+                max_score_id = subset_duplicates[transformdata].idxmax()
                 # creates list with index of the double value and removes the largest one of it
                 IDs_list = subset_duplicates.index
                 IDs_list = list(IDs_list.values)
@@ -49,7 +58,7 @@ class Matrix_ncbiID:
                 count_droped = count_droped + len(IDs_list)
             # (outer)joins dataFrames together to Matrix
             new_df.set_index(row_value, inplace=True)
-            new_df.rename(columns={on:nID}, inplace='True')
+            new_df.rename(columns={transformdata:nID}, inplace='True')
             matrix_out = matrix_out.join(new_df, how='outer')
         # print(f"{count_droped} were droped because of double values")
         # puts mask over data, changes NaN to 0

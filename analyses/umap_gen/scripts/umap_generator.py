@@ -7,7 +7,7 @@ from pathlib import Path
 import plotly_handler
 
 
-def generate_umap(matrix_values, matrix_lineage, debug_mode=False, **kwargs):
+def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, debug_mode=False):
     if debug_mode is False:
         # UMAP
         reducer = umap.UMAP()
@@ -30,14 +30,6 @@ def generate_umap(matrix_values, matrix_lineage, debug_mode=False, **kwargs):
                 continue
         transformed_data = np.array(transformed_data)
 
-    # TODO weg, hier werden zwischen ergebnisse gespeichert
-    """file = open('/home/fabian/Documents/umap_project/analyses/umap_gen/results/UmapData.txt', "w")
-    file.write("x,y\n")
-    for i in transformed_data:
-        line = ""
-        line = line + str(i[0]) + "," + str(i[1]) + "\n"
-        file.write(line)
-    file.close()"""
 
     # creates matrix with all necessary information
     indexes = list(matrix_values.index.values) # List with indices corresponding to the rows of transformed_data
@@ -63,9 +55,13 @@ def generate_umap(matrix_values, matrix_lineage, debug_mode=False, **kwargs):
     info_of_label = pd.DataFrame(info_of_label)
     matrix_of_wisdom["species_name"] = info_of_label
 
-    plotly_handler.create_diagramm(matrix_of_wisdom, port=8050, colorscale="Rainbow", debug=False) #TODO richtig Argumente übergeben
+    # writes data used for plot generation to matrix
+    if to_csv is True:
+        matrix_of_wisdom.to_csv("/home/fabian/Documents/umap_project/analyses/umap_gen/results/matrixdata.txt", sep="\t", index=False)
+
+    plotly_handler.create_diagramm(matrix_of_wisdom, port, colorscale)
 
 
 # Debugging purposes
 if __name__ == "__main__":
-    generate_umap(pd.DataFrame(), pd.DataFrame(), debug_mode=True)
+    generate_umap(pd.DataFrame(), pd.DataFrame(), to_csv=False, port=8050, colorscale="Rainbow", debug_mode=True)
