@@ -3,33 +3,19 @@ import numpy as np
 import pandas as pd
 import umap
 from pathlib import Path
-
 import plotly_handler
 
 
-def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, debug_mode=False):
-    if debug_mode is False:
-        # UMAP
-        reducer = umap.UMAP()
-        # scaled_penguin_data = StandardScaler().fit_transform(features)
-        transformed_data = reducer.fit_transform(matrix_values)
-    else: # Debug Mode: read data from files
-        root_dir = Path(__file__).resolve().parent.parent  # TODO to csv für daten einbauen
-        matrix_values = pd.read_csv(os.path.abspath(os.path.join(root_dir, "results/OccuranceData.txt"))) # /home/fabian/Documents/umap_project/analyses/umap_gen/results/OccuranceData.txt
-        matrix_values.set_index("ncbiID", inplace=True)
-        matrix_lineage = pd.read_csv(os.path.abspath(os.path.join(root_dir, "results/lineageData.txt"))) # /home/fabian/Documents/umap_project/analyses/umap_gen/results/lineageData.txt
-        matrix_lineage.set_index("Rank", inplace=True)
-        file = open(os.path.abspath(os.path.join(root_dir, "results/UmapData.txt")), "r")# /home/fabian/Documents/umap_project/analyses/umap_gen/results/UmapData.txt
-        transformed_data = []
-        for line in file:
-            try:
-                line = line.strip()
-                lineel = line.split(sep=",")
-                transformed_data.append( [float(lineel[0]), float(lineel[1])] )
-            except(TypeError, ValueError):
-                continue
-        transformed_data = np.array(transformed_data)
-
+def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, opacity, n_neighbors, min_dist, spread, seed):
+    # UMAP
+    reducer = umap.UMAP(
+        n_neighbors=n_neighbors,
+        min_dist=min_dist,
+        spread=spread,
+        random_state=seed
+    )
+    # scaled_penguin_data = StandardScaler().fit_transform(features)
+    transformed_data = reducer.fit_transform(matrix_values)
 
     # creates matrix with all necessary information
     indexes = list(matrix_values.index.values) # List with indices corresponding to the rows of transformed_data
@@ -59,9 +45,9 @@ def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, debug
     if to_csv is True:
         matrix_of_wisdom.to_csv("/home/fabian/Documents/umap_project/analyses/umap_gen/results/matrixdata.txt", sep="\t", index=False)
 
-    plotly_handler.create_diagramm(matrix_of_wisdom, port, colorscale)
+    plotly_handler.create_diagramm(matrix_of_wisdom, port, colorscale, opacity)
 
 
 # Debugging purposes
 if __name__ == "__main__":
-    generate_umap(pd.DataFrame(), pd.DataFrame(), to_csv=False, port=8050, colorscale="Rainbow", debug_mode=True)
+    generate_umap(pd.DataFrame(), pd.DataFrame(), to_csv=False, port=8050, colorscale="Rainbow")

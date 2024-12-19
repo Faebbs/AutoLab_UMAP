@@ -10,17 +10,16 @@ import dash_bootstrap_components as dbc
 def open_browser(port):
 	webbrowser.open_new("http://localhost:{}".format(port))
 
-def run_dash(app, port, debug):
+def run_dash(app, port):
     Timer(1, open_browser(port)).start();
-    app.run_server(debug=debug, port=port, use_reloader=False)
+    app.run_server(port=port, use_reloader=False)
 
-def create_diagramm(data_matrix, port, colorscale, debug=False):
+def create_diagramm(data_matrix, port, colorscale, opacity):
     """
     Creates a plotly plot in a Dash app.
     :param data_matrix: Matrix with information for plotly graph object
     :param port: Port, default=8050
     :param colorscale: Choose one of Plotlys colorscales, default="Rainbow"; more colorscale options: https://plotly.com/python/builtin-colorscales/
-    :param debug: Activates/Deactivates debug Option for Dash App, default=False
     :return:
     """
 
@@ -48,7 +47,7 @@ def create_diagramm(data_matrix, port, colorscale, debug=False):
         body
     ])
 
-    # callback for slider: let's you decide which rank should be displayed in the legend and by color coding
+    # callback for slider: lets you decide which rank should be displayed in the legend and by color coding
     @callback(
         Output("graph", "figure"),
         Input("rank_slider", "value")
@@ -70,7 +69,7 @@ def create_diagramm(data_matrix, port, colorscale, debug=False):
         color_list = sample_colorscale(colorscale=colorscale, samplepoints=list(x))  # info over colorspaces: https://plotly.com/python/builtin-colorscales/
         color_list_rgba = []
         for el in color_list:  # turn RGB value into RGBA Value (with opacity)
-            el = el[0:3] + "a" + el[3:-1] + ", 0.5)"
+            el = el[0:3] + "a" + el[3:-1] + ", " + opacity + ")"
             color_list_rgba.append(el)
         # creates dict which maps colors to a taxonomic rank
         color_dict = {}
@@ -122,6 +121,6 @@ def create_diagramm(data_matrix, port, colorscale, debug=False):
                 return fig"""
 
     # Run Dash in a separate thread
-    dash_thread = threading.Thread(target=run_dash(app, port, debug))
+    dash_thread = threading.Thread(target=run_dash(app, port))
     dash_thread.start()
 

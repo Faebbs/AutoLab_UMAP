@@ -1,17 +1,14 @@
 import time
-
 import pandas as pd
-import argparse
-
-from numpy.f2py.auxfuncs import throw_error
-
 import Matrix_handler
 import umap_generator
+import argparse
 import ncbi_data_handler
 
 
 def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
-         updateLocalDatabase, port, csvfile, colorscale, track_time):
+         updateLocalDatabase, port, csvfile, colorscale, opacity, track_time,
+         n_neighbors, min_dist, spread, seed):
     if track_time is True:
         start_all = time.time()
     # updates local ncbi Database
@@ -20,7 +17,7 @@ def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
     # file path input
     try:
         data_read = pd.read_csv(file, sep=separator)
-    except (FileNotFoundError):
+    except(FileNotFoundError):
         print("File could not be found")
         return
 
@@ -73,7 +70,7 @@ def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
         print(f"Total runtime: {end_all-start_all}s")
 
     # generate UMAP
-    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, csvfile, port, colorscale)
+    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, csvfile, port, colorscale, opacity, n_neighbors, min_dist, spread, seed)
 
 
 
@@ -84,60 +81,152 @@ def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
 
 # main function
 if __name__=="__main__":
-    # parsing args from command line
+    # add command line arguments
     parser = argparse.ArgumentParser(prog="umapvis", description="Tool for UMAP Visualisation")
-    parser.add_argument("--file", "-f", help="Path to input file, should be CSV/TSV")
-    parser.add_argument("--sep", "-s", help="Seperator for CSV", nargs="?")
-    parser.set_defaults(sep="\t")
-    parser.add_argument("--rowvalue", "-r", help="Define which column should be used as new row values. Relevant for NCBI Taxonomy utilisation.")
-    parser.add_argument("--columnvalue", "-c", help="Define which column should be used as new column values.")
-    parser.add_argument("--transformdata", "-td", help="Column of data which should be used for UMAP dimension reduction")
-    parser.add_argument("--maskvalue", "-mv", help="Filters out all nodes which have less than specified value. 0 to get all data.")
-    parser.set_defaults(maskvalue=0)
-    parser.add_argument("--updateLocalDatabase", "-ulD",
-                        help="Decide if you want to update your local Database, must be True first time running", nargs="?")
-    parser.set_defaults(updateLocalDatabase=False)
-    parser.add_argument("-port", help="Specify Port in which the Dash app should be opend. Default is 8050")
-    parser.set_defaults(port=8050)
-    parser.add_argument("--csvfile", "-csv", help="If True, saves the data used to create the plot in a csv file in results directory")
-    parser.set_defaults(csvfile=False)
-    parser.add_argument("--colorscale", "-cscal", help="Choose a colorscale from plotlys samplecolors. Default = Rainbow. More Info about colorscales: https://plotly.com/python/builtin-colorscales/")
-    parser.set_defaults(colorscale="Rainbow")
-    parser.add_argument("--runtime", "-rt", help="Show runtime for program")
-    parser.set_defaults(runtime=False)
+    required_group = parser.add_argument_group("Required arguments")
+    input_group = parser.add_argument_group("Optional arguments for input data")
+    plot_group = parser.add_argument_group("Optional plotting arguments")
+    utility_group = parser.add_argument_group("Optional utilies")
+    umap_group = parser.add_argument_group("Optional UMAP arguments")
 
+    required_group.add_argument("--file", "-f", required=True,
+                        help="Path to input file, should be CSV/TSV")
+    input_group.add_argument("--sep", "-s", default="\t",
+                        help="Seperator for CSV")
+    required_group.add_argument("--rowvalue", "-r", required=True,
+                        help="Define which column should be used as new row values. Relevant for NCBI Taxonomy utilisation.")
+    required_group.add_argument("--columnvalue", "-c", required=True,
+                        help="Define which column should be used as new column values.")
+    required_group.add_argument("--transformdata", "-td", required=True,
+                        help="Column of data which should be used for UMAP dimension reduction")
+    input_group.add_argument("--maskvalue", "-mask", default=0,
+                        help="Filters out all nodes which have less than specified value. 0 to get all data.")
+    utility_group.add_argument("--updateLocalDatabase", "-ulD", action="store_true",
+                        help="Decide if you want to update your local Database, should be True first time running")
+    plot_group.add_argument("-port", default=8050,
+                        help="Specify Port in which the Dash app should be opend. Default is 8050")
+    utility_group.add_argument("--csvfile", "-csv", action="store_true",
+                        help="If True, saves the data used to create the plot in a csv file in results directory")
+    plot_group.add_argument("--colorscale", "-cscal", default="Rainbow",
+                        help="Choose a colorscale from plotlys samplecolors."
+                             " More Info about colorscales: https://plotly.com/python/builtin-colorscales/")
+    plot_group.add_argument("--opacity", "-op", default="0.6",
+                        help="Set opacity for the marks in the plot. Value between 0 and 1, 1 being no opacity.")
+    utility_group.add_argument("--runtime", "-rt",
+                        help="Show runtime for program", action="store_true")
+    umap_group.add_argument("--n_neighbors", "-ngb", default="15",
+                        help="UMAP parameter: The size of local neighborhood (in terms of number of neighboring sample points)"
+                             " used for manifold approximation. Larger values result in more global views of the manifold,"
+                             " while smaller values result in more local data being preserved. In general values should be in the range 2 to 100.")
+    umap_group.add_argument("--min_dist", "-mdis", default="0.1",
+                            help="UMAP parameter: The effective minimum distance between embedded points. Smaller values"
+                                 " will result in a more clustered/clumped embedding where nearby points on the manifold are"
+                                 " drawn closer together, while larger values will result on a more even dispersal of points."
+                                 " The value should be set relative to the spread value, which determines the scale at which embedded points will be spread out.")
+    umap_group.add_argument("--spread", "-sp", default="1.0",
+                            help="UMAP parameter: The effective scale of embedded points. In combination with min_dist"
+                                 " this determines how clustered/clumped the embedded points are.")
+    umap_group.add_argument("-seed", default=None,
+                            help="UMAP parameter (Altered only int as parameter): : If given int, random_state is the seed used by the random number generator."
+                                 " By dooing so, UMAP will be slower because Multithreading is disabled.")
+    # parse Arguments from command line
     args = parser.parse_args()
-    data = args.file
-    seperator = args.sep
-    rowvalue = args.rowvalue
-    columnvalue = args.columnvalue
-    transformdata = args.transformdata
-    maskvalue = args.maskvalue
+
+    # check Arguments and executes main
+    data = args.file # file path
+    # TODO Fehlerbehandlung
+
+    seperator = args.sep # seperator in filepath
+    # TODO Fehlerbehandlung
+
+    rowvalue = args.rowvalue # name of column used for making new rows
+    # TODO Fehlerbehandlung
+
+    columnvalue = args.columnvalue # name of column used for making new columns
+    # TODO Fehlerbehandlung
+
+    transformdata = args.transformdata # name of column used for data which is used by UMAP
+    # TODO Fehlerbehandlung
+
+    maskvalue = args.maskvalue # Value threshold
     try:
         maskvalue = float(maskvalue)
     except(ValueError, TypeError):
-        print("maskvalue has to be a number")
-    updateLocalDatabase = args.updateLocalDatabase
-    port = args.port
+        raise Exception("Maskvalue has to be a float number")
+
+    updateLocalDatabase = args.updateLocalDatabase # update local database
+
+    port = args.port # port for localhost
     try:
         port = int(port)
     except(ValueError, TypeError):
-        print("port has to be a number")
-    csvfile = args.csvfile
-    if csvfile == "True":
-        csvfile = True
-    elif csvfile == "False":
-        csvfile = False
-    elif csvfile is True or csvfile is False:
+        raise Exception("Port has to be a number")
+
+    csvfile = args.csvfile # store matrix data as csv
+
+    colorscale = args.colorscale # choose colorscale
+
+    opacity = args.opacity # choose opacity
+    try:
+        opacitytest = float(opacity)
+        if opacitytest < 0 or opacitytest > 1:
+            raise Exception("Opacity has to be a float value between 0 and 1")
+    except(ValueError, TypeError):
+        raise Exception("Opacity has to be a float value between 0 and 1")
+
+    track_time = args.runtime # check runtime
+
+    n_neighbors = args.n_neighbors # number neighbors in UMAP
+    try:
+        n_neighbors = int(n_neighbors)
+        if n_neighbors < 1:
+            raise Exception("n_neighbors must be greater than 0")
+    except(ValueError, TypeError):
+        raise Exception("n_neighbors must be integer value")
+
+    min_dist = args.min_dist # min dist between points
+    try:
+        min_dist = float(min_dist)
+    except(ValueError, TypeError):
+        raise Exception("min_dist has to be a float value")
+
+    spread = args.spread # spread of points
+    try:
+        spread = float(spread)
+    except(ValueError, TypeError):
+        raise Exception("spread has to be a float value")
+
+    seed = args.seed # seed for reproducibility
+    if seed is None:
         pass
     else:
-        raise Exception("Value has to be either true or False")
-    colorscale = args.colorscale
-    track_time = args.runtime
-    #TODO Fehlerbehandlung
-    print(args)
+        try:
+            seed = int(seed)
+        except(ValueError, TypeError):
+            raise Exception("seed has to be an integer value")
 
-    main(data, seperator, rowvalue, columnvalue, transformdata, maskvalue, updateLocalDatabase, port, csvfile, colorscale, track_time)
+    print(
+        "data: " + str(data) + "\n" +
+        "seperator: " + str(seperator) + "\n" +
+        "rowvalue: " + str(rowvalue) + "\n" +
+        "columnvalue: " + str(columnvalue) + "\n" +
+        "transformdata: " + str(transformdata) + "\n" +
+        "maskvalue: " + str(maskvalue) + "\n" +
+        "updateLocalDatabase: " + str(updateLocalDatabase) + "\n" +
+        "port: " + str(port) + "\n" +
+        "csvfile: " + str(csvfile) + "\n" +
+        "colorscale: " + str(colorscale) + "\n" +
+        "opacity: " + str(opacity) + "\n" +
+        "track_time: " + str(track_time) + "\n" +
+        "n_neighbors: " + str(n_neighbors) + "\n" +
+        "min_dist: " + str(min_dist) + "\n" +
+        "spread: " + str(spread) + "\n" +
+        "seed: " + str(seed)
+    )
+    
+    main(data, seperator, rowvalue, columnvalue, transformdata, maskvalue, updateLocalDatabase, port, csvfile,
+         colorscale, opacity, track_time, n_neighbors, min_dist, spread, seed)
     print("")
 
-# python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F -port 8070 -mv 0.5
+# python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F -mask 0.5
+# python main.py -f /home/fabian/Documents/data/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F

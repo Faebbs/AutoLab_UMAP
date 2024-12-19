@@ -58,7 +58,7 @@ def ncbi_lineage(ncbiID):
 
 def ncbi_lineage_deprecated(ncbiID):
     """
-    Fetches information of NCBI taxonomy via URL Request. Used only for testing.
+    Fetches information of NCBI taxonomy via URL Request. Deprecated cause other approach was used.
     :param ncbiID: String like "ncbi9606"
     :return: Dict with the taxonomic rank and the specific taxa of the searched organism
     """
@@ -73,9 +73,9 @@ def ncbi_lineage_deprecated(ncbiID):
         url = f"https://api.ncbi.nlm.nih.gov/datasets/v2/taxonomy/taxon/{ncbiID}/dataset_report?returned_content=METADATA"
         response = requests.get(url, timeout=1)
     except ConnectionError:
-        return ("ConnectionError") #TODO Fehlerbehandlung
+        return ("ConnectionError")
     except Timeout:
-        return ("Timeout") #TODO Fehlerbehandlung
+        return ("Timeout")
     # Takes lineage from ncbi Response
     response = response.json()
     # Error when ncbiId couldn't be found in database

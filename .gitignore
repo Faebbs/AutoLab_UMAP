@@ -1,5 +1,5 @@
 *.egg-info
 *.
 /analyses/umap_gen/scripts/matrix_debug.txt
-
+/taxdump.tar.gz
 
