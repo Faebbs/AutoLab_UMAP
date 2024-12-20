@@ -1,5 +1,4 @@
-*.egg-info
-*.
-/analyses/umap_gen/scripts/matrix_debug.txt
 /taxdump.tar.gz
+*/taxdump.tar.gz
 
+/data/eukaryots.phyloprofile

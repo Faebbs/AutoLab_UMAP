@@ -1,21 +1,26 @@
-# Phylogenetic profiling of cellwall degrading enzymes
+# umap_gen
 
-Tracking the evolution of cellwall degrading enzymes (cellulases, hemi-cellulases and chitinases) across the tree of life.
+Generate a Umap
 
 ## How to use
 
-You can now create a workspace for each of your analyses using:
+* Use the `results` directory during exploration but remember to save milestone files in the project directory.
+* Exclude large data from version control by adding it to `.gitignore`
 
-```
-cd analyses
-cookiecutter gh:BIONF/bionf_cookiecutter --directory="analysis"
-```
+## Custom Environments
 
-As soon as an analysis generated a "milestone", 
-i.e. figures, tables, or files that will be used in other analyses
-save them in the milestones/ directory of the project.
+If you create a new conda environment for this analysis. Please remember save
+your environment to a file after each change:
 
-Once you are finished with an analysis, 
-add corresponding rules to the snakemake file of the project.
+`mamba env export > environment.yml`
 
-Don't forget to sync this project to GitHub. 
+You can install the python package in this directory to your local conda environment with:
+
+`pip install -e .`
+
+You will need to manually add large data files to .gitignore to prevent it from syncing to
+version control.
+
+## Authors
+
+* Fabian Mueller
