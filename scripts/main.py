@@ -1,8 +1,9 @@
 import time
 import pandas as pd
-import Matrix_handler
-import umap_generator
-import ncbi_data_handler
+from scripts import ncbi_data_handler
+from scripts import umap_generator
+from scripts import Matrix_handler
+
 from scripts.input_handler import take_input
 
 
@@ -99,6 +100,3 @@ def main():
 # main function
 if __name__=="__main__":
     main()
-
-# python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F -mask 0.5
-# python main.py -f /home/fabian/Documents/data/eukaryots.phyloprofile -r ncbiID -c geneID -od FAS_F -rt --seed 42

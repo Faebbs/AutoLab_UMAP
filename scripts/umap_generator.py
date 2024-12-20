@@ -1,9 +1,6 @@
-import os
-import numpy as np
 import pandas as pd
 import umap
-from pathlib import Path
-import plotly_handler
+from scripts import plotly_handler
 
 
 def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, opacity, n_neighbors, min_dist, spread, seed):
