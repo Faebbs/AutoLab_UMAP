@@ -1,5 +1,6 @@
 import argparse
 
+
 def take_input():
     # add command line arguments
     parser = argparse.ArgumentParser(prog="autoalloUMAP",
@@ -34,6 +35,9 @@ def take_input():
                                  " More Info about colorscales: https://plotly.com/python/builtin-colorscales/")
     plot_group.add_argument("--opacity", "-op", default="0.6",
                             help="Set opacity for the marks in the plot. Value between 0 and 1, 1 being no opacity.")
+    plot_group.add_argument("--additional_ranks", "-adr", nargs="*",
+                            help="Let's you add additional ranks to search for in NCBI Lineage. Default are: Kingdom, Phylum, Class, Order, Family, Genus, Species."
+                                 " Those are also the most universally used. Other ranks will probably result in a lot of unassigned marks in the plot.")
     utility_group.add_argument("--runtime", "-rt",
                                help="Show runtime for program", action="store_true")
     umap_group.add_argument("--n_neighbors", "-ngb", default="15",
@@ -98,6 +102,12 @@ def take_input():
     except(ValueError, TypeError):
         raise Exception("Opacity has to be a float value between 0 and 1")
 
+    additional_ranks_raw = args.additional_ranks
+    additional_ranks = []
+    for el in additional_ranks_raw:
+        el = el.lower()
+        additional_ranks.append(el)
+
     track_time = args.runtime  # check runtime
 
     n_neighbors = args.n_neighbors  # number neighbors in UMAP
@@ -140,6 +150,7 @@ def take_input():
         "port": port,
         "csvfile": csvfile,
         "colorscale": colorscale,
+        "additional_ranks": additional_ranks,
         "opacity": opacity,
         "track_time": track_time,
         "n_neighbors": n_neighbors,

@@ -14,7 +14,7 @@ def run_dash(app, port):
     Timer(1, open_browser(port)).start();
     app.run_server(port=port, use_reloader=False)
 
-def create_diagramm(data_matrix, port, colorscale, opacity):
+def create_diagramm(data_matrix, port, colorscale, opacity, list_lineage_order):
     """
     Creates a plotly plot in a Dash app.
     :param data_matrix: Matrix with information for plotly graph object
@@ -25,8 +25,10 @@ def create_diagramm(data_matrix, port, colorscale, opacity):
 
     app = Dash(external_stylesheets=[dbc.themes.SUPERHERO])
 
+    # Replaces all NaN values, so that they will be shown in plot
+    data_matrix.fillna("No Category found", inplace=True)
+
     # creates dict of lineage for slider
-    list_lineage_order = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
     marks_dict = {}
     i = 0
     while i < len(list_lineage_order):
@@ -54,16 +56,21 @@ def create_diagramm(data_matrix, port, colorscale, opacity):
     )
     def update_figure(selected_rank, colorscale=colorscale):
         """
-        Callback for slider.
+        Callback for slider
         :param selected_rank:
         :param colorscale:
         :return:
         """
         selected_rank = marks_dict[selected_rank]
+
+        # sorts matrix alphabetically
+        data_matrix.sort_values(by=selected_rank, inplace=True)
+
         # assigns color by dividing a colorspace from plotly into even pieces via np.linespace
         set_taxanomy = list()
         for el in data_matrix.loc[:, selected_rank].unique():  # counts every indiviual occurance of a rank
-            set_taxanomy.append(el)
+            if el != "No Category found":
+                set_taxanomy.append(el)
         n = len(set_taxanomy)
         x = np.linspace(0, 1, n)
         color_list = sample_colorscale(colorscale=colorscale, samplepoints=list(x))  # info over colorspaces: https://plotly.com/python/builtin-colorscales/
@@ -73,12 +80,12 @@ def create_diagramm(data_matrix, port, colorscale, opacity):
             color_list_rgba.append(el)
         # creates dict which maps colors to a taxonomic rank
         color_dict = {}
-        name_list = []
         i = 0
         for el in set_taxanomy:
             if el not in color_dict:
                 color_dict.update({el: color_list_rgba[i]})
                 i = i + 1
+        color_dict.update({"No Category found": "grey"})
 
         # graph object approach
         fig = go.Figure()

@@ -1,9 +1,11 @@
 import pandas as pd
 import umap
+import os
 from scripts import plotly_handler
+from pathlib import Path
 
 
-def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, opacity, n_neighbors, min_dist, spread, seed):
+def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, opacity, n_neighbors, min_dist, spread, seed, list_lineage_order):
     # UMAP
     reducer = umap.UMAP(
         n_neighbors=n_neighbors,
@@ -19,7 +21,6 @@ def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, opaci
     matrix_of_wisdom = pd.DataFrame(indexes)
 
     # assigns the organisms their corresponding rank names
-    list_lineage_order = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
     for categorizeRank in list_lineage_order:
         info_of_label = []
         for el in matrix_of_wisdom.loc[:,0]:
@@ -40,9 +41,11 @@ def generate_umap(matrix_values, matrix_lineage, to_csv, port, colorscale, opaci
 
     # writes data used for plot generation to matrix
     if to_csv is True:
-        matrix_of_wisdom.to_csv("/home/fabian/Documents/umap_project/analyses/umap_gen/results/matrixdata.txt", sep="\t", index=False)
+        path_from_root = Path(__file__).parent.parent
+        path_resluts = os.path.join(path_from_root, "results/matrixdata.txt")
+        matrix_of_wisdom.to_csv(path_resluts, sep="\t", index=False)
 
-    plotly_handler.create_diagramm(matrix_of_wisdom, port, colorscale, opacity)
+    plotly_handler.create_diagramm(matrix_of_wisdom, port, colorscale, opacity, list_lineage_order)
 
 
 # Debugging purposes

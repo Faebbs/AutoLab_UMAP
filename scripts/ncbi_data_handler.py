@@ -12,7 +12,7 @@ def update_local_ncbi():
     ncbi.update_taxonomy_database()
     print("Local Database has been created at ~/.etetoolkit")
 
-def ncbi_lineage(ncbiID):
+def ncbi_lineage(ncbiID, wanted_ranks):
     """
     Fetches Information of local NCBI Taxonomy via ete3
     :param ncbiID: ID of organism as String or Integer
@@ -40,7 +40,6 @@ def ncbi_lineage(ncbiID):
     # translates IDs to ranks
     names = ncbi.get_taxid_translator(lineage)
     # list with wanted ranks
-    wanted_ranks = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
     # creates dict with relevant ranks of organism
     lineage_dic = {} # Dict with rank and name
     for taxid in lineage:
@@ -52,6 +51,7 @@ def ncbi_lineage(ncbiID):
             name = names[taxid]
             new_dict = {rank: name}
             lineage_dic.update(new_dict)
+
     return lineage_dic
 
 

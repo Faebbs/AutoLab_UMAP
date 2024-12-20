@@ -1,5 +1,6 @@
 import time
 import pandas as pd
+import warnings
 from scripts import ncbi_data_handler
 from scripts import umap_generator
 from scripts import Matrix_handler
@@ -27,6 +28,12 @@ def main():
     spread = parameter_dict["spread"]
     seed = parameter_dict["seed"]
 
+    # rank terms used
+    list_lineage_order = ["kingdom", "phylum", "class", "order", "family", "genus", "species"]
+    additional_ranks = parameter_dict["additional_ranks"]
+    for el in additional_ranks:
+        list_lineage_order.append(el)
+
     if track_time is True:
         start_all = time.time()
     # updates local ncbi Database
@@ -43,7 +50,6 @@ def main():
     matrix = Matrix_handler.Matrix_ncbiID(data_read)
     matrix.create_matrix(rowvalue, columnvalue, occurance_data, maskvalue, track_time) #TODO Fehlerbehandlung
 
-
     # generates matrix with lineage of all ncbiIDs
     bad_IDs = []
     missng_IDs = []
@@ -51,7 +57,7 @@ def main():
     start = time.time()
     for ncbiID in matrix.matrix_out.axes[0].tolist():
         # get lineage of organism
-        func_call = ncbi_data_handler.ncbi_lineage(ncbiID)
+        func_call = ncbi_data_handler.ncbi_lineage(ncbiID, list_lineage_order)
         if func_call == "Parse Error": # If ID couldn't be parsed
             bad_IDs.append(ncbiID)
             continue
@@ -80,6 +86,21 @@ def main():
         out = out[:-2]
         print(f"{out}")
         print()
+
+    # checks if all ranks are present in data, if not kicks them out and prints them
+    rank_not_found = []
+    for rank in list_lineage_order:
+        if rank not in ncbiID_matrix.index:
+            rank_not_found.append(rank)
+    line = ""
+    for el in rank_not_found:
+        line = line + ", " + el
+        list_lineage_order.remove(el)
+    if len(line) > 0:
+        line = line[2:]
+        warnings.warn(f"The folowing ranks were not found in the NCBI IDs: {line} \n"
+                      "Either they are not represented in this dataset by the given NCBI IDs, or you may have misspelled the rank.")
+
     # Tracks time if wanted
     if track_time is True:
         end = time.time()
@@ -88,7 +109,7 @@ def main():
         print(f"Total runtime: {end_all-start_all}s")
 
     # generate UMAP
-    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, csvfile, port, colorscale, opacity, n_neighbors, min_dist, spread, seed)
+    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, csvfile, port, colorscale, opacity, n_neighbors, min_dist, spread, seed, list_lineage_order)
 
 
 
