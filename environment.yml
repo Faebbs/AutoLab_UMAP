@@ -1,8 +1,11 @@
-name: umap
+name: autoalloUMAP
 channels:
   - conda-forge
   - bioconda
   - defaults
+  - etetoolkit
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
 dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=2_gnu
@@ -31,11 +34,11 @@ dependencies:
   - brotli-bin=1.1.0=hb9d3cd8_2
   - brotli-python=1.1.0=py312h2ec8cdc_2
   - bzip2=1.0.8=h4bc722e_7
-  - ca-certificates=2024.8.30=hbcca054_0
+  - ca-certificates=2024.12.14=hbcca054_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.18.0=hbb29018_2
-  - certifi=2024.8.30=pyhd8ed1ab_0
+  - certifi=2024.12.14=pyhd8ed1ab_0
   - cffi=1.17.1=py312h06ac9bb_0
   - chardet=5.2.0=py312h7900ff3_2
   - charset-normalizer=3.3.2=pyhd8ed1ab_0
@@ -56,6 +59,7 @@ dependencies:
   - cycler=0.12.1=pyhd8ed1ab_0
   - cython=3.0.11=py312h8fd2918_3
   - dash=2.18.1=pyhd8ed1ab_0
+  - dash-bootstrap-components=1.6.0=pyhd8ed1ab_1
   - datrie=0.8.2=py312h66e93f0_8
   - dbus=1.13.6=h5008d03_3
   - debugpy=1.8.5=py312h2ec8cdc_1
@@ -376,4 +380,4 @@ dependencies:
   - zstd=1.5.6=ha6fb4c9_0
   - pip:
       - kaleido==0.2.1
-prefix: /home/fabian/miniforge3/envs/umap
+prefix: /home/fabian/miniconda3/envs/autoalloUMAP

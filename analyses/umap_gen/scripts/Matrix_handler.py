@@ -25,7 +25,6 @@ class Matrix_ncbiID:
         # drops NAs for faster matrix creation
         self.data.dropna(how='any', inplace=True)
 
-
         # group by ncbiID
         columnIDs = list(set(self.data[column_value].tolist())) # unsorted list of every ncbiID (once)
 

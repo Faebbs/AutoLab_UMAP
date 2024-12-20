@@ -82,7 +82,7 @@ def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
 # main function
 if __name__=="__main__":
     # add command line arguments
-    parser = argparse.ArgumentParser(prog="umapvis", description="Tool for UMAP Visualisation")
+    parser = argparse.ArgumentParser(prog="autoalloUMAP", description="Tool for UMAP Visualisation") # automatic allocation umap
     required_group = parser.add_argument_group("Required arguments")
     input_group = parser.add_argument_group("Optional arguments for input data")
     plot_group = parser.add_argument_group("Optional plotting arguments")
@@ -205,7 +205,7 @@ if __name__=="__main__":
         except(ValueError, TypeError):
             raise Exception("seed has to be an integer value")
 
-    print(
+    """print(
         "data: " + str(data) + "\n" +
         "seperator: " + str(seperator) + "\n" +
         "rowvalue: " + str(rowvalue) + "\n" +
@@ -222,11 +222,10 @@ if __name__=="__main__":
         "min_dist: " + str(min_dist) + "\n" +
         "spread: " + str(spread) + "\n" +
         "seed: " + str(seed)
-    )
+    )"""
     
     main(data, seperator, rowvalue, columnvalue, transformdata, maskvalue, updateLocalDatabase, port, csvfile,
          colorscale, opacity, track_time, n_neighbors, min_dist, spread, seed)
-    print("")
 
 # python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F -mask 0.5
 # python main.py -f /home/fabian/Documents/data/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F
