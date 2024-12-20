@@ -1,7 +1,5 @@
-from typing import List, Any
 import pandas as pd
 import time
-import random
 import numpy as np
 
 class Matrix_ncbiID:
