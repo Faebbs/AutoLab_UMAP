@@ -1,1 +1,0 @@
-Filtered with the script: `../../analyses/representative_seedgenes/scripts/representative_by_fungal_geneduplication.ipynb`

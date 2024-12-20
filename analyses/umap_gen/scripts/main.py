@@ -6,7 +6,7 @@ import argparse
 import ncbi_data_handler
 
 
-def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
+def main(file, separator, rowvalue, columnvalue, occurance_data, maskvalue,
          updateLocalDatabase, port, csvfile, colorscale, opacity, track_time,
          n_neighbors, min_dist, spread, seed):
     if track_time is True:
@@ -23,7 +23,7 @@ def main(file, separator, rowvalue, columnvalue, transformdata, maskvalue,
 
     # create Matrix of genes and if they appear in the organisms
     matrix = Matrix_handler.Matrix_ncbiID(data_read)
-    matrix.create_matrix(rowvalue, columnvalue, transformdata, maskvalue, track_time) #TODO Fehlerbehandlung
+    matrix.create_matrix(rowvalue, columnvalue, occurance_data, maskvalue, track_time) #TODO Fehlerbehandlung
 
 
     # generates matrix with lineage of all ncbiIDs
@@ -97,10 +97,11 @@ if __name__=="__main__":
                         help="Define which column should be used as new row values. Relevant for NCBI Taxonomy utilisation.")
     required_group.add_argument("--columnvalue", "-c", required=True,
                         help="Define which column should be used as new column values.")
-    required_group.add_argument("--transformdata", "-td", required=True,
-                        help="Column of data which should be used for UMAP dimension reduction")
-    input_group.add_argument("--maskvalue", "-mask", default=0,
-                        help="Filters out all nodes which have less than specified value. 0 to get all data.")
+    required_group.add_argument("--occurance_data", "-od", required=True, nargs="+",
+                        help="Define which column(s) should be used in creating the UMAP."
+                             " Can be more than one column, if this is the case, will take the average of every row.")
+    input_group.add_argument("--maskvalue", "-mask", default=None,
+                        help="Filters out all nodes which have less than specified value. Sets values that meet threshold to 1, others to 0")
     utility_group.add_argument("--updateLocalDatabase", "-ulD", action="store_true",
                         help="Decide if you want to update your local Database, should be True first time running")
     plot_group.add_argument("-port", default=8050,
@@ -126,7 +127,7 @@ if __name__=="__main__":
     umap_group.add_argument("--spread", "-sp", default="1.0",
                             help="UMAP parameter: The effective scale of embedded points. In combination with min_dist"
                                  " this determines how clustered/clumped the embedded points are.")
-    umap_group.add_argument("-seed", default=None,
+    umap_group.add_argument("--seed", default=None,
                             help="UMAP parameter (Altered only int as parameter): : If given int, random_state is the seed used by the random number generator."
                                  " By dooing so, UMAP will be slower because Multithreading is disabled.")
     # parse Arguments from command line
@@ -145,14 +146,17 @@ if __name__=="__main__":
     columnvalue = args.columnvalue # name of column used for making new columns
     # TODO Fehlerbehandlung
 
-    transformdata = args.transformdata # name of column used for data which is used by UMAP
-    # TODO Fehlerbehandlung
+    occurance_data = args.occurance_data # name of column used for data which is used by UMAP
+    if len(occurance_data) < 1:
+        raise Exception("Give at least 1 Column name in your data")
+
 
     maskvalue = args.maskvalue # Value threshold
-    try:
-        maskvalue = float(maskvalue)
-    except(ValueError, TypeError):
-        raise Exception("Maskvalue has to be a float number")
+    if maskvalue is not None:
+        try:
+            maskvalue = float(maskvalue)
+        except(ValueError, TypeError):
+            raise Exception("Maskvalue has to be a float number")
 
     updateLocalDatabase = args.updateLocalDatabase # update local database
 
@@ -224,8 +228,8 @@ if __name__=="__main__":
         "seed: " + str(seed)
     )"""
     
-    main(data, seperator, rowvalue, columnvalue, transformdata, maskvalue, updateLocalDatabase, port, csvfile,
+    main(data, seperator, rowvalue, columnvalue, occurance_data, maskvalue, updateLocalDatabase, port, csvfile,
          colorscale, opacity, track_time, n_neighbors, min_dist, spread, seed)
 
 # python main.py -f /home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F -mask 0.5
-# python main.py -f /home/fabian/Documents/data/eukaryots.phyloprofile -r ncbiID -c geneID -td FAS_F
+# python main.py -f /home/fabian/Documents/data/eukaryots.phyloprofile -r ncbiID -c geneID -od FAS_F -rt --seed 42
