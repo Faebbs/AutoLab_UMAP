@@ -1,4 +1,4 @@
-name: autoalloUMAP
+name: AutoLab_UMAP
 channels:
   - conda-forge
   - bioconda
