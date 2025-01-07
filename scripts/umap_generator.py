@@ -6,6 +6,28 @@ from pathlib import Path
 
 
 def generate_umap(matrix_values, matrix_lineage, gene_matrix, join_on, to_csv, port, colorscale, opacity, n_neighbors, min_dist, spread, seed, list_lineage_order):
+    """
+    Runs UMAP Algorithm to reduce dimensions of occurrence data
+    :param matrix_values: Occurrence data
+    :param matrix_lineage: Matrix with ncbiID and all rank names
+    :param gene_matrix: Gene Matrix
+    :param join_on: Column used as new lines
+    :param to_csv: Enables write to csv
+    :param port: Port
+    :param colorscale: Colorscale used for
+    :param opacity: Opacity value of the points in the plot
+    :param n_neighbors: The size of local neighborhood (in terms of number of neighboring sample points) used for manifold approximation.
+                        Larger values result in more global views of the manifold, while smaller values result in more local data being preserved.
+                        In general values should be in the range 2 to 100.
+    :param min_dist: The effective minimum distance between embedded points. Smaller values will result in a more clustered/clumped
+                     embedding where nearby points on the manifold are drawn closer together, while larger values will result on a more
+                     even dispersal of points. The value should be set relative to the spread value, which determines the scale at which embedded points will be spread out.
+    :param spread: The effective scale of embedded points. In combination with min_dist this determines how clustered/clumped the embedded points are.
+    :param seed: If int, random_state is the seed used by the random number generator; If RandomState instance,
+                 random_state is the random number generator; If None, the random number generator is the RandomState instance used by np.random.
+    :param list_lineage_order: List of lineage ranks that will be analysed
+    :return:
+    """
     # UMAP
     reducer = umap.UMAP(
         n_neighbors=n_neighbors,

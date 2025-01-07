@@ -3,11 +3,20 @@ import time
 import numpy as np
 
 class Matrix_ncbiID:
+    """
+    Class for occurrence Matrix
+    """
     def __init__(self, data):
         self.data = data
         self.matrix_out = None
 
     def combine_data(self, occurance_data, new_identifier):
+        """
+        Combines data if more than one occurrence data column is given
+        :param occurance_data: Name of columns which are used as Value in occurrence matrix
+        :param new_identifier: Big string to avoid double columns
+        :return:
+        """
         list_values = []
         n = 0
         for el in occurance_data:
@@ -29,12 +38,13 @@ class Matrix_ncbiID:
 
     def create_matrix(self, genecolumn, ncbiidcolumn, join_on, occurance_data, mask_value, track_time):
         """
-
-        :param row_value:
-        :param column_value:
-        :param occurance_data:
-        :param mask_value:
-        :param track_time:
+        Creates the occurrence matrix with given occurrence data
+        :param genecolumn: Column in which the geneIDs are stored
+        :param ncbiidcolumn: Column in which the ncbiIDs are stored
+        :param join_on: Column which will be used as new rows (ncbiID or geneID)
+        :param occurance_data: Column which stores the occurrence data
+        :param mask_value: Occurrence data threshold
+        :param track_time: Enables tracking time
         :return:
         """
         if track_time is True:

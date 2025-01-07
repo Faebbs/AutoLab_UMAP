@@ -8,9 +8,18 @@ import threading
 import dash_bootstrap_components as dbc
 
 def open_browser(port):
-	webbrowser.open_new("http://localhost:{}".format(port))
+    """
+    Opens browser
+    :param port: Port
+    """
+    webbrowser.open_new("http://localhost:{}".format(port))
 
 def run_dash(app, port):
+    """
+    Runs dash app
+    :param app: Dash's app
+    :param port: Port
+    """
     Timer(10, open_browser(port)).start();
     app.run_server(port=port, use_reloader=False)
 

@@ -1,6 +1,11 @@
 import pandas as pd
 
 def gene_annotation(data):
+    """
+    Splits up the gene into the family, subfamily and gen_name.
+    :param data: CSV/TSV file with info
+    :return:
+    """
     genes = data.loc[:, "geneID"].unique()
     geneID = []
     family = []

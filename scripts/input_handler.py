@@ -2,6 +2,10 @@ import argparse
 import warnings
 
 def take_input():
+    """
+    Takes the Arguments from function call, checks validity and returns dict containing them.
+    :return: dict with arguments
+    """
     # add command line arguments
     parser = argparse.ArgumentParser(prog="autoalloUMAP",
                                      description="Tool for UMAP Visualisation")  # automatic allocation umap

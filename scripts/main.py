@@ -10,6 +10,10 @@ from scripts.input_handler import take_input
 
 
 def main():
+    """
+    Main Program
+    :return:
+    """
     # take input
     parameter_dict = take_input()
     file = parameter_dict["file"]

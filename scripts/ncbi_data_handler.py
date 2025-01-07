@@ -16,6 +16,7 @@ def ncbi_lineage(ncbiID, wanted_ranks):
     """
     Fetches Information of local NCBI Taxonomy via ete3
     :param ncbiID: ID of organism as String or Integer
+    :param wanted_ranks: Additional ranks
     :return: Dict with the rank and name of given organism
     """
     # turning given ncbi ID to number
