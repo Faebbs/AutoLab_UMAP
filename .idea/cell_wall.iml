@@ -4,7 +4,6 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/analyses/ortho_search_fdog" />
       <excludeFolder url="file://$MODULE_DIR$/analyses/representative_seedgenes" />
-      <excludeFolder url="file://$MODULE_DIR$/docs" />
       <excludeFolder url="file://$MODULE_DIR$/milestones" />
       <excludeFolder url="file://$MODULE_DIR$/shared_data" />
     </content>

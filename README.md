@@ -1,6 +1,6 @@
-# umap_gen
+# AutoLan_UMAP
 
-Generate a Umap
+Generates a Umap
 
 ## How to use
 
