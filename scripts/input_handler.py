@@ -1,5 +1,5 @@
 import argparse
-
+import warnings
 
 def take_input():
     # add command line arguments
@@ -8,17 +8,20 @@ def take_input():
     required_group = parser.add_argument_group("Required arguments")
     input_group = parser.add_argument_group("Optional arguments for input data")
     plot_group = parser.add_argument_group("Optional plotting arguments")
-    utility_group = parser.add_argument_group("Optional utilies")
+    utility_group = parser.add_argument_group("Optional utilities")
     umap_group = parser.add_argument_group("Optional UMAP arguments")
 
     required_group.add_argument("--file", "-f", required=True,
                                 help="Path to input file, should be CSV/TSV")
     input_group.add_argument("--sep", "-s", default="\t",
                              help="Seperator for CSV")
-    required_group.add_argument("--rowvalue", "-r", required=True,
-                                help="Define which column should be used as new row values. Relevant for NCBI Taxonomy utilisation.")
-    required_group.add_argument("--columnvalue", "-c", required=True,
-                                help="Define which column should be used as new column values.")
+    required_group.add_argument("--genecolumn", "-g", required=True,
+                                help="Name of the column which holds the geneIDs (from CAZy Database).")
+    required_group.add_argument("--ncbiidcolumn", "-n", required=True,
+                                help="Name of the column which holds the ncbiIDs.")
+    required_group.add_argument("--joinon", "-jo", default=None,
+                                help="Name of the column, which defines the new rows of the occurance matrix. Has to be either the column with geneIDs or ncbiIDs."
+                                     " Default is the column with ncbiIDs")
     required_group.add_argument("--occurance_data", "-od", required=True, nargs="+",
                                 help="Define which column(s) should be used in creating the UMAP."
                                      " Can be more than one column, if this is the case, will take the average of every row.")
@@ -37,7 +40,8 @@ def take_input():
                             help="Set opacity for the marks in the plot. Value between 0 and 1, 1 being no opacity.")
     plot_group.add_argument("--additional_ranks", "-adr", nargs="*",
                             help="Let's you add additional ranks to search for in NCBI Lineage. Default are: Kingdom, Phylum, Class, Order, Family, Genus, Species."
-                                 " Those are also the most universally used. Other ranks will probably result in a lot of unassigned marks in the plot.")
+                                 " Those are also the most universally used. Other ranks will probably result in a lot of unassigned marks in the plot."
+                                 " Only takes effect if --joinon is containing ncbiIDs")
     utility_group.add_argument("--runtime", "-rt",
                                help="Show runtime for program", action="store_true")
     umap_group.add_argument("--n_neighbors", "-ngb", default="15",
@@ -60,16 +64,22 @@ def take_input():
 
     # check Arguments and executes main
     data = args.file  # file path
-    # TODO Fehlerbehandlung
 
     separator = args.sep  # separator in filepath
-    # TODO Fehlerbehandlung
+    if separator not in ["\t", ","]:
+        warnings.warn("You typed in " + separator + " as a separator. Most of the time as CSV/TSV uses " + repr("\t") + " or ','. \n"
+                        "If errors occur check if " + separator + " is really the the symbol used in your CSV/TSV.")
 
-    rowvalue = args.rowvalue  # name of column used for making new rows
-    # TODO Fehlerbehandlung
+    genecolumn = args.genecolumn  # name of column with geneIDs
 
-    columnvalue = args.columnvalue  # name of column used for making new columns
-    # TODO Fehlerbehandlung
+    ncbiidcolumn = args.ncbiidcolumn  # name of column with ncbiIDs
+
+    join_on = args.joinon # name of the column with the info which is used as rows in occurance matrix
+    if join_on is None:
+        join_on = ncbiidcolumn
+    else:
+        if join_on != genecolumn and join_on != ncbiidcolumn:
+            raise Exception("joinon parameter has to be the same as either genecolumn or ncbiidcolumn")
 
     occurance_data = args.occurance_data  # name of column used for data which is used by UMAP
     if len(occurance_data) < 1:
@@ -142,8 +152,9 @@ def take_input():
     parameter_dict = {
         "file": data,
         "separator": separator,
-        "rowvalue": rowvalue,
-        "columnvalue": columnvalue,
+        "genecolumn": genecolumn,
+        "ncbiidcolumn": ncbiidcolumn,
+        "join_on": join_on,
         "occurance_data": occurance_data,
         "maskvalue": maskvalue,
         "updateLocalDatabase": updateLocalDatabase,
@@ -159,6 +170,6 @@ def take_input():
         "seed": seed
     }
 
-    print(parameter_dict)
+    # print(parameter_dict)
 
     return(parameter_dict)

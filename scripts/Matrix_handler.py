@@ -27,7 +27,7 @@ class Matrix_ncbiID:
         result = pd.DataFrame(result)
         self.data[new_identifier] = result.loc[:, 0] # Wierd string as identifier so no double column problem should occur
 
-    def create_matrix(self, row_value, column_value, occurance_data, mask_value, track_time):
+    def create_matrix(self, genecolumn, ncbiidcolumn, join_on, occurance_data, mask_value, track_time):
         """
 
         :param row_value:
@@ -46,6 +46,14 @@ class Matrix_ncbiID:
 
         # drops NAs for faster matrix creation
         self.data.dropna(how='any', inplace=True)
+
+        # assigns rows: column in data which was given through parameter joinon
+        row_value = join_on
+        # assigns columns: data which is not given through parameter joinon
+        if join_on == genecolumn:
+            column_value = ncbiidcolumn
+        else:
+            column_value = genecolumn
 
         # group by ncbiID
         columnIDs = list(set(self.data[column_value].tolist())) # unsorted list of every ncbiID (once)

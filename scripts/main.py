@@ -4,6 +4,7 @@ import warnings
 from scripts import ncbi_data_handler
 from scripts import umap_generator
 from scripts import Matrix_handler
+from scripts.gene_family_handler import gene_annotation
 
 from scripts.input_handler import take_input
 
@@ -13,8 +14,9 @@ def main():
     parameter_dict = take_input()
     file = parameter_dict["file"]
     separator = parameter_dict["separator"]
-    rowvalue = parameter_dict["rowvalue"]
-    columnvalue = parameter_dict["columnvalue"]
+    genecolumn = parameter_dict["genecolumn"]
+    ncbiidcolumn = parameter_dict["ncbiidcolumn"]
+    join_on = parameter_dict["join_on"]
     occurance_data = parameter_dict["occurance_data"]
     maskvalue = parameter_dict["maskvalue"]
     updateLocalDatabase = parameter_dict["updateLocalDatabase"]
@@ -45,17 +47,30 @@ def main():
     except(FileNotFoundError):
         print("File could not be found")
         return
+    # check if the ncbiidcolumn and genecolumn actually exist
+    column_names = list(data_read.columns)
+    if ncbiidcolumn not in column_names:
+        raise Exception(f"{ncbiidcolumn} is not a column name in given data")
+    if genecolumn not in column_names:
+        raise Exception(f"{genecolumn} is not a column name in given data")
 
     # create Matrix of genes and if they appear in the organisms
     matrix = Matrix_handler.Matrix_ncbiID(data_read)
-    matrix.create_matrix(rowvalue, columnvalue, occurance_data, maskvalue, track_time) #TODO Fehlerbehandlung
+    matrix.create_matrix(genecolumn, ncbiidcolumn, join_on, occurance_data, maskvalue, track_time) #TODO Fehlerbehandlung
 
     # generates matrix with lineage of all ncbiIDs
     bad_IDs = []
     missng_IDs = []
     ncbiID_matrix = pd.DataFrame()
     start = time.time()
-    for ncbiID in matrix.matrix_out.axes[0].tolist():
+    # figures out which axes (lines or columns) holds the ncbiIDs
+    if join_on == ncbiidcolumn:
+        axes_with_ncbiID = list(matrix.matrix_out.index)
+        join_on = "ncbiID" #TODO maybe Troubleshooting
+    else:
+        axes_with_ncbiID = list(matrix.matrix_out.columns)
+        join_on = "geneID"
+    for ncbiID in axes_with_ncbiID:
         # get lineage of organism
         func_call = ncbi_data_handler.ncbi_lineage(ncbiID, list_lineage_order)
         if func_call == "Parse Error": # If ID couldn't be parsed
@@ -98,8 +113,11 @@ def main():
         list_lineage_order.remove(el)
     if len(line) > 0:
         line = line[2:]
-        warnings.warn(f"The folowing ranks were not found in the NCBI IDs: {line} \n"
+        warnings.warn(f"The following ranks were not found in the NCBI IDs: {line} \n"
                       "Either they are not represented in this dataset by the given NCBI IDs, or you may have misspelled the rank.")
+
+    # figures out the gene families
+    gene_matrix = gene_annotation(data_read)
 
     # Tracks time if wanted
     if track_time is True:
@@ -109,13 +127,14 @@ def main():
         print(f"Total runtime: {end_all-start_all}s")
 
     # generate UMAP
-    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, csvfile, port, colorscale, opacity, n_neighbors, min_dist, spread, seed, list_lineage_order)
+    umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, gene_matrix, join_on, csvfile, port, colorscale, opacity,
+                                 n_neighbors, min_dist, spread, seed, list_lineage_order)
 
 
 
 
 
-# Test data
+# TODO Test data weg
 # data = "/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile"
 
 # main function
