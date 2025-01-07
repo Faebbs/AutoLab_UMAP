@@ -36,7 +36,7 @@ def ncbi_lineage(ncbiID, wanted_ranks):
     ncbi = NCBITaxa()
     try:
         lineage = ncbi.get_lineage(ncbiID)
-    except (ValueError): # TODO Fehlerbehandlung wenn ID nicht vorhanden
+    except (ValueError):
         return "Database Error"
     # translates IDs to ranks
     names = ncbi.get_taxid_translator(lineage)

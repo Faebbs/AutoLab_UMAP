@@ -60,7 +60,7 @@ def main():
 
     # create Matrix of genes and if they appear in the organisms
     matrix = Matrix_handler.Matrix_ncbiID(data_read)
-    matrix.create_matrix(genecolumn, ncbiidcolumn, join_on, occurance_data, maskvalue, track_time) #TODO Fehlerbehandlung
+    matrix.create_matrix(genecolumn, ncbiidcolumn, join_on, occurance_data, maskvalue, track_time)
 
     # generates matrix with lineage of all ncbiIDs
     bad_IDs = []
@@ -70,7 +70,7 @@ def main():
     # figures out which axes (lines or columns) holds the ncbiIDs
     if join_on == ncbiidcolumn:
         axes_with_ncbiID = list(matrix.matrix_out.index)
-        join_on = "ncbiID" #TODO maybe Troubleshooting
+        join_on = "ncbiID"
     else:
         axes_with_ncbiID = list(matrix.matrix_out.columns)
         join_on = "geneID"
@@ -134,12 +134,6 @@ def main():
     umap_generator.generate_umap(matrix.matrix_out, ncbiID_matrix, gene_matrix, join_on, csvfile, port, colorscale, opacity,
                                  n_neighbors, min_dist, spread, seed, list_lineage_order)
 
-
-
-
-
-# TODO Test data weg
-# data = "/home/felixl/PycharmProjects/cellulases/data/filtered/eukaryots.phyloprofile"
 
 # main function
 if __name__=="__main__":
