@@ -23,12 +23,12 @@ def take_input():
                                 help="Name of the column which holds the geneIDs (from CAZy Database).")
     required_group.add_argument("--ncbiidcolumn", "-n", required=True,
                                 help="Name of the column which holds the ncbiIDs.")
-    required_group.add_argument("--joinon", "-jo", default=None,
-                                help="Name of the column, which defines the new rows of the occurance matrix. Has to be either the column with geneIDs or ncbiIDs."
-                                     " Default is the column with ncbiIDs")
     required_group.add_argument("--occurance_data", "-od", required=True, nargs="+",
                                 help="Define which column(s) should be used in creating the UMAP."
                                      " Can be more than one column, if this is the case, will take the average of every row.")
+    utility_group.add_argument("--joinon", "-jo", default=None,
+                                help="Name of the column, which defines the new rows of the occurance matrix. Has to be either the column with geneIDs or ncbiIDs."
+                                     " Default is the column with ncbiIDs")
     input_group.add_argument("--maskvalue", "-mask", default=None,
                              help="Filters out all nodes which have less than specified presence/absence score. Sets values that meet threshold to 1, others to 0")
     utility_group.add_argument("--updateLocalDatabase", "-ulD", action="store_true",
@@ -60,7 +60,7 @@ def take_input():
     umap_group.add_argument("--spread", "-sp", default="1.0",
                             help="UMAP parameter: The effective scale of embedded points. In combination with min_dist"
                                  " this determines how clustered/clumped the embedded points are.")
-    umap_group.add_argument("--seed", default=None,
+    umap_group.add_argument("-seed", default=None,
                             help="UMAP parameter (Altered only int as parameter): : If given int, random_state is the seed used by the random number generator."
                                  " By dooing so, UMAP will be slower because Multithreading is disabled.")
     # parse Arguments from command line
