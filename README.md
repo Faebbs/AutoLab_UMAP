@@ -82,7 +82,7 @@ ___Optional UMAP Arguments___:
 ```
 
 ## Example
-![example data screenshot](https://github)
+![example data screenshot](https://github.com/Faebbs/umap_project/blob/master/data/example%20data.png?rwa=true)
 
 
 ## Requirements/Dependencies
