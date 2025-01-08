@@ -87,6 +87,11 @@ Example data:
    <img src="https://github.com/Faebbs/umap_project/blob/master/data/example_data.png?raw=true" width="300" alt="example data screenshot">
 </p>
 
+In this case the basic command would be:
+```
+python AutoLab_UMAP.py -f <path to file> -n ncbiID -g geneID -od score
+```
+
 
 ## Requirements/Dependencies
 ___Conda Channels:___

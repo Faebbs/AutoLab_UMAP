@@ -118,9 +118,11 @@ def take_input():
 
     additional_ranks_raw = args.additional_ranks
     additional_ranks = []
-    for el in additional_ranks_raw:
-        el = el.lower()
-        additional_ranks.append(el)
+    if additional_ranks_raw is not None:
+        for el in additional_ranks_raw:
+            el = el.lower()
+            additional_ranks.append(el)
+
 
     track_time = args.runtime  # check runtime
 
