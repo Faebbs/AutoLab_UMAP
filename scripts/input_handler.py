@@ -16,7 +16,7 @@ def take_input():
     umap_group = parser.add_argument_group("Optional UMAP arguments")
 
     required_group.add_argument("--file", "-f", required=True,
-                                help="Path to input file, should be CSV/TSV")
+                                help="Absolute path to input file, should be CSV/TSV")
     input_group.add_argument("--sep", "-s", default="\t",
                              help="Seperator for CSV")
     required_group.add_argument("--genecolumn", "-g", required=True,
