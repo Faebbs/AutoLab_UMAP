@@ -30,7 +30,7 @@ def take_input():
                                 help="Define which column(s) should be used in creating the UMAP."
                                      " Can be more than one column, if this is the case, will take the average of every row.")
     input_group.add_argument("--maskvalue", "-mask", default=None,
-                             help="Filters out all nodes which have less than specified value. Sets values that meet threshold to 1, others to 0")
+                             help="Filters out all nodes which have less than specified presence/absence score. Sets values that meet threshold to 1, others to 0")
     utility_group.add_argument("--updateLocalDatabase", "-ulD", action="store_true",
                                help="Decide if you want to update your local Database, should be True first time running")
     plot_group.add_argument("-port", default=8050,
