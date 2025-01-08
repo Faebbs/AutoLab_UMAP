@@ -97,7 +97,7 @@ ___Conda Channels:___
 * conda-forge
 
 ___Packages:___
-* ete3=3.1.3[¹] (To avoid dependencies conflicts I highly recommend to start with ete3 package and download it from conda channel forge not etetoolkit channel)
+* ete3=3.1.3[^1] (To avoid dependencies conflicts I highly recommend to start with ete3 package and download it from conda channel forge not etetoolkit channel)
 * python=3.12.3
 * pandas=2.2.3
 * numpy=1.26.4
@@ -108,7 +108,7 @@ ___Packages:___
 * umap-learn=0.5.7
 
 ## Acknowledgment
-[¹]: Jaime Huerta-Cepas, Francois Serra and Peer Bork. ETE 3: Reconstruction, analysis and visualization of phylogenomic data.
+[^1]: Jaime Huerta-Cepas, Francois Serra and Peer Bork. ETE 3: Reconstruction, analysis and visualization of phylogenomic data.
 Mol Biol Evol 2016; [doi: 10.1093/molbev/msw046](https://doi.org/10.1093/molbev/msw046)
 
 
