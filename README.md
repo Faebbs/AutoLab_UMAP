@@ -105,11 +105,13 @@ ___Packages:___
 * plotly=5.24.1
 * dash=2.14.2
 * dash-bootstrap-components=1.6.0
-* umap-learn=0.5.7
+* umap-learn=0.5.7[^2]
 
-## Acknowledgment
 [^1]: Jaime Huerta-Cepas, Francois Serra and Peer Bork. ETE 3: Reconstruction, analysis and visualization of phylogenomic data.
-Mol Biol Evol 2016; [doi: 10.1093/molbev/msw046](https://doi.org/10.1093/molbev/msw046)
+Mol Biol Evol 2016; [doi: 10.1093/molbev/msw046](https://doi.org/10.1093/molbev/msw046) 
+
+[^2]: McInnes, Leland, John Healy, and James Melville. "Umap: Uniform manifold approximation and projection for dimension reduction."
+[arXiv preprint arXiv:1802.03426 (2018)](https://arxiv.org/abs/1802.03426).
 
 
 ## Authors
