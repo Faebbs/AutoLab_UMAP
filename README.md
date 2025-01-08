@@ -92,13 +92,12 @@ In this case the basic command would be:
 python AutoLab_UMAP.py -f <path to file> -n ncbiID -g geneID -od score
 ```
 
-
 ## Requirements/Dependencies
 ___Conda Channels:___
 * conda-forge
 
 ___Packages:___
-* ete3=3.1.3 (To avoid dependencies conflicts I highly recommend to start with ete3 package and download it from conda channel forge not etetoolkit channel)
+* [ete3](#ete-footnote)=3.1.3 (To avoid dependencies conflicts I highly recommend to start with ete3 package and download it from conda channel forge not etetoolkit channel)
 * python=3.12.3
 * pandas=2.2.3
 * numpy=1.26.4
@@ -107,6 +106,11 @@ ___Packages:___
 * dash=2.14.2
 * dash-bootstrap-components=1.6.0
 * umap-learn=0.5.7
+
+## Acknowledgment
+<a name="ete-footnote"></a>
+Jaime Huerta-Cepas, Francois Serra and Peer Bork. ETE 3: Reconstruction, analysis and visualization of phylogenomic data.
+Mol Biol Evol 2016; [doi: 10.1093/molbev/msw046](https://doi.org/10.1093/molbev/msw046)
 
 
 ## Authors
