@@ -82,9 +82,9 @@ ___Optional UMAP Arguments___:
 ```
 
 ## Example
-Example data: \
+Example data:
 <p align="left">
-   <img src="https://github.com/Faebbs/umap_project/blob/master/data/example_data.png?raw=true" width="100" alt="example data screenshot">
+   <img src="https://github.com/Faebbs/umap_project/blob/master/data/example_data.png?raw=true" width="300" alt="example data screenshot">
 </p>
 
 
