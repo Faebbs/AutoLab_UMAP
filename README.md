@@ -16,6 +16,8 @@ It also categorizes the data points by taxonomic rank via the help of [*NCBI Tax
    or download [dependencies](#requirementsdependencies) manually (not recommended)
 
 ## How to use
+Navigate into you're cloned directory and use the following command
+
 ___Required arguments:___
 ```
 --file -f               Path to CSV/TSV file containing phylogenetic profile 
@@ -40,6 +42,7 @@ ___Optional plotting arguments___:
 --additional_ranks -adr    Let's you add additional ranks to search for in NCBI Lineage; Default=Kingdom, Phylum, Class, Order, Family, Genus, Species.
                            Those are also the most universally used. Other ranks will probably result in a lot of unassigned marks in the plot.
                            Only takes effect if --joinon is containing ncbiIDs
+                           Input like: x, y, z
 ```
 
 ___Optional utilitys___:
