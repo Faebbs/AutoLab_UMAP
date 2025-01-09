@@ -1,3 +1,5 @@
+from unittest.mock import inplace
+
 import pandas as pd
 import umap
 import os
@@ -28,6 +30,19 @@ def generate_umap(matrix_values, matrix_lineage, gene_matrix, join_on, to_csv, p
     :param list_lineage_order: List of lineage ranks that will be analysed
     :return:
     """
+    # drop every row where all values are 0 (not represented in genes/organisms)
+    remove_unpresent = matrix_values[(matrix_values.T == 0).all()] # finds line where all value are 0
+    remove_unpresent = remove_unpresent.index.to_list()
+    matrix_values.drop(index=remove_unpresent, inplace=True)
+    if join_on == "geneID": # removes rows with only 0 from gene matrix
+        for el in remove_unpresent:
+            row_to_remove = gene_matrix[(gene_matrix == el).any(axis='columns')]
+            row_to_remove = row_to_remove.index.to_list()
+            row_nr_to_remove = []
+            for row_nr in row_to_remove: # in case more than one row has to be removed (shouldn't be the case under any circumstances)
+                row_nr_to_remove.append(row_nr)
+            gene_matrix.drop(index=row_nr_to_remove, inplace=True)
+
     # UMAP
     reducer = umap.UMAP(
         n_neighbors=n_neighbors,

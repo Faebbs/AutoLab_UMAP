@@ -96,15 +96,13 @@ def create_diagramm_gene(data_matrix, port, colorscale, opacity):
         fig = go.Figure()
         for point in data_matrix.loc[:, selected_rank].unique():
             uniques_matrix = data_matrix[data_matrix[selected_rank] == point]
-            customdf = np.stack(
-                (uniques_matrix.loc[:, "geneID"]),
-                axis=-1)  # necessary for use in customdata
+            customdf = uniques_matrix.loc[:, "geneID"]
             fig.add_trace(go.Scatter(x=uniques_matrix.loc[:, "x"], y=uniques_matrix.loc[:, "y"],
                                      customdata=customdf,
                                      mode='markers',
                                      name=point,
                                      marker=dict(color=color_dict[point], size=9, line=dict(width=0.2, color='black')),
-                                     hovertemplate="<b>%{customdata[0]}</b><br>" +
+                                     hovertemplate="<b>%{customdata}</b><br>" +
                                                    "x: %{x}<br>" +
                                                    "y: %{y}" +
                                                    "<extra></extra>",

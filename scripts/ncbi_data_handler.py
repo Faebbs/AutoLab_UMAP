@@ -43,6 +43,8 @@ def ncbi_lineage(ncbiID, wanted_ranks):
     # list with wanted ranks
     # creates dict with relevant ranks of organism
     lineage_dic = {} # Dict with rank and name
+    for rank in wanted_ranks:
+        lineage_dic.update({rank: "nan"})
     for taxid in lineage:
         rank_raw = ncbi.get_rank([taxid])
         values = list(rank_raw.values())

@@ -1,12 +1,12 @@
 import pandas as pd
 
-def gene_annotation(data):
+def gene_annotation(data, genecolumn):
     """
     Splits up the gene into the family, subfamily and gen_name.
     :param data: CSV/TSV file with info
     :return:
     """
-    genes = data.loc[:, "geneID"].unique()
+    genes = data.loc[:, genecolumn].unique()
     geneID = []
     family = []
     subfamily = []
@@ -23,7 +23,7 @@ def gene_annotation(data):
             test_subfamily = int(parts[1])
             subfamily_concat = parts[0] + "_" + parts[1]
             subfamily.append(subfamily_concat)
-        except(ValueError, TypeError):
+        except(ValueError, TypeError, IndexError):
             has_subfamily = False
             subfamily.append(parts[0])
         # sets gene

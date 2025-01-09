@@ -105,6 +105,14 @@ def main():
         out = out[:-2]
         print(f"{out}")
         print()
+    # removes both from matrix, if any not found
+    bad_IDs = bad_IDs + missng_IDs
+    if len(bad_IDs) > 0:
+        for el in bad_IDs:
+            if join_on == "ncbiID":
+                matrix.matrix_out.drop(el, inplace=True)
+            else:
+                matrix.matrix_out.drop(el, axis=1, inplace=True)
 
     # checks if all ranks are present in data, if not kicks them out and prints them
     rank_not_found = []
@@ -121,7 +129,7 @@ def main():
                       "Either they are not represented in this dataset by the given NCBI IDs, or you may have misspelled the rank.")
 
     # figures out the gene families
-    gene_matrix = gene_annotation(data_read)
+    gene_matrix = gene_annotation(data_read, genecolumn)
 
     # Tracks time if wanted
     if track_time is True:
