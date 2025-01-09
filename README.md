@@ -24,6 +24,9 @@ python autoalloUMAP.py [-h] --file FILE --genecolumn GENECOLUMN --ncbiidcolumn N
                        [--joinon JOINON] [--updateLocalDatabase] [--csvfile] [--runtime] 
                        [--n_neighbors N_NEIGHBORS] [--min_dist MIN_DIST] [--spread SPREAD] [-seed SEED]
 ```
+You might have to manually open the webpage. The address is shown in the shell.
+You also might have to reload the webpage a few times.
+
 Close program by pressing STRG + C in the shell
 
 ___Required arguments:___
