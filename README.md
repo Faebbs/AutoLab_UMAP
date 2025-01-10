@@ -18,7 +18,7 @@ It also categorizes the data points by taxonomic rank via the help of [*NCBI Tax
 ## How to use
 Go into you're cloned repository and then execute the command with the following required and optional arguments:
 ```
-python autoalloUMAP.py [-h] --file FILE --genecolumn GENECOLUMN --ncbiidcolumn NCBIIDCOLUMN --occurance_data OCCURANCE_DATA [OCCURANCE_DATA ...] 
+python AutoLab_UMAP.py [-h] --file FILE --genecolumn GENECOLUMN --ncbiidcolumn NCBIIDCOLUMN --occurance_data OCCURANCE_DATA [OCCURANCE_DATA ...] 
                        [--sep SEP] [--maskvalue MASKVALUE] 
                        [-port PORT] [--colorscale COLORSCALE] [--opacity OPACITY] [--additional_ranks [ADDITIONAL_RANKS ...]]
                        [--joinon JOINON] [--updateLocalDatabase] [--csvfile] [--runtime] 
