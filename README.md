@@ -1,6 +1,6 @@
-# AutoLan_UMAP
+# AutoLab_UMAP
 
-The objective of __AutoLan_UMAP__ is to simplify the visual interpretation of a phylogenetic profile. \
+The objective of __AutoLab_UMAP__ is to simplify the visual interpretation of a phylogenetic profile. \
 To achieve this it utilizes [*Uniform Manifold Approximation and Projection for Dimension Reduction (UMAP)*](https://umap-learn.readthedocs.io/en/latest/) to represent the data in a 2-dimensional space.
 It also categorizes the data points by taxonomic rank via the help of [*NCBI Taxonomy Database*](https://www.ncbi.nlm.nih.gov/taxonomy).
 
