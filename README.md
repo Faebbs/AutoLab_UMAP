@@ -7,6 +7,7 @@ It also categorizes the data points by taxonomic rank via the help of [*NCBI Tax
 ## Table of content
 * [Installation](#installation)
 * [How to use](#how-to-use)
+* [Example](#example)
 * [Requierments](#requirementsdependencies)
 
 ## Installation
