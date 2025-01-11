@@ -86,9 +86,9 @@ ___Optional UMAP Arguments___:
 ```
 
 ## Example
-Example data:
+Input TSV file should look something like this:
 <p align="left">
-   <img src="https://github.com/Faebbs/umap_project/blob/master/data/example_data.png?raw=true" width="300" alt="example data screenshot">
+   <img src="https://github.com/Faebbs/umap_project/blob/master/data/example_dataset.png?raw=true" width="300" alt="example data screenshot">
 </p>
 
 In this case the basic command would be:
