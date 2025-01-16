@@ -12,7 +12,7 @@ It also categorizes the data points by taxonomic rank via the help of [*NCBI Tax
 
 ## Installation
 1. Clone this GitHub directory to a local repository.
-2. Create a Virtual Conda environment ([Link to documentation](https://docs.conda.io/projects/conda/en/latest/index.html)) from the environment.yml 
+2. Create a Virtual Conda environment ([Link to documentation](https://docs.conda.io/projects/conda/en/latest/index.html)) from the environment.yml \
 ``conda env create --file environment.yml`` \
    or download [dependencies](#requirementsdependencies) manually (not recommended)
 
